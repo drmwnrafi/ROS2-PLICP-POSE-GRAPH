@@ -1,0 +1,17 @@
+[7.303s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps install_data
+[7.828s] running develop
+[8.267s] running egg_info
+[8.267s] writing gui.egg-info/PKG-INFO
+[8.267s] writing dependency_links to gui.egg-info/dependency_links.txt
+[8.269s] writing entry points to gui.egg-info/entry_points.txt
+[8.270s] writing requirements to gui.egg-info/requires.txt
+[8.270s] writing top-level names to gui.egg-info/top_level.txt
+[8.271s] reading manifest file 'gui.egg-info/SOURCES.txt'
+[8.273s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[8.276s] running build_ext
+[8.276s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)
+[8.277s] Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/gui
+[8.278s] 
+[8.278s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui
+[8.278s] running install_data
+[8.558s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps install_data

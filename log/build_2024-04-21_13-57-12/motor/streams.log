@@ -1,0 +1,17 @@
+[6.617s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data
+[7.481s] running develop
+[8.082s] running egg_info
+[8.083s] writing motor.egg-info/PKG-INFO
+[8.085s] writing dependency_links to motor.egg-info/dependency_links.txt
+[8.087s] writing entry points to motor.egg-info/entry_points.txt
+[8.089s] writing requirements to motor.egg-info/requires.txt
+[8.090s] writing top-level names to motor.egg-info/top_level.txt
+[8.111s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[8.120s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[8.136s] running build_ext
+[8.138s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+[8.145s] Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+[8.148s] 
+[8.149s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+[8.150s] running symlink_data
+[8.476s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data

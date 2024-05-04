@@ -1,0 +1,32 @@
+[2.900s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data
+[3.641s] running develop
+[3.654s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.655s] !!
+[3.655s] 
+[3.656s]         ********************************************************************************
+[3.656s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.656s]         Instead, use pypa/build, pypa/installer or other
+[3.656s]         standards-based tools.
+[3.657s] 
+[3.657s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.657s]         ********************************************************************************
+[3.657s] 
+[3.658s] !!
+[3.658s]   easy_install.initialize_options(self)
+[4.348s] running egg_info
+[4.393s] writing motor.egg-info/PKG-INFO
+[4.394s] writing dependency_links to motor.egg-info/dependency_links.txt
+[4.394s] writing entry points to motor.egg-info/entry_points.txt
+[4.395s] writing requirements to motor.egg-info/requires.txt
+[4.395s] writing top-level names to motor.egg-info/top_level.txt
+[4.505s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[4.508s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[4.556s] running build_ext
+[4.556s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+[4.558s] Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+[4.558s] 
+[4.558s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+[4.559s] running symlink_data
+[4.559s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/resource/motor -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/ament_index/resource_index/packages
+[4.560s] error: [Errno 17] File exists: '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/resource/motor' -> '/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/ament_index/resource_index/packages/motor'
+[4.660s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor' returned '1': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data

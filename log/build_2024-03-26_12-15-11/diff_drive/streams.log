@@ -1,0 +1,21 @@
+[4.206s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/diff_drive': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/diff_drive build --build-base /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/build install --record /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/install.log --single-version-externally-managed
+[4.975s] running egg_info
+[4.976s] writing ../../build/diff_drive/diff_drive.egg-info/PKG-INFO
+[4.976s] writing dependency_links to ../../build/diff_drive/diff_drive.egg-info/dependency_links.txt
+[4.976s] writing entry points to ../../build/diff_drive/diff_drive.egg-info/entry_points.txt
+[4.976s] writing requirements to ../../build/diff_drive/diff_drive.egg-info/requires.txt
+[4.976s] writing top-level names to ../../build/diff_drive/diff_drive.egg-info/top_level.txt
+[4.977s] reading manifest file '../../build/diff_drive/diff_drive.egg-info/SOURCES.txt'
+[4.977s] writing manifest file '../../build/diff_drive/diff_drive.egg-info/SOURCES.txt'
+[4.977s] running build
+[4.977s] running build_py
+[4.977s] running install
+[4.978s] running install_lib
+[4.978s] running install_data
+[4.978s] running install_egg_info
+[4.978s] removing '/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages/diff_drive-0.0.0-py3.10.egg-info' (and everything under it)
+[4.979s] Copying ../../build/diff_drive/diff_drive.egg-info to /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages/diff_drive-0.0.0-py3.10.egg-info
+[4.979s] running install_scripts
+[4.979s] Installing diff_drive_model script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/diff_drive
+[4.979s] writing list of installed files to '/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/install.log'
+[5.505s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/diff_drive' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/diff_drive build --build-base /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/build install --record /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/install.log --single-version-externally-managed

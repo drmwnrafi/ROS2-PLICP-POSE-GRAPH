@@ -1,0 +1,17 @@
+[2.777s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps install_data
+[3.322s] running develop
+[3.764s] running egg_info
+[3.764s] writing motor.egg-info/PKG-INFO
+[3.765s] writing dependency_links to motor.egg-info/dependency_links.txt
+[3.765s] writing entry points to motor.egg-info/entry_points.txt
+[3.766s] writing requirements to motor.egg-info/requires.txt
+[3.766s] writing top-level names to motor.egg-info/top_level.txt
+[3.770s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[3.773s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[3.774s] running build_ext
+[3.774s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+[3.775s] Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+[3.775s] 
+[3.776s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+[3.776s] running install_data
+[3.942s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps install_data

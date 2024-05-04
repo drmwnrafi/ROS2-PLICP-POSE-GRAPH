@@ -1,0 +1,17 @@
+[2.222s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data
+[2.826s] running develop
+[3.236s] running egg_info
+[3.236s] writing motor.egg-info/PKG-INFO
+[3.237s] writing dependency_links to motor.egg-info/dependency_links.txt
+[3.237s] writing entry points to motor.egg-info/entry_points.txt
+[3.237s] writing requirements to motor.egg-info/requires.txt
+[3.237s] writing top-level names to motor.egg-info/top_level.txt
+[3.240s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[3.241s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[3.244s] running build_ext
+[3.244s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+[3.245s] Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+[3.245s] 
+[3.245s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+[3.246s] running symlink_data
+[3.335s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data

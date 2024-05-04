@@ -1,0 +1,28 @@
+[15.235s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping/build --no-deps symlink_data
+[19.814s] running develop
+[22.858s] running egg_info
+[22.859s] creating mapping.egg-info
+[22.859s] writing mapping.egg-info/PKG-INFO
+[22.860s] writing dependency_links to mapping.egg-info/dependency_links.txt
+[22.860s] writing entry points to mapping.egg-info/entry_points.txt
+[22.861s] writing requirements to mapping.egg-info/requires.txt
+[22.861s] writing top-level names to mapping.egg-info/top_level.txt
+[22.862s] writing manifest file 'mapping.egg-info/SOURCES.txt'
+[22.881s] reading manifest file 'mapping.egg-info/SOURCES.txt'
+[22.882s] writing manifest file 'mapping.egg-info/SOURCES.txt'
+[22.893s] running build_ext
+[22.893s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/lib/python3.10/site-packages/mapping.egg-link (link to .)
+[22.898s] Installing map_tf script to /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/lib/mapping
+[22.898s] Installing mapping_gazebo script to /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/lib/mapping
+[22.899s] Installing node script to /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/lib/mapping
+[22.900s] Installing robot_marker_publisher script to /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/lib/mapping
+[22.901s] 
+[22.902s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping
+[22.903s] running symlink_data
+[22.905s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/share/ament_index
+[22.905s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/share/ament_index/resource_index
+[22.905s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/share/ament_index/resource_index/packages
+[22.906s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping/resource/mapping -> /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/share/ament_index/resource_index/packages
+[22.906s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping/package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/share/mapping
+[22.906s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping/launch/mapping.launch.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/share/mapping
+[23.132s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/mapping/build --no-deps symlink_data

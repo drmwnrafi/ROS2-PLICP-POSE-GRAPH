@@ -1,0 +1,17 @@
+[6.501s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps symlink_data
+[7.480s] running develop
+[8.975s] running egg_info
+[8.977s] writing gui.egg-info/PKG-INFO
+[8.979s] writing dependency_links to gui.egg-info/dependency_links.txt
+[8.981s] writing entry points to gui.egg-info/entry_points.txt
+[8.983s] writing requirements to gui.egg-info/requires.txt
+[8.984s] writing top-level names to gui.egg-info/top_level.txt
+[9.003s] reading manifest file 'gui.egg-info/SOURCES.txt'
+[9.010s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[9.025s] running build_ext
+[9.027s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)
+[9.034s] Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/gui
+[9.037s] 
+[9.038s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui
+[9.039s] running symlink_data
+[9.352s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps symlink_data

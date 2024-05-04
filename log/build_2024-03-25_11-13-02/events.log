@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.001341] (-) JobUnselected: {'identifier': 'diff_drive'}
+[0.001585] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.001672] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.001729] (-) JobUnselected: {'identifier': 'motor'}
+[0.001877] (-) JobUnselected: {'identifier': 'my_bot'}
+[0.001911] (-) JobUnselected: {'identifier': 'rosboard'}
+[0.001943] (-) JobUnselected: {'identifier': 'serial'}
+[0.001975] (-) JobUnselected: {'identifier': 'wheel_interfaces'}
+[0.002029] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict([('wheel_interfaces', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces')])}
+[0.002164] (gui) JobStarted: {'identifier': 'gui'}
+[0.099514] (-) TimerEvent: {}
+[0.201268] (-) TimerEvent: {}
+[0.302058] (-) TimerEvent: {}
+[0.402703] (-) TimerEvent: {}
+[0.503275] (-) TimerEvent: {}
+[0.603885] (-) TimerEvent: {}
+[0.704492] (-) TimerEvent: {}
+[0.805136] (-) TimerEvent: {}
+[0.905752] (-) TimerEvent: {}
+[1.006374] (-) TimerEvent: {}
+[1.107043] (-) TimerEvent: {}
+[1.208196] (-) TimerEvent: {}
+[1.309356] (-) TimerEvent: {}
+[1.409938] (-) TimerEvent: {}
+[1.510618] (-) TimerEvent: {}
+[1.611285] (-) TimerEvent: {}
+[1.711948] (-) TimerEvent: {}
+[1.812640] (-) TimerEvent: {}
+[1.913342] (-) TimerEvent: {}
+[2.014031] (-) TimerEvent: {}
+[2.114702] (-) TimerEvent: {}
+[2.215354] (-) TimerEvent: {}
+[2.315951] (-) TimerEvent: {}
+[2.416560] (-) TimerEvent: {}
+[2.517197] (-) TimerEvent: {}
+[2.617892] (-) TimerEvent: {}
+[2.718705] (-) TimerEvent: {}
+[2.737892] (gui) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build', '--no-deps', 'install_data'], 'cwd': '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ziczac', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ziczac', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/ziczac/.nvm/versions/node/v20.11.1/bin', 'NVM_INC': '/home/ziczac/.nvm/versions/node/v20.11.1/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '2172', 'SYSTEMD_EXEC_PID': '2752', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3945', 'NVM_DIR': '/home/ziczac/.nvm', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ziczac', 'JOURNAL_STREAM': '8:37425', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ziczac', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ziczac/.nvm/versions/node/v20.11.1/bin:/opt/ros/humble/bin:/home/ziczac/.cargo/bin:/home/ziczac/.cargo/bin:/home/ziczac/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zz:@/tmp/.ICE-unix/2448,unix/zz:/tmp/.ICE-unix/2448', 'INVOCATION_ID': '06df9abda3a54155a161a483a4d62191', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f6e7d88a-d42e-4c23-9745-a24020e78542', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ziczac/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces'}, 'shell': False}
+[2.818948] (-) TimerEvent: {}
+[2.919558] (-) TimerEvent: {}
+[3.020207] (-) TimerEvent: {}
+[3.120782] (-) TimerEvent: {}
+[3.221382] (-) TimerEvent: {}
+[3.322006] (-) TimerEvent: {}
+[3.354085] (gui) StdoutLine: {'line': b'running develop\n'}
+[3.422199] (-) TimerEvent: {}
+[3.522825] (-) TimerEvent: {}
+[3.623437] (-) TimerEvent: {}
+[3.724052] (-) TimerEvent: {}
+[3.824675] (-) TimerEvent: {}
+[3.844435] (gui) StdoutLine: {'line': b'running egg_info\n'}
+[3.845001] (gui) StdoutLine: {'line': b'writing gui.egg-info/PKG-INFO\n'}
+[3.845585] (gui) StdoutLine: {'line': b'writing dependency_links to gui.egg-info/dependency_links.txt\n'}
+[3.845969] (gui) StdoutLine: {'line': b'writing entry points to gui.egg-info/entry_points.txt\n'}
+[3.846316] (gui) StdoutLine: {'line': b'writing requirements to gui.egg-info/requires.txt\n'}
+[3.846623] (gui) StdoutLine: {'line': b'writing top-level names to gui.egg-info/top_level.txt\n'}
+[3.851473] (gui) StdoutLine: {'line': b"reading manifest file 'gui.egg-info/SOURCES.txt'\n"}
+[3.853097] (gui) StdoutLine: {'line': b"writing manifest file 'gui.egg-info/SOURCES.txt'\n"}
+[3.856387] (gui) StdoutLine: {'line': b'running build_ext\n'}
+[3.856959] (gui) StdoutLine: {'line': b'Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)\n'}
+[3.858283] (gui) StdoutLine: {'line': b'Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/gui\n'}
+[3.858795] (gui) StdoutLine: {'line': b'\n'}
+[3.859077] (gui) StdoutLine: {'line': b'Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui\n'}
+[3.859326] (gui) StdoutLine: {'line': b'running install_data\n'}
+[3.924920] (-) TimerEvent: {}
+[3.963736] (gui) CommandEnded: {'returncode': 0}
+[4.025093] (-) TimerEvent: {}
+[4.125774] (-) TimerEvent: {}
+[4.226223] (-) TimerEvent: {}
+[4.313632] (gui) JobEnded: {'identifier': 'gui', 'rc': 0}
+[4.315076] (-) EventReactorShutdown: {}

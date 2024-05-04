@@ -1,0 +1,88 @@
+[0.024s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver
+[0.222s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[0.263s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.559s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.749s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.757s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.773s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.330s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.388s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.116s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.203s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[3.280s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.036s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.071s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.071s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[7.306s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.316s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.327s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.912s] -- Found Qhull version 8.0.2
+[8.155s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.342s] -- looking for PCL_COMMON
+[8.342s] -- looking for PCL_KDTREE
+[8.343s] -- looking for PCL_OCTREE
+[8.343s] -- looking for PCL_SEARCH
+[8.344s] -- looking for PCL_SAMPLE_CONSENSUS
+[8.344s] -- looking for PCL_FILTERS
+[8.344s] -- looking for PCL_2D
+[8.345s] -- looking for PCL_GEOMETRY
+[8.345s] -- looking for PCL_IO
+[8.345s] -- looking for PCL_FEATURES
+[8.346s] -- looking for PCL_ML
+[8.346s] -- looking for PCL_SEGMENTATION
+[8.347s] -- looking for PCL_VISUALIZATION
+[8.347s] -- looking for PCL_SURFACE
+[8.347s] -- looking for PCL_REGISTRATION
+[8.348s] -- looking for PCL_KEYPOINTS
+[8.348s] -- looking for PCL_TRACKING
+[8.349s] -- looking for PCL_RECOGNITION
+[8.349s] -- looking for PCL_STEREO
+[8.350s] -- looking for PCL_APPS
+[8.350s] -- looking for PCL_IN_HAND_SCANNER
+[8.351s] -- looking for PCL_MODELER
+[8.351s] -- looking for PCL_POINT_CLOUD_EDITOR
+[8.351s] -- looking for PCL_OUTOFCORE
+[8.352s] -- looking for PCL_PEOPLE
+[8.423s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[9.511s] -- Found lslidar_msgs: 1.2.0 (/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[9.620s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[9.770s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[10.462s] -- Configuring done
+[10.905s] -- Generating done
+[10.924s] -- Build files have been written to: /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver
+[10.960s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver
+[10.964s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver -- -j8 -l8
+[11.183s] [35m[1mConsolidate compiler generated dependencies of target lslidar_driver_node[0m
+[11.319s] [100%] Built target lslidar_driver_node
+[11.353s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver -- -j8 -l8
+[11.431s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver
+[11.454s] -- Install configuration: ""
+[11.455s] -- Execute custom install script
+[11.457s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[11.457s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/launch/lslidar_launch.py
+[11.458s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/params/lsx10.yaml
+[11.458s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/params/lsx10_1.yaml
+[11.459s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/params/lsx10_2.yaml
+[11.460s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[11.460s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[11.461s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[11.462s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[11.462s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[11.463s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[11.463s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[11.464s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[11.464s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[11.465s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[11.466s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[11.466s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[11.466s] -- Symlinking: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/package.dsv
+[11.496s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[11.497s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.497s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.498s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[11.498s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[11.499s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/package.xml
+[11.506s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver

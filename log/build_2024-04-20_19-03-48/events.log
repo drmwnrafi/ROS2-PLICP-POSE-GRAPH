@@ -1,0 +1,777 @@
+[0.000000] (-) TimerEvent: {}
+[0.001066] (-) JobUnselected: {'identifier': 'diff_drive'}
+[0.001443] (-) JobUnselected: {'identifier': 'gui'}
+[0.001532] (-) JobUnselected: {'identifier': 'log_odds_map'}
+[0.001621] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.001704] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.001781] (-) JobUnselected: {'identifier': 'motor'}
+[0.001863] (-) JobUnselected: {'identifier': 'my_bot'}
+[0.001938] (-) JobUnselected: {'identifier': 'rosboard'}
+[0.002015] (-) JobUnselected: {'identifier': 'wheel_interfaces'}
+[0.002101] (occupancy_grid_map) JobQueued: {'identifier': 'occupancy_grid_map', 'dependencies': OrderedDict()}
+[0.002185] (occupancy_grid_map) JobStarted: {'identifier': 'occupancy_grid_map'}
+[0.018990] (occupancy_grid_map) JobProgress: {'identifier': 'occupancy_grid_map', 'progress': 'cmake'}
+[0.020325] (occupancy_grid_map) JobProgress: {'identifier': 'occupancy_grid_map', 'progress': 'build'}
+[0.021432] (occupancy_grid_map) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid_map', '--', '-j8', '-l8'], 'cwd': '/home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziczac'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziczac'), ('OLDPWD', '/home/ziczac/dev/skripsi_code/ros2_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziczac/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ziczac/.nvm/versions/node/v20.11.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2118'), ('SYSTEMD_EXEC_PID', '2632'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5022'), ('NVM_DIR', '/home/ziczac/.nvm'), ('COLCON_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ziczac'), ('JOURNAL_STREAM', '8:40207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziczac'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ziczac/.nvm/versions/node/v20.11.1/bin:/opt/ros/humble/bin:/home/ziczac/.cargo/bin:/home/ziczac/.cargo/bin:/home/ziczac/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zz:@/tmp/.ICE-unix/2372,unix/zz:/tmp/.ICE-unix/2372'), ('INVOCATION_ID', '1849343815b747fe9b4848dfd2789c75'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/occupancy_grid_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/occupancy_grid:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c1b83029-9f43-4f04-94b9-a647ba32a245'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid_map'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ziczac/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/occupancy_grid_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/occupancy_grid:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble')]), 'shell': False}
+[0.099682] (-) TimerEvent: {}
+[0.122478] (occupancy_grid_map) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target occupancy_grid_map_exe\x1b[0m\n'}
+[0.184008] (occupancy_grid_map) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/occupancy_grid_map_exe.dir/src/occupancygrid.cpp.o\x1b[0m\n'}
+[0.199828] (-) TimerEvent: {}
+[0.300223] (-) TimerEvent: {}
+[0.400663] (-) TimerEvent: {}
+[0.501125] (-) TimerEvent: {}
+[0.601524] (-) TimerEvent: {}
+[0.701961] (-) TimerEvent: {}
+[0.802461] (-) TimerEvent: {}
+[0.902946] (-) TimerEvent: {}
+[1.003429] (-) TimerEvent: {}
+[1.103914] (-) TimerEvent: {}
+[1.204407] (-) TimerEvent: {}
+[1.304958] (-) TimerEvent: {}
+[1.405468] (-) TimerEvent: {}
+[1.505950] (-) TimerEvent: {}
+[1.606434] (-) TimerEvent: {}
+[1.706920] (-) TimerEvent: {}
+[1.807419] (-) TimerEvent: {}
+[1.907953] (-) TimerEvent: {}
+[2.008415] (-) TimerEvent: {}
+[2.108934] (-) TimerEvent: {}
+[2.209400] (-) TimerEvent: {}
+[2.309875] (-) TimerEvent: {}
+[2.410436] (-) TimerEvent: {}
+[2.510982] (-) TimerEvent: {}
+[2.611515] (-) TimerEvent: {}
+[2.712040] (-) TimerEvent: {}
+[2.812577] (-) TimerEvent: {}
+[2.913103] (-) TimerEvent: {}
+[3.013606] (-) TimerEvent: {}
+[3.114111] (-) TimerEvent: {}
+[3.214640] (-) TimerEvent: {}
+[3.315148] (-) TimerEvent: {}
+[3.415623] (-) TimerEvent: {}
+[3.516106] (-) TimerEvent: {}
+[3.616591] (-) TimerEvent: {}
+[3.717110] (-) TimerEvent: {}
+[3.817592] (-) TimerEvent: {}
+[3.918061] (-) TimerEvent: {}
+[4.018526] (-) TimerEvent: {}
+[4.118979] (-) TimerEvent: {}
+[4.219455] (-) TimerEvent: {}
+[4.319939] (-) TimerEvent: {}
+[4.420423] (-) TimerEvent: {}
+[4.520932] (-) TimerEvent: {}
+[4.621431] (-) TimerEvent: {}
+[4.721914] (-) TimerEvent: {}
+[4.822385] (-) TimerEvent: {}
+[4.922870] (-) TimerEvent: {}
+[5.023366] (-) TimerEvent: {}
+[5.123841] (-) TimerEvent: {}
+[5.224336] (-) TimerEvent: {}
+[5.324818] (-) TimerEvent: {}
+[5.425347] (-) TimerEvent: {}
+[5.525831] (-) TimerEvent: {}
+[5.626297] (-) TimerEvent: {}
+[5.726774] (-) TimerEvent: {}
+[5.827250] (-) TimerEvent: {}
+[5.927695] (-) TimerEvent: {}
+[6.028147] (-) TimerEvent: {}
+[6.128613] (-) TimerEvent: {}
+[6.229130] (-) TimerEvent: {}
+[6.329556] (-) TimerEvent: {}
+[6.430013] (-) TimerEvent: {}
+[6.530503] (-) TimerEvent: {}
+[6.631029] (-) TimerEvent: {}
+[6.731615] (-) TimerEvent: {}
+[6.832216] (-) TimerEvent: {}
+[6.932712] (-) TimerEvent: {}
+[7.033279] (-) TimerEvent: {}
+[7.133754] (-) TimerEvent: {}
+[7.234234] (-) TimerEvent: {}
+[7.334727] (-) TimerEvent: {}
+[7.435213] (-) TimerEvent: {}
+[7.535700] (-) TimerEvent: {}
+[7.636188] (-) TimerEvent: {}
+[7.736664] (-) TimerEvent: {}
+[7.837222] (-) TimerEvent: {}
+[7.937724] (-) TimerEvent: {}
+[8.038284] (-) TimerEvent: {}
+[8.138935] (-) TimerEvent: {}
+[8.239365] (-) TimerEvent: {}
+[8.311790] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:11:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGroundSegmentor\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[8.312195] (occupancy_grid_map) StderrLine: {'line': b'   11 |   \x1b[01;31m\x1b[KGroundSegmentor\x1b[m\x1b[K::GroundSegmentor(const rclcpp::NodeOptions &node_options)\n'}
+[8.312427] (occupancy_grid_map) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.312754] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:99:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGroundSegmentor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.312944] (occupancy_grid_map) StderrLine: {'line': b'   99 |   inline void \x1b[01;31m\x1b[KGroundSegmentor\x1b[m\x1b[K::bresenham2D(\n'}
+[8.313106] (occupancy_grid_map) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.313247] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:101:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.313480] (occupancy_grid_map) StderrLine: {'line': b'  101 | _b, unsigned int offset, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K state, unsigned int max_length)\n'}
+[8.314781] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.315207] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.315330] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid PercepionNS::bresenham2D(nav_msgs::msg::OccupancyGrid&, unsigned int, unsigned int, int, int, int, unsigned int, int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.315462] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:110:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.315606] (occupancy_grid_map) StderrLine: {'line': b'  110 |       if (state == \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::OCCUPIED)\n'}
+[8.315736] (occupancy_grid_map) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.315871] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:114:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.316009] (occupancy_grid_map) StderrLine: {'line': b'  114 |       else if (state == \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::UNKNOWN)\n'}
+[8.316142] (occupancy_grid_map) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.316277] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:138:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.316408] (occupancy_grid_map) StderrLine: {'line': b'  138 |     if (state == \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::OCCUPIED)\n'}
+[8.316518] (occupancy_grid_map) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.316630] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:142:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.316741] (occupancy_grid_map) StderrLine: {'line': b'  142 |     else if (state == \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::UNKNOWN)\n'}
+[8.316852] (occupancy_grid_map) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.316988] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:\x1b[m\x1b[K At global scope:\n'}
+[8.317101] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:167:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGroundSegmentor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.317232] (occupancy_grid_map) StderrLine: {'line': b'  167 |   inline void \x1b[01;31m\x1b[KGroundSegmentor\x1b[m\x1b[K::raytraceLine(\n'}
+[8.317344] (occupancy_grid_map) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.317455] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:169:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.317588] (occupancy_grid_map) StderrLine: {'line': b'  169 | gned int y1, int size_x, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K state, unsigned int max_length)\n'}
+[8.317701] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.317813] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.317922] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:216:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGroundSegmentor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.318034] (occupancy_grid_map) StderrLine: {'line': b'  216 |   bool \x1b[01;31m\x1b[KGroundSegmentor\x1b[m\x1b[K::worldToMap(\n'}
+[8.318143] (occupancy_grid_map) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.318254] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:217:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-member function \xe2\x80\x98\x1b[01m\x1b[Kbool PercepionNS::worldToMap(double, double, unsigned int&, unsigned int&)\x1b[m\x1b[K\xe2\x80\x99 cannot have cv-qualifier\n'}
+[8.318382] (occupancy_grid_map) StderrLine: {'line': b'  217 | ned int &mx, unsigned int &my) \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K\n'}
+[8.318495] (occupancy_grid_map) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.318605] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.330809] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool PercepionNS::worldToMap(double, double, unsigned int&, unsigned int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.332242] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:220:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbottomright_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.332389] (occupancy_grid_map) StderrLine: {'line': b'  220 |     if (wx < \x1b[01;31m\x1b[Kbottomright_x_\x1b[m\x1b[K || wy < bottomright_y_)\n'}
+[8.332514] (occupancy_grid_map) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.339497] (-) TimerEvent: {}
+[8.347747] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:220:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbottomright_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.349270] (occupancy_grid_map) StderrLine: {'line': b'  220 | < bottomright_x_ || wy < \x1b[01;31m\x1b[Kbottomright_y_\x1b[m\x1b[K)\n'}
+[8.349412] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.349533] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.363143] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:226:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbottomright_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.364607] (occupancy_grid_map) StderrLine: {'line': b'  226 | >(std::floor(fabs((wx - (\x1b[01;31m\x1b[Kbottomright_x_\x1b[m\x1b[K)) / grid_msg_.info.resolution)));\n'}
+[8.364744] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.364888] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.371877] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:226:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrid_msg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.373328] (occupancy_grid_map) StderrLine: {'line': b'  226 | wx - (bottomright_x_)) / \x1b[01;31m\x1b[Kgrid_msg_\x1b[m\x1b[K.info.resolution)));\n'}
+[8.373464] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.373590] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.387685] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:227:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbottomright_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.389158] (occupancy_grid_map) StderrLine: {'line': b'  227 | >(std::floor(fabs((wy - (\x1b[01;31m\x1b[Kbottomright_y_\x1b[m\x1b[K)) / grid_msg_.info.resolution)));\n'}
+[8.389298] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.389419] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.399677] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:230:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcell_num_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.401116] (occupancy_grid_map) StderrLine: {'line': b'  230 |     if (mx < \x1b[01;31m\x1b[Kcell_num_x_\x1b[m\x1b[K && my < cell_num_y_)\n'}
+[8.401254] (occupancy_grid_map) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.411114] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:230:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcell_num_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.412780] (occupancy_grid_map) StderrLine: {'line': b'  230 | mx < cell_num_x_ && my < \x1b[01;31m\x1b[Kcell_num_y_\x1b[m\x1b[K)\n'}
+[8.413075] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.413200] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.413318] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:\x1b[m\x1b[K At global scope:\n'}
+[8.413433] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:251:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGroundSegmentor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.413572] (occupancy_grid_map) StderrLine: {'line': b'  251 |   void \x1b[01;31m\x1b[KGroundSegmentor\x1b[m\x1b[K::raytrace(\n'}
+[8.413688] (occupancy_grid_map) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.413803] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:253:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.413939] (occupancy_grid_map) StderrLine: {'line': b'  253 |       int size_x, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K state)\n'}
+[8.414060] (occupancy_grid_map) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.427032] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid PercepionNS::raytrace(nav_msgs::msg::OccupancyGrid&, double, double, double, double, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.428484] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:268:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbottomright_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.428617] (occupancy_grid_map) StderrLine: {'line': b'  268 | const double origin_x = (\x1b[01;31m\x1b[Kbottomright_x_\x1b[m\x1b[K), origin_y = (bottomright_y_);\n'}
+[8.428742] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.428905] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.433462] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:270:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Korigin_y\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Korigin_x\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.433744] (occupancy_grid_map) StderrLine: {'line': b'  270 |  const double map_end_y = -\x1b[01;31m\x1b[Korigin_y\x1b[m\x1b[K;\n'}
+[8.433898] (occupancy_grid_map) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.434104] (occupancy_grid_map) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Korigin_x\x1b[m\x1b[K\n'}
+[8.434237] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:313:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Kvoid PercepionNS::raytraceLine(nav_msgs::msg::OccupancyGrid&, unsigned int, unsigned int, unsigned int, unsigned int, int, int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.434359] (occupancy_grid_map) StderrLine: {'line': b'  313 |     \x1b[01;31m\x1b[KraytraceLine(map, x0, y0, x1, y1, size_x, state)\x1b[m\x1b[K;\n'}
+[8.434483] (occupancy_grid_map) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.434601] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:167:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.434712] (occupancy_grid_map) StderrLine: {'line': b'  167 |   inline void \x1b[01;36m\x1b[KGroundSegmentor\x1b[m\x1b[K::raytraceLine(\n'}
+[8.434824] (occupancy_grid_map) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.439196] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:\x1b[m\x1b[K At global scope:\n'}
+[8.439482] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:326:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBinInfo3D\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[8.439631] (-) TimerEvent: {}
+[8.439787] (occupancy_grid_map) StderrLine: {'line': b'  326 | yond_obstacle = [](const \x1b[01;31m\x1b[KBinInfo3D\x1b[m\x1b[K &obstacle, const BinInfo3D &raw) -> bool\n'}
+[8.440053] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.440204] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.440427] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:346:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.440591] (occupancy_grid_map) StderrLine: {'line': b'  346 |   }\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[8.440751] (occupancy_grid_map) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.440910] (occupancy_grid_map) StderrLine: {'line': b'      |    \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[8.441073] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:326:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.441212] (occupancy_grid_map) StderrLine: {'line': b'  326 | ible_beyond_obstacle = []\x1b[01;36m\x1b[K(\x1b[m\x1b[Kconst BinInfo3D &obstacle, const BinInfo3D &raw) -> bool\n'}
+[8.441371] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.441524] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.441684] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[8.441838] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:346:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.442005] (occupancy_grid_map) StderrLine: {'line': b'  346 |   }\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[8.442150] (occupancy_grid_map) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.442303] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:\x1b[m\x1b[K At global scope:\n'}
+[8.442644] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:348:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGroundSegmentor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.442852] (occupancy_grid_map) StderrLine: {'line': b'  348 |   void \x1b[01;31m\x1b[KGroundSegmentor\x1b[m\x1b[K::synchro_callback(\n'}
+[8.443072] (occupancy_grid_map) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.452838] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid PercepionNS::synchro_callback(const ConstSharedPtr&, const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.453165] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBinInfo3D\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPerceptionNS::BinInfo3D\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.453338] (occupancy_grid_map) StderrLine: {'line': b'  361 |  std::vector<std::vector<\x1b[01;31m\x1b[KBinInfo3D\x1b[m\x1b[K>> raw_pointcloud_angle_bins_;\n'}
+[8.453498] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.454023] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[32m\x1b[KPerceptionNS::BinInfo3D\x1b[m\x1b[K\n'}
+[8.454230] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:7\x1b[m\x1b[K:\n'}
+[8.454449] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/include/occupancy_grid_map/occupancygrid.hpp:46:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPerceptionNS::BinInfo3D\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[8.454626] (occupancy_grid_map) StderrLine: {'line': b'   46 |   struct \x1b[01;36m\x1b[KBinInfo3D\x1b[m\x1b[K\n'}
+[8.454778] (occupancy_grid_map) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.454943] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.455100] (occupancy_grid_map) StderrLine: {'line': b'  361 |  std::vector<std::vector<\x1b[01;31m\x1b[KBinInfo3D\x1b[m\x1b[K>> raw_pointcloud_angle_bins_;\n'}
+[8.455255] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.455412] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.455562] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[8.455705] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.455970] (occupancy_grid_map) StderrLine: {'line': b'  361 | tor<std::vector<BinInfo3D\x1b[01;31m\x1b[K>>\x1b[m\x1b[K raw_pointcloud_angle_bins_;\n'}
+[8.456161] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.456317] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.456472] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[8.456628] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:362:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[8.456770] (occupancy_grid_map) StderrLine: {'line': b'  362 |  std::vector<std::vector<\x1b[01;31m\x1b[KBinInfo3D\x1b[m\x1b[K>> obstacle_pointcloud_angle_bins_;\n'}
+[8.456941] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.457096] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.457235] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:362:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.457385] (occupancy_grid_map) StderrLine: {'line': b'  362 | tor<std::vector<BinInfo3D\x1b[01;31m\x1b[K>>\x1b[m\x1b[K obstacle_pointcloud_angle_bins_;\n'}
+[8.457531] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.457675] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.457822] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:362:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[8.468765] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:377:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrid_size_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.470352] (occupancy_grid_map) StderrLine: {'line': b'  377 | igned char> grid_points_(\x1b[01;31m\x1b[Kgrid_size_\x1b[m\x1b[K, 50);\n'}
+[8.470545] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.470667] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.478538] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:380:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_angle_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.480070] (occupancy_grid_map) StderrLine: {'line': b'  380 | ize_t angle_bin_size = ((\x1b[01;31m\x1b[Kmax_angle_\x1b[m\x1b[K - min_angle_) / angle_increment_) + size_t(1 /*margin*/);\n'}
+[8.480219] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.480339] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.488634] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:380:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmin_angle_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.490044] (occupancy_grid_map) StderrLine: {'line': b'  380 | in_size = ((max_angle_ - \x1b[01;31m\x1b[Kmin_angle_\x1b[m\x1b[K) / angle_increment_) + size_t(1 /*margin*/);\n'}
+[8.490198] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.490320] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.508315] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:380:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kangle_increment_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.508723] (occupancy_grid_map) StderrLine: {'line': b'  380 | x_angle_ - min_angle_) / \x1b[01;31m\x1b[Kangle_increment_\x1b[m\x1b[K) + size_t(1 /*margin*/);\n'}
+[8.508965] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.509138] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.509302] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:383:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kresize\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kobstacle_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.509476] (occupancy_grid_map) StderrLine: {'line': b'  383 | e_pointcloud_angle_bins_.\x1b[01;31m\x1b[Kresize\x1b[m\x1b[K(angle_bin_size);\n'}
+[8.509617] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.509915] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.510105] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:384:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kresize\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kraw_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.510291] (occupancy_grid_map) StderrLine: {'line': b'  384 | w_pointcloud_angle_bins_.\x1b[01;31m\x1b[Kresize\x1b[m\x1b[K(angle_bin_size);\n'}
+[8.511740] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.512237] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.513707] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:397:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kat\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kraw_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.513954] (occupancy_grid_map) StderrLine: {'line': b'  397 | w_pointcloud_angle_bins_.\x1b[01;31m\x1b[Kat\x1b[m\x1b[K(angle_bin_index).emplace_back(range, point.x, point.y, point.z);\n'}
+[8.515009] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.515810] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.515946] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:411:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Korigin_z_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPerceptionNS::origin_z_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.516073] (occupancy_grid_map) StderrLine: {'line': b'  411 |    const double scan_z = \x1b[01;31m\x1b[Korigin_z_\x1b[m\x1b[K - robot_z_;\n'}
+[8.516191] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.516314] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[32m\x1b[KPerceptionNS::origin_z_\x1b[m\x1b[K\n'}
+[8.516435] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:7\x1b[m\x1b[K:\n'}
+[8.516565] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/include/occupancy_grid_map/occupancygrid.hpp:69:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPerceptionNS::origin_z_\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[8.516698] (occupancy_grid_map) StderrLine: {'line': b'   69 |   double \x1b[01;36m\x1b[Korigin_z_\x1b[m\x1b[K, robot_z_;\n'}
+[8.516822] (occupancy_grid_map) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.516995] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:411:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_z_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPerceptionNS::robot_z_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.517115] (occupancy_grid_map) StderrLine: {'line': b'  411 | ouble scan_z = origin_z_ - \x1b[01;31m\x1b[Krobot_z_\x1b[m\x1b[K;\n'}
+[8.517229] (occupancy_grid_map) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.517439] (occupancy_grid_map) StderrLine: {'line': b'      |                            \x1b[32m\x1b[KPerceptionNS::robot_z_\x1b[m\x1b[K\n'}
+[8.517552] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:7\x1b[m\x1b[K:\n'}
+[8.517662] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/include/occupancy_grid_map/occupancygrid.hpp:69:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPerceptionNS::robot_z_\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[8.517774] (occupancy_grid_map) StderrLine: {'line': b'   69 |   double origin_z_, \x1b[01;36m\x1b[Krobot_z_\x1b[m\x1b[K;\n'}
+[8.517907] (occupancy_grid_map) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.539786] (-) TimerEvent: {}
+[8.543601] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:416:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprojection_dz_threshold_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.544608] (occupancy_grid_map) StderrLine: {'line': b'  416 |       if (dz > \x1b[01;31m\x1b[Kprojection_dz_threshold_\x1b[m\x1b[K)\n'}
+[8.545675] (occupancy_grid_map) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.545861] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:429:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kat\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kobstacle_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.545986] (occupancy_grid_map) StderrLine: {'line': b'  429 | e_pointcloud_angle_bins_.\x1b[01;31m\x1b[Kat\x1b[m\x1b[K(angle_bin_index).emplace_back(range, point.x, point.y, point.z, projection_length, projected_wx, projected_wy);\n'}
+[8.546130] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.546258] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.546386] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:438:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kat\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kobstacle_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.547190] (occupancy_grid_map) StderrLine: {'line': b'  438 | e_pointcloud_angle_bins_.\x1b[01;31m\x1b[Kat\x1b[m\x1b[K(angle_bin_index).emplace_back(range, point.x, point.y, point.z, 0, projected_wx, projected_wy);\n'}
+[8.547526] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.547742] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.548048] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:443:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.548372] (occupancy_grid_map) StderrLine: {'line': b'  443 | w_pointcloud_angle_bin : \x1b[01;31m\x1b[Kraw_pointcloud_angle_bins_\x1b[m\x1b[K)\n'}
+[8.550463] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.551436] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.551605] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:443:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.553346] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:54\x1b[m\x1b[K,\n'}
+[8.553786] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[8.555062] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[8.555804] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[8.555930] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:38\x1b[m\x1b[K,\n'}
+[8.556091] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[8.556214] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/complex:45\x1b[m\x1b[K,\n'}
+[8.556338] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:50\x1b[m\x1b[K,\n'}
+[8.556461] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/StdVector:14\x1b[m\x1b[K,\n'}
+[8.556584] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:45\x1b[m\x1b[K,\n'}
+[8.556705] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.556824] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.556978] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:108:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.557095] (occupancy_grid_map) StderrLine: {'line': b'  108 | typename _Tp> const _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const valarray<_Tp>&) noexcept;\n'}
+[8.557203] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.557313] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.557422] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21\x1b[m\x1b[K,\n'}
+[8.557535] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector0.hpp:31\x1b[m\x1b[K,\n'}
+[8.557665] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector10.hpp:18\x1b[m\x1b[K,\n'}
+[8.557776] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector20.hpp:18\x1b[m\x1b[K,\n'}
+[8.557884] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector.hpp:36\x1b[m\x1b[K,\n'}
+[8.557989] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43\x1b[m\x1b[K,\n'}
+[8.558101] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/type_traits.h:40\x1b[m\x1b[K,\n'}
+[8.558211] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:46\x1b[m\x1b[K,\n'}
+[8.558323] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3\x1b[m\x1b[K,\n'}
+[8.558436] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[8.558547] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.558659] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.558771] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/mpl/begin_end_fwd.hpp:22:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::mpl::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.558883] (occupancy_grid_map) StderrLine: {'line': b'   22 | e< typename Sequence > struct \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K;\n'}
+[8.559012] (occupancy_grid_map) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.559159] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.559263] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/fusion/iterator/segmented_iterator.hpp:13\x1b[m\x1b[K,\n'}
+[8.559371] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/detail/segmented_end.hpp:12\x1b[m\x1b[K,\n'}
+[8.559481] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:18\x1b[m\x1b[K,\n'}
+[8.559586] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl/back.hpp:12\x1b[m\x1b[K,\n'}
+[8.559689] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl.hpp:15\x1b[m\x1b[K,\n'}
+[8.559794] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/include/mpl.hpp:12\x1b[m\x1b[K,\n'}
+[8.559901] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44\x1b[m\x1b[K,\n'}
+[8.560006] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:955\x1b[m\x1b[K,\n'}
+[8.560111] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.560220] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.560322] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/begin.hpp:92:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::fusion::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.560426] (occupancy_grid_map) StderrLine: {'line': b'   92 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(Sequence const& seq)\n'}
+[8.560530] (occupancy_grid_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.560636] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/foreach.hpp:81\x1b[m\x1b[K,\n'}
+[8.560745] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:54\x1b[m\x1b[K,\n'}
+[8.560848] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44\x1b[m\x1b[K,\n'}
+[8.560998] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099\x1b[m\x1b[K,\n'}
+[8.561106] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.561227] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.561343] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/range/begin.hpp:110:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::range_adl_barrier::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.561471] (occupancy_grid_map) StderrLine: {'line': b'  110 | _iterator<const T>::type \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K( const T& r )\n'}
+[8.561593] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.561711] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.561831] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:54\x1b[m\x1b[K,\n'}
+[8.561951] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44\x1b[m\x1b[K,\n'}
+[8.562087] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099\x1b[m\x1b[K,\n'}
+[8.562208] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.562333] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.562450] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/foreach.hpp:696:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::foreach_detail_::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.562590] (occupancy_grid_map) StderrLine: {'line': b'  696 | \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(auto_any_t col, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings\n'}
+[8.562709] (occupancy_grid_map) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.562822] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16\x1b[m\x1b[K,\n'}
+[8.562941] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl/at.hpp:12\x1b[m\x1b[K,\n'}
+[8.563054] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl.hpp:14\x1b[m\x1b[K,\n'}
+[8.563170] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/include/mpl.hpp:12\x1b[m\x1b[K,\n'}
+[8.563292] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44\x1b[m\x1b[K,\n'}
+[8.563407] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:955\x1b[m\x1b[K,\n'}
+[8.563531] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.563648] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.563767] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:62:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::fusion::result_of::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.563883] (occupancy_grid_map) StderrLine: {'line': b'   62 |         struct \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K;\n'}
+[8.563999] (occupancy_grid_map) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.564116] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:443:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.564238] (occupancy_grid_map) StderrLine: {'line': b'  443 | w_pointcloud_angle_bin : \x1b[01;31m\x1b[Kraw_pointcloud_angle_bins_\x1b[m\x1b[K)\n'}
+[8.564361] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.564482] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.564602] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:443:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.564726] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:54\x1b[m\x1b[K,\n'}
+[8.564848] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[8.564999] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[8.565147] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[8.565269] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:38\x1b[m\x1b[K,\n'}
+[8.565388] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[8.565508] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/complex:45\x1b[m\x1b[K,\n'}
+[8.565620] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:50\x1b[m\x1b[K,\n'}
+[8.565734] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/StdVector:14\x1b[m\x1b[K,\n'}
+[8.565846] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:45\x1b[m\x1b[K,\n'}
+[8.565964] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.566087] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.566200] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:110:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.566311] (occupancy_grid_map) StderrLine: {'line': b'  110 | typename _Tp> const _Tp* \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const valarray<_Tp>&) noexcept;\n'}
+[8.566426] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.566571] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.566691] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:265\x1b[m\x1b[K,\n'}
+[8.566816] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/StdVector:14\x1b[m\x1b[K,\n'}
+[8.566932] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:45\x1b[m\x1b[K,\n'}
+[8.567065] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.567364] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.568188] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:181:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KEigen::placeholders::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.569341] (occupancy_grid_map) StderrLine: {'line': b'  181 | ATED static const end_t  \x1b[01;36m\x1b[Kend\x1b[m\x1b[K  = Eigen::lastp1; // PLEASE use Eigen::lastp1 instead of Eigen::placeholders::end\n'}
+[8.569483] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.569608] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.569730] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21\x1b[m\x1b[K,\n'}
+[8.569884] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector0.hpp:31\x1b[m\x1b[K,\n'}
+[8.570009] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector10.hpp:18\x1b[m\x1b[K,\n'}
+[8.570137] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector20.hpp:18\x1b[m\x1b[K,\n'}
+[8.570272] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector.hpp:36\x1b[m\x1b[K,\n'}
+[8.570398] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43\x1b[m\x1b[K,\n'}
+[8.570520] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/type_traits.h:40\x1b[m\x1b[K,\n'}
+[8.570630] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:46\x1b[m\x1b[K,\n'}
+[8.570739] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3\x1b[m\x1b[K,\n'}
+[8.570849] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[8.570959] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.571067] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.571177] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/mpl/begin_end_fwd.hpp:23:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::mpl::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.571287] (occupancy_grid_map) StderrLine: {'line': b'   23 | ate< typename Sequence > struct \x1b[01;36m\x1b[Kend\x1b[m\x1b[K;\n'}
+[8.571398] (occupancy_grid_map) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.571506] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.571617] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl/back.hpp:12\x1b[m\x1b[K,\n'}
+[8.571727] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl.hpp:15\x1b[m\x1b[K,\n'}
+[8.571840] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/include/mpl.hpp:12\x1b[m\x1b[K,\n'}
+[8.571951] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44\x1b[m\x1b[K,\n'}
+[8.572062] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:955\x1b[m\x1b[K,\n'}
+[8.572173] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.572284] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.572395] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:92:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::fusion::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.572505] (occupancy_grid_map) StderrLine: {'line': b'   92 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(Sequence const& seq)\n'}
+[8.572616] (occupancy_grid_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.572726] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/foreach.hpp:80\x1b[m\x1b[K,\n'}
+[8.572836] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:54\x1b[m\x1b[K,\n'}
+[8.572965] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44\x1b[m\x1b[K,\n'}
+[8.573078] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099\x1b[m\x1b[K,\n'}
+[8.573187] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.573311] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.573411] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/range/end.hpp:104:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::range_adl_barrier::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.573512] (occupancy_grid_map) StderrLine: {'line': b'  104 | _iterator<const T>::type \x1b[01;36m\x1b[Kend\x1b[m\x1b[K( const T& r )\n'}
+[8.573626] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.573727] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.573835] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:54\x1b[m\x1b[K,\n'}
+[8.573945] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44\x1b[m\x1b[K,\n'}
+[8.574055] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099\x1b[m\x1b[K,\n'}
+[8.574164] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.574274] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.574398] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/foreach.hpp:736:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::foreach_detail_::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.574520] (occupancy_grid_map) StderrLine: {'line': b'  736 | \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(auto_any_t, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings\n'}
+[8.574630] (occupancy_grid_map) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.574740] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16\x1b[m\x1b[K,\n'}
+[8.574867] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl/at.hpp:12\x1b[m\x1b[K,\n'}
+[8.574979] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl.hpp:14\x1b[m\x1b[K,\n'}
+[8.575089] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/include/mpl.hpp:12\x1b[m\x1b[K,\n'}
+[8.575198] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44\x1b[m\x1b[K,\n'}
+[8.575307] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:955\x1b[m\x1b[K,\n'}
+[8.575417] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.575526] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.575648] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:68:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::fusion::result_of::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.575778] (occupancy_grid_map) StderrLine: {'line': b'   68 |         struct \x1b[01;36m\x1b[Kend\x1b[m\x1b[K;\n'}
+[8.575887] (occupancy_grid_map) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.576004] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:450:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.576135] (occupancy_grid_map) StderrLine: {'line': b'  450 | e_pointcloud_angle_bin : \x1b[01;31m\x1b[Kobstacle_pointcloud_angle_bins_\x1b[m\x1b[K)\n'}
+[8.576245] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.576362] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.576465] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:450:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.576575] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:54\x1b[m\x1b[K,\n'}
+[8.576691] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[8.576805] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[8.576944] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[8.577065] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:38\x1b[m\x1b[K,\n'}
+[8.577180] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[8.577292] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/complex:45\x1b[m\x1b[K,\n'}
+[8.577405] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:50\x1b[m\x1b[K,\n'}
+[8.577514] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/StdVector:14\x1b[m\x1b[K,\n'}
+[8.577628] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:45\x1b[m\x1b[K,\n'}
+[8.577745] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.577858] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.577976] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:108:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.578084] (occupancy_grid_map) StderrLine: {'line': b'  108 | typename _Tp> const _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const valarray<_Tp>&) noexcept;\n'}
+[8.578193] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.578301] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.578416] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21\x1b[m\x1b[K,\n'}
+[8.578529] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector0.hpp:31\x1b[m\x1b[K,\n'}
+[8.578640] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector10.hpp:18\x1b[m\x1b[K,\n'}
+[8.578751] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector20.hpp:18\x1b[m\x1b[K,\n'}
+[8.578859] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector.hpp:36\x1b[m\x1b[K,\n'}
+[8.578972] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43\x1b[m\x1b[K,\n'}
+[8.579106] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/type_traits.h:40\x1b[m\x1b[K,\n'}
+[8.579214] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:46\x1b[m\x1b[K,\n'}
+[8.579322] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3\x1b[m\x1b[K,\n'}
+[8.579436] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[8.579544] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.579653] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.579783] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/mpl/begin_end_fwd.hpp:22:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::mpl::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.579893] (occupancy_grid_map) StderrLine: {'line': b'   22 | e< typename Sequence > struct \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K;\n'}
+[8.580013] (occupancy_grid_map) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.580126] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.580234] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/fusion/iterator/segmented_iterator.hpp:13\x1b[m\x1b[K,\n'}
+[8.580344] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/detail/segmented_end.hpp:12\x1b[m\x1b[K,\n'}
+[8.580454] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:18\x1b[m\x1b[K,\n'}
+[8.580566] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl/back.hpp:12\x1b[m\x1b[K,\n'}
+[8.580670] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl.hpp:15\x1b[m\x1b[K,\n'}
+[8.580774] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/include/mpl.hpp:12\x1b[m\x1b[K,\n'}
+[8.580905] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44\x1b[m\x1b[K,\n'}
+[8.581019] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:955\x1b[m\x1b[K,\n'}
+[8.581128] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.581252] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.581366] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/begin.hpp:92:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::fusion::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.581482] (occupancy_grid_map) StderrLine: {'line': b'   92 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(Sequence const& seq)\n'}
+[8.581597] (occupancy_grid_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.581712] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/foreach.hpp:81\x1b[m\x1b[K,\n'}
+[8.581829] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:54\x1b[m\x1b[K,\n'}
+[8.581947] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44\x1b[m\x1b[K,\n'}
+[8.582077] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099\x1b[m\x1b[K,\n'}
+[8.582186] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.582292] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.582402] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/range/begin.hpp:110:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::range_adl_barrier::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.582519] (occupancy_grid_map) StderrLine: {'line': b'  110 | _iterator<const T>::type \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K( const T& r )\n'}
+[8.582631] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.582739] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.582850] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:54\x1b[m\x1b[K,\n'}
+[8.582964] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44\x1b[m\x1b[K,\n'}
+[8.583082] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099\x1b[m\x1b[K,\n'}
+[8.583193] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.583306] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.583418] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/foreach.hpp:696:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::foreach_detail_::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.583523] (occupancy_grid_map) StderrLine: {'line': b'  696 | \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(auto_any_t col, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings\n'}
+[8.583633] (occupancy_grid_map) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.583746] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16\x1b[m\x1b[K,\n'}
+[8.583853] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl/at.hpp:12\x1b[m\x1b[K,\n'}
+[8.583955] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl.hpp:14\x1b[m\x1b[K,\n'}
+[8.584062] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/include/mpl.hpp:12\x1b[m\x1b[K,\n'}
+[8.584175] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44\x1b[m\x1b[K,\n'}
+[8.584286] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:955\x1b[m\x1b[K,\n'}
+[8.584396] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.584505] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.584635] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:62:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::fusion::result_of::begin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.584760] (occupancy_grid_map) StderrLine: {'line': b'   62 |         struct \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K;\n'}
+[8.584894] (occupancy_grid_map) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.585012] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:450:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.585146] (occupancy_grid_map) StderrLine: {'line': b'  450 | e_pointcloud_angle_bin : \x1b[01;31m\x1b[Kobstacle_pointcloud_angle_bins_\x1b[m\x1b[K)\n'}
+[8.585260] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.585390] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.585504] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:450:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.585618] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:54\x1b[m\x1b[K,\n'}
+[8.585730] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[8.585844] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[8.585957] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[8.586071] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:38\x1b[m\x1b[K,\n'}
+[8.586185] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[8.586301] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/complex:45\x1b[m\x1b[K,\n'}
+[8.586415] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:50\x1b[m\x1b[K,\n'}
+[8.586529] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/StdVector:14\x1b[m\x1b[K,\n'}
+[8.586644] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:45\x1b[m\x1b[K,\n'}
+[8.586761] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.586879] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.586993] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:110:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.587123] (occupancy_grid_map) StderrLine: {'line': b'  110 | typename _Tp> const _Tp* \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const valarray<_Tp>&) noexcept;\n'}
+[8.587298] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.588226] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.589196] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:265\x1b[m\x1b[K,\n'}
+[8.589332] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/StdVector:14\x1b[m\x1b[K,\n'}
+[8.589453] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:45\x1b[m\x1b[K,\n'}
+[8.589572] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.589714] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.589834] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:181:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KEigen::placeholders::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.589958] (occupancy_grid_map) StderrLine: {'line': b'  181 | ATED static const end_t  \x1b[01;36m\x1b[Kend\x1b[m\x1b[K  = Eigen::lastp1; // PLEASE use Eigen::lastp1 instead of Eigen::placeholders::end\n'}
+[8.590074] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.590189] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.590306] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21\x1b[m\x1b[K,\n'}
+[8.590419] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector0.hpp:31\x1b[m\x1b[K,\n'}
+[8.590522] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector10.hpp:18\x1b[m\x1b[K,\n'}
+[8.590630] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector/vector20.hpp:18\x1b[m\x1b[K,\n'}
+[8.590738] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/vector.hpp:36\x1b[m\x1b[K,\n'}
+[8.590847] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43\x1b[m\x1b[K,\n'}
+[8.590955] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/type_traits.h:40\x1b[m\x1b[K,\n'}
+[8.591066] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:46\x1b[m\x1b[K,\n'}
+[8.591174] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3\x1b[m\x1b[K,\n'}
+[8.591283] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[8.591391] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:42\x1b[m\x1b[K,\n'}
+[8.591499] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.591630] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/mpl/begin_end_fwd.hpp:23:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::mpl::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.591743] (occupancy_grid_map) StderrLine: {'line': b'   23 | ate< typename Sequence > struct \x1b[01;36m\x1b[Kend\x1b[m\x1b[K;\n'}
+[8.591852] (occupancy_grid_map) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.591961] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.592071] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl/back.hpp:12\x1b[m\x1b[K,\n'}
+[8.592183] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl.hpp:15\x1b[m\x1b[K,\n'}
+[8.592291] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/include/mpl.hpp:12\x1b[m\x1b[K,\n'}
+[8.592397] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44\x1b[m\x1b[K,\n'}
+[8.592500] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:955\x1b[m\x1b[K,\n'}
+[8.592621] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.592740] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.592876] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:92:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::fusion::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.592999] (occupancy_grid_map) StderrLine: {'line': b'   92 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(Sequence const& seq)\n'}
+[8.593100] (occupancy_grid_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.593205] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/foreach.hpp:80\x1b[m\x1b[K,\n'}
+[8.593314] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:54\x1b[m\x1b[K,\n'}
+[8.593422] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44\x1b[m\x1b[K,\n'}
+[8.593531] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099\x1b[m\x1b[K,\n'}
+[8.593635] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.593736] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.593839] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/range/end.hpp:104:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::range_adl_barrier::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.593950] (occupancy_grid_map) StderrLine: {'line': b'  104 | _iterator<const T>::type \x1b[01;36m\x1b[Kend\x1b[m\x1b[K( const T& r )\n'}
+[8.594054] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.594157] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.594264] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/conversions.h:54\x1b[m\x1b[K,\n'}
+[8.594368] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44\x1b[m\x1b[K,\n'}
+[8.594476] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099\x1b[m\x1b[K,\n'}
+[8.594583] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.594682] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.594791] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/foreach.hpp:736:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::foreach_detail_::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.594896] (occupancy_grid_map) StderrLine: {'line': b'  736 | \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(auto_any_t, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings\n'}
+[8.595005] (occupancy_grid_map) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.595107] (occupancy_grid_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16\x1b[m\x1b[K,\n'}
+[8.595211] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl/at.hpp:12\x1b[m\x1b[K,\n'}
+[8.595310] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/mpl.hpp:14\x1b[m\x1b[K,\n'}
+[8.595431] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/fusion/include/mpl.hpp:12\x1b[m\x1b[K,\n'}
+[8.595540] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44\x1b[m\x1b[K,\n'}
+[8.595660] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/centroid.h:955\x1b[m\x1b[K,\n'}
+[8.595780] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/transforms.h:44\x1b[m\x1b[K,\n'}
+[8.595893] (occupancy_grid_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1\x1b[m\x1b[K:\n'}
+[8.596008] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:68:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::fusion::result_of::end\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.596124] (occupancy_grid_map) StderrLine: {'line': b'   68 |         struct \x1b[01;36m\x1b[Kend\x1b[m\x1b[K;\n'}
+[8.596240] (occupancy_grid_map) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.596372] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:455:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrid_msg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.596491] (occupancy_grid_map) StderrLine: {'line': b'  455 |     \x1b[01;31m\x1b[Kgrid_msg_\x1b[m\x1b[K.data = grid_points_;\n'}
+[8.596597] (occupancy_grid_map) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.596706] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:460:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kint[size_t {aka long unsigned int}]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[8.596819] (occupancy_grid_map) StderrLine: {'line': b'  460 | aw_pointcloud_angle_bins_\x1b[01;31m\x1b[K[\x1b[m\x1b[Kj].size() < 1)\n'}
+[8.596958] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.597070] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.597178] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:463:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kint[size_t {aka long unsigned int}]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[8.597292] (occupancy_grid_map) StderrLine: {'line': b'  463 | aw_pointcloud_angle_bins_\x1b[01;31m\x1b[K[\x1b[m\x1b[Kj].back();\n'}
+[8.597409] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.597528] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.597637] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:464:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcell_num_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.597780] (occupancy_grid_map) StderrLine: {'line': b'  464 | 0, source.wx, source.wy, \x1b[01;31m\x1b[Kcell_num_x_\x1b[m\x1b[K, CellState::FREE);\n'}
+[8.597903] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.598038] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.598157] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:464:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.598290] (occupancy_grid_map) StderrLine: {'line': b'  464 |  source.wy, cell_num_x_, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::FREE);\n'}
+[8.598414] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.598535] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.598654] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:468:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kobstacle_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.598784] (occupancy_grid_map) StderrLine: {'line': b'  468 | e_pointcloud_angle_bins_.\x1b[01;31m\x1b[Ksize\x1b[m\x1b[K(); ++bin_index)\n'}
+[8.598902] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.599020] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.599133] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:471:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kat\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kobstacle_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.599273] (occupancy_grid_map) StderrLine: {'line': b'  471 | e_pointcloud_angle_bins_.\x1b[01;31m\x1b[Kat\x1b[m\x1b[K(bin_index);\n'}
+[8.599390] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.599511] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.599624] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:472:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kat\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kraw_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.599743] (occupancy_grid_map) StderrLine: {'line': b'  472 | w_pointcloud_angle_bins_.\x1b[01;31m\x1b[Kat\x1b[m\x1b[K(bin_index);\n'}
+[8.599869] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.599987] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.604824] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:503:95:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcell_num_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.606350] (occupancy_grid_map) StderrLine: {'line': b'  503 | wx, source.projected_wy, \x1b[01;31m\x1b[Kcell_num_x_\x1b[m\x1b[K, CellState::UNKNOWN);\n'}
+[8.606493] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.606620] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.606738] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:503:108:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.606865] (occupancy_grid_map) StderrLine: {'line': b'  503 | ojected_wy, cell_num_x_, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::UNKNOWN);\n'}
+[8.606998] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.607161] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.617761] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:513:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcell_num_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.619367] (occupancy_grid_map) StderrLine: {'line': b'  513 | wx, source.projected_wy, \x1b[01;31m\x1b[Kcell_num_x_\x1b[m\x1b[K, CellState::UNKNOWN);\n'}
+[8.619523] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.619654] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.619782] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:513:110:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.619914] (occupancy_grid_map) StderrLine: {'line': b'  513 | ojected_wy, cell_num_x_, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::UNKNOWN);\n'}
+[8.620042] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.620169] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.639937] (-) TimerEvent: {}
+[8.655450] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:524:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kobstacle_separation_threshold_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.656991] (occupancy_grid_map) StderrLine: {'line': b'  524 | stacle_point_distance <= \x1b[01;31m\x1b[Kobstacle_separation_threshold_\x1b[m\x1b[K)\n'}
+[8.657154] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.657285] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.668116] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:533:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcell_num_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.669741] (occupancy_grid_map) StderrLine: {'line': b'  533 | y, target.wx, target.wy, \x1b[01;31m\x1b[Kcell_num_x_\x1b[m\x1b[K, CellState::UNKNOWN);\n'}
+[8.669896] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.670027] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.670155] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:533:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.670279] (occupancy_grid_map) StderrLine: {'line': b'  533 |  target.wy, cell_num_x_, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::UNKNOWN);\n'}
+[8.670427] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.670550] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.681027] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:543:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcell_num_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.682634] (occupancy_grid_map) StderrLine: {'line': b'  543 | y, target.wx, target.wy, \x1b[01;31m\x1b[Kcell_num_x_\x1b[m\x1b[K, CellState::UNKNOWN);\n'}
+[8.682799] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.682932] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.683077] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:543:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.683212] (occupancy_grid_map) StderrLine: {'line': b'  543 |  target.wy, cell_num_x_, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::UNKNOWN);\n'}
+[8.683340] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.683472] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.693744] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:551:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcell_num_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.694414] (occupancy_grid_map) StderrLine: {'line': b'  551 | y, target.wx, target.wy, \x1b[01;31m\x1b[Kcell_num_x_\x1b[m\x1b[K, CellState::UNKNOWN);\n'}
+[8.695065] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.695301] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.695507] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:551:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.695703] (occupancy_grid_map) StderrLine: {'line': b'  551 |  target.wy, cell_num_x_, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::UNKNOWN);\n'}
+[8.695872] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.696065] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.696243] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:558:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kobstacle_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.696421] (occupancy_grid_map) StderrLine: {'line': b'  558 | e_pointcloud_angle_bins_.\x1b[01;31m\x1b[Ksize\x1b[m\x1b[K(); ++bin_index)\n'}
+[8.696591] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.696798] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.697006] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:561:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kat\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kobstacle_pointcloud_angle_bins_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.697222] (occupancy_grid_map) StderrLine: {'line': b'  561 | e_pointcloud_angle_bins_.\x1b[01;31m\x1b[Kat\x1b[m\x1b[K(bin_index);\n'}
+[8.697451] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.697616] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.730977] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:579:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kobstacle_separation_threshold_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.731372] (occupancy_grid_map) StderrLine: {'line': b'  579 | bstacle_point_distance < \x1b[01;31m\x1b[Kobstacle_separation_threshold_\x1b[m\x1b[K)\n'}
+[8.731598] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.731866] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.740161] (-) TimerEvent: {}
+[8.743199] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:583:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcell_num_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.743996] (occupancy_grid_map) StderrLine: {'line': b'  583 | y, target.wx, target.wy, \x1b[01;31m\x1b[Kcell_num_x_\x1b[m\x1b[K, CellState::OCCUPIED);\n'}
+[8.744292] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.744501] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.744695] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:583:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCellState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.744936] (occupancy_grid_map) StderrLine: {'line': b'  583 |  target.wy, cell_num_x_, \x1b[01;31m\x1b[KCellState\x1b[m\x1b[K::OCCUPIED);\n'}
+[8.745139] (occupancy_grid_map) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.745325] (occupancy_grid_map) StderrLine: {'line': b'\n'}
+[8.751236] (occupancy_grid_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:592:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrid_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.751567] (occupancy_grid_map) StderrLine: {'line': b'  592 |     \x1b[01;31m\x1b[Kgrid_pub\x1b[m\x1b[K->publish(grid_msg_);\n'}
+[8.751762] (occupancy_grid_map) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.840317] (-) TimerEvent: {}
+[8.940781] (-) TimerEvent: {}
+[9.041299] (-) TimerEvent: {}
+[9.141730] (-) TimerEvent: {}
+[9.242159] (-) TimerEvent: {}
+[9.342649] (-) TimerEvent: {}
+[9.443099] (-) TimerEvent: {}
+[9.543607] (-) TimerEvent: {}
+[9.644083] (-) TimerEvent: {}
+[9.744556] (-) TimerEvent: {}
+[9.845041] (-) TimerEvent: {}
+[9.945507] (-) TimerEvent: {}
+[10.045961] (-) TimerEvent: {}
+[10.146862] (-) TimerEvent: {}
+[10.247361] (-) TimerEvent: {}
+[10.347875] (-) TimerEvent: {}
+[10.448392] (-) TimerEvent: {}
+[10.548929] (-) TimerEvent: {}
+[10.649436] (-) TimerEvent: {}
+[10.749935] (-) TimerEvent: {}
+[10.850433] (-) TimerEvent: {}
+[10.950945] (-) TimerEvent: {}
+[11.051466] (-) TimerEvent: {}
+[11.151985] (-) TimerEvent: {}
+[11.252497] (-) TimerEvent: {}
+[11.353016] (-) TimerEvent: {}
+[11.453526] (-) TimerEvent: {}
+[11.554045] (-) TimerEvent: {}
+[11.654565] (-) TimerEvent: {}
+[11.755088] (-) TimerEvent: {}
+[11.855608] (-) TimerEvent: {}
+[11.956111] (-) TimerEvent: {}
+[12.056619] (-) TimerEvent: {}
+[12.157141] (-) TimerEvent: {}
+[12.257652] (-) TimerEvent: {}
+[12.358138] (-) TimerEvent: {}
+[12.458584] (-) TimerEvent: {}
+[12.559063] (-) TimerEvent: {}
+[12.659547] (-) TimerEvent: {}
+[12.760004] (-) TimerEvent: {}
+[12.860543] (-) TimerEvent: {}
+[12.961116] (-) TimerEvent: {}
+[13.061630] (-) TimerEvent: {}
+[13.162133] (-) TimerEvent: {}
+[13.262643] (-) TimerEvent: {}
+[13.363150] (-) TimerEvent: {}
+[13.463626] (-) TimerEvent: {}
+[13.564060] (-) TimerEvent: {}
+[13.664525] (-) TimerEvent: {}
+[13.701537] (occupancy_grid_map) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/occupancy_grid_map_exe.dir/build.make:76: CMakeFiles/occupancy_grid_map_exe.dir/src/occupancygrid.cpp.o] Error 1\n'}
+[13.702056] (occupancy_grid_map) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_grid_map_exe.dir/all] Error 2\n'}
+[13.702433] (occupancy_grid_map) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.706326] (occupancy_grid_map) CommandEnded: {'returncode': 2}
+[13.764665] (-) TimerEvent: {}
+[13.778979] (occupancy_grid_map) JobEnded: {'identifier': 'occupancy_grid_map', 'rc': 2}
+[13.799399] (-) EventReactorShutdown: {}

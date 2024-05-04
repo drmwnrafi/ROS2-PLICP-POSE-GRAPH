@@ -1,0 +1,45 @@
+[4.460s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps install_data
+[5.460s] running develop
+[5.461s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.461s] !!
+[5.461s] 
+[5.461s]         ********************************************************************************
+[5.461s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.461s]         Instead, use pypa/build, pypa/installer or other
+[5.462s]         standards-based tools.
+[5.462s] 
+[5.462s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.462s]         ********************************************************************************
+[5.462s] 
+[5.462s] !!
+[5.463s]   easy_install.initialize_options(self)
+[5.575s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.576s] !!
+[5.576s] 
+[5.576s]         ********************************************************************************
+[5.576s]         Please avoid running ``setup.py`` directly.
+[5.576s]         Instead, use pypa/build, pypa/installer or other
+[5.577s]         standards-based tools.
+[5.577s] 
+[5.577s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.577s]         ********************************************************************************
+[5.577s] 
+[5.578s] !!
+[5.578s]   self.initialize_options()
+[6.179s] running egg_info
+[6.239s] writing motor.egg-info/PKG-INFO
+[6.240s] writing dependency_links to motor.egg-info/dependency_links.txt
+[6.240s] writing entry points to motor.egg-info/entry_points.txt
+[6.241s] writing requirements to motor.egg-info/requires.txt
+[6.241s] writing top-level names to motor.egg-info/top_level.txt
+[6.340s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[6.342s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[6.393s] running build_ext
+[6.393s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+[6.395s] Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+[6.401s] 
+[6.402s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+[6.403s] running install_data
+[6.404s] copying resource/motor -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/ament_index/resource_index/packages
+[6.405s] copying package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/motor
+[6.601s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps install_data

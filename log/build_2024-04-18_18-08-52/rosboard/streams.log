@@ -1,0 +1,44 @@
+[5.290s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build --no-deps install_data
+[6.372s] running develop
+[6.373s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[6.373s] !!
+[6.373s] 
+[6.374s]         ********************************************************************************
+[6.374s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.374s]         Instead, use pypa/build, pypa/installer or other
+[6.374s]         standards-based tools.
+[6.374s] 
+[6.375s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.375s]         ********************************************************************************
+[6.375s] 
+[6.375s] !!
+[6.376s]   easy_install.initialize_options(self)
+[6.570s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.571s] !!
+[6.571s] 
+[6.571s]         ********************************************************************************
+[6.571s]         Please avoid running ``setup.py`` directly.
+[6.572s]         Instead, use pypa/build, pypa/installer or other
+[6.572s]         standards-based tools.
+[6.572s] 
+[6.572s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.572s]         ********************************************************************************
+[6.572s] 
+[6.573s] !!
+[6.573s]   self.initialize_options()
+[7.382s] running egg_info
+[7.513s] writing rosboard.egg-info/PKG-INFO
+[7.514s] writing dependency_links to rosboard.egg-info/dependency_links.txt
+[7.517s] writing entry points to rosboard.egg-info/entry_points.txt
+[7.519s] writing requirements to rosboard.egg-info/requires.txt
+[7.520s] writing top-level names to rosboard.egg-info/top_level.txt
+[8.233s] reading manifest file 'rosboard.egg-info/SOURCES.txt'
+[8.236s] writing manifest file 'rosboard.egg-info/SOURCES.txt'
+[8.451s] running build_ext
+[8.451s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard.egg-link (link to .)
+[8.451s] Installing rosboard_node script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/rosboard
+[8.451s] 
+[8.451s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard
+[8.451s] running install_data
+[8.451s] copying package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/share/rosboard
+[9.549s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build --no-deps install_data

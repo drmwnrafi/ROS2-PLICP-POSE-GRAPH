@@ -1,0 +1,44 @@
+running develop
+/home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/ziczac/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+writing rosboard.egg-info/PKG-INFO
+writing dependency_links to rosboard.egg-info/dependency_links.txt
+writing entry points to rosboard.egg-info/entry_points.txt
+writing requirements to rosboard.egg-info/requires.txt
+writing top-level names to rosboard.egg-info/top_level.txt
+[2;36m[04/04/24 13:35:58][0m[2;36m [0m[1;31mERROR   [0m listing git files failed - pretending there aren't    ]8;id=209820;file:///home/ziczac/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=789450;file:///home/ziczac/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#24\[2m24[0m]8;;\
+[2;36m                    [0m         any                                                   [2m         [0m
+reading manifest file 'rosboard.egg-info/SOURCES.txt'
+writing manifest file 'rosboard.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard.egg-link (link to .)
+Installing rosboard_node script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/rosboard
+
+Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard
+running install_data
+copying package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/share/rosboard

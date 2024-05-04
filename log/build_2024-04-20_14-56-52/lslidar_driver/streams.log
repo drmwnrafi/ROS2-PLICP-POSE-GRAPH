@@ -1,0 +1,30 @@
+[0.887s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver -- -j8 -l8
+[2.730s] [100%] Built target lslidar_driver_node
+[2.777s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver -- -j8 -l8
+[2.868s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver
+[2.889s] -- Install configuration: ""
+[2.891s] -- Execute custom install script
+[2.893s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[2.894s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/launch/lslidar_launch.py
+[2.896s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/params/lsx10.yaml
+[2.896s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/params/lsx10_1.yaml
+[2.897s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/params/lsx10_2.yaml
+[2.898s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[2.900s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[2.901s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[2.902s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[2.903s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[2.917s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[2.917s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[2.917s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[2.917s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[2.918s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[2.918s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[2.918s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[2.918s] -- Symlinking: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/package.dsv
+[2.936s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[2.937s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.937s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.940s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[2.940s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[2.940s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/package.xml

@@ -1,0 +1,14 @@
+*** Launch slam_toolbox ***
+ros2 launch slam_toolbox online_async_launch.py params_file:=src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=false
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link base_footprint
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_footprint laser_link
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_footprint map
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom
+
+*** Launch Gazebo ***
+ros2 launch my_bot launch_sim.launch.py world:=src/my_bot/worlds/4x6.world
+ros2 launch my_bot launch_sim.launch.py world:=src/my_bot/worlds/ruangan.world
+
+*** Reset ***
+unset CMAKE_PREFIX_PATH
+unset AMENT_PREFIX_PATH

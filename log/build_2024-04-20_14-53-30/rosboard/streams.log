@@ -1,0 +1,31 @@
+[3.055s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build --no-deps symlink_data
+[4.014s] running develop
+[4.015s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.015s] !!
+[4.015s] 
+[4.015s]         ********************************************************************************
+[4.015s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.016s]         Instead, use pypa/build, pypa/installer or other
+[4.016s]         standards-based tools.
+[4.016s] 
+[4.016s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.016s]         ********************************************************************************
+[4.016s] 
+[4.016s] !!
+[4.017s]   easy_install.initialize_options(self)
+[4.800s] running egg_info
+[4.838s] writing rosboard.egg-info/PKG-INFO
+[4.839s] writing dependency_links to rosboard.egg-info/dependency_links.txt
+[4.839s] writing entry points to rosboard.egg-info/entry_points.txt
+[4.840s] writing requirements to rosboard.egg-info/requires.txt
+[4.840s] writing top-level names to rosboard.egg-info/top_level.txt
+[4.936s] reading manifest file 'rosboard.egg-info/SOURCES.txt'
+[4.940s] writing manifest file 'rosboard.egg-info/SOURCES.txt'
+[4.989s] running build_ext
+[4.990s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard.egg-link (link to .)
+[4.991s] Installing rosboard_node script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/rosboard
+[4.991s] 
+[4.992s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard
+[4.992s] running symlink_data
+[4.992s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/share/rosboard
+[4.992s] error: [Errno 17] File exists: '/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/package.xml' -> '/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/share/rosboard/package.xml'

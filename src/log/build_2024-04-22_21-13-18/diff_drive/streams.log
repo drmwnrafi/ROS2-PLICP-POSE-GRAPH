@@ -1,0 +1,24 @@
+[15.429s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/build --no-deps symlink_data
+[18.699s] running develop
+[22.099s] running egg_info
+[22.100s] creating diff_drive.egg-info
+[22.101s] writing diff_drive.egg-info/PKG-INFO
+[22.102s] writing dependency_links to diff_drive.egg-info/dependency_links.txt
+[22.103s] writing entry points to diff_drive.egg-info/entry_points.txt
+[22.103s] writing requirements to diff_drive.egg-info/requires.txt
+[22.104s] writing top-level names to diff_drive.egg-info/top_level.txt
+[22.105s] writing manifest file 'diff_drive.egg-info/SOURCES.txt'
+[22.122s] reading manifest file 'diff_drive.egg-info/SOURCES.txt'
+[22.127s] writing manifest file 'diff_drive.egg-info/SOURCES.txt'
+[22.146s] running build_ext
+[22.147s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/lib/python3.10/site-packages/diff-drive.egg-link (link to .)
+[22.152s] Installing diff_drive_model script to /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/lib/diff_drive
+[22.153s] 
+[22.154s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive
+[22.154s] running symlink_data
+[22.155s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/ament_index
+[22.155s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/ament_index/resource_index
+[22.155s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/ament_index/resource_index/packages
+[22.158s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/resource/diff_drive -> /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/ament_index/resource_index/packages
+[22.158s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive
+[22.716s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/build --no-deps symlink_data

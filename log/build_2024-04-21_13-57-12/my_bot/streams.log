@@ -1,0 +1,35 @@
+[2.619s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot': /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot -- -j8 -l8
+[3.739s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot' returned '0': /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot -- -j8 -l8
+[4.010s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot': /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot
+[4.052s] -- Install configuration: ""
+[4.055s] -- Execute custom install script
+[4.058s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/config/empty.yaml
+[4.059s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[4.060s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/config/rviz2_learn.rviz
+[4.063s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[4.068s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[4.070s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/description/lidar.xacro
+[4.071s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[4.073s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/description/robot_core.xacro
+[4.075s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[4.080s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/launch/rsp.launch.py
+[4.087s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/worlds/4x6+pwst.world
+[4.089s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/worlds/4x6.world
+[4.090s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/worlds/empty.world
+[4.091s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/worlds/ruangan.world
+[4.093s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[4.103s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[4.104s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[4.107s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[4.108s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/environment/path.sh
+[4.113s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/environment/path.dsv
+[4.113s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/local_setup.bash
+[4.118s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/local_setup.sh
+[4.118s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/local_setup.zsh
+[4.119s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/local_setup.dsv
+[4.119s] -- Symlinking: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/package.dsv
+[4.187s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[4.193s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[4.194s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[4.200s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot/share/my_bot/package.xml
+[4.223s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot' returned '0': /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot

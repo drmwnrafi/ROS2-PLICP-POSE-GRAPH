@@ -1,0 +1,17 @@
+[7.370s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build --no-deps install_data
+[7.913s] running develop
+[8.310s] running egg_info
+[8.311s] writing rosboard.egg-info/PKG-INFO
+[8.311s] writing dependency_links to rosboard.egg-info/dependency_links.txt
+[8.311s] writing entry points to rosboard.egg-info/entry_points.txt
+[8.312s] writing requirements to rosboard.egg-info/requires.txt
+[8.313s] writing top-level names to rosboard.egg-info/top_level.txt
+[8.324s] reading manifest file 'rosboard.egg-info/SOURCES.txt'
+[8.364s] writing manifest file 'rosboard.egg-info/SOURCES.txt'
+[8.368s] running build_ext
+[8.374s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard.egg-link (link to .)
+[8.375s] Installing rosboard_node script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/rosboard
+[8.376s] 
+[8.377s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard
+[8.378s] running install_data
+[8.453s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build --no-deps install_data

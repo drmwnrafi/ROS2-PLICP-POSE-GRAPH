@@ -1,0 +1,31 @@
+[4.176s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/log_odds_map': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/log_odds_map/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/log_odds_map/build --no-deps symlink_data
+[5.333s] running develop
+[5.333s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.333s] !!
+[5.334s] 
+[5.334s]         ********************************************************************************
+[5.334s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.334s]         Instead, use pypa/build, pypa/installer or other
+[5.334s]         standards-based tools.
+[5.335s] 
+[5.335s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.335s]         ********************************************************************************
+[5.335s] 
+[5.335s] !!
+[5.335s]   easy_install.initialize_options(self)
+[6.346s] running egg_info
+[6.428s] writing log_odds_map.egg-info/PKG-INFO
+[6.429s] writing dependency_links to log_odds_map.egg-info/dependency_links.txt
+[6.430s] writing entry points to log_odds_map.egg-info/entry_points.txt
+[6.430s] writing requirements to log_odds_map.egg-info/requires.txt
+[6.431s] writing top-level names to log_odds_map.egg-info/top_level.txt
+[6.629s] reading manifest file 'log_odds_map.egg-info/SOURCES.txt'
+[6.631s] writing manifest file 'log_odds_map.egg-info/SOURCES.txt'
+[6.699s] running build_ext
+[6.700s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map/lib/python3.10/site-packages/log-odds-map.egg-link (link to .)
+[6.701s] Installing occ_map script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map/lib/log_odds_map
+[6.702s] 
+[6.702s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/log_odds_map
+[6.702s] running symlink_data
+[6.702s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/build/log_odds_map/resource/log_odds_map -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map/share/ament_index/resource_index/packages
+[6.703s] error: [Errno 17] File exists: '/home/ziczac/dev/skripsi_code/ros2_workspace/build/log_odds_map/resource/log_odds_map' -> '/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map/share/ament_index/resource_index/packages/log_odds_map'

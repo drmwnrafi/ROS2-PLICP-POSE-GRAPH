@@ -1,0 +1,1 @@
+/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot/ament_cmake_core/my_botConfig.cmake

@@ -1,0 +1,39 @@
+[6.378s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps install_data
+[7.165s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+[7.166s] ERROR: setuptools==58.2.0 is used in combination with setuptools_scm>=8.x
+[7.166s] 
+[7.166s] Your build configuration is incomplete and previously worked by accident!
+[7.166s] setuptools_scm requires setuptools>=61
+[7.166s] 
+[7.167s] Suggested workaround if applicable:
+[7.167s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[7.167s]    and using a pyproject.toml to declare build dependencies
+[7.167s]    which are reliably pre-installed before running the build tools
+[7.168s] 
+[7.168s]   warnings.warn(
+[7.291s] running develop
+[7.824s] running egg_info
+[7.825s] writing gui.egg-info/PKG-INFO
+[7.825s] writing dependency_links to gui.egg-info/dependency_links.txt
+[7.825s] writing entry points to gui.egg-info/entry_points.txt
+[7.826s] writing requirements to gui.egg-info/requires.txt
+[7.826s] writing top-level names to gui.egg-info/top_level.txt
+[8.016s] [2;36m[04/04/24 13:34:18][0m[2;36m [0m[1;31mERROR   [0m listin ]8;id=877427;file:///home/ziczac/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=745636;file:///home/ziczac/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#24\[2m24[0m]8;;\
+[8.017s] [2;36m                    [0m         g git  [2m         [0m
+[8.017s] [2;36m                    [0m         files  [2m         [0m
+[8.017s] [2;36m                    [0m         failed [2m         [0m
+[8.017s] [2;36m                    [0m         -      [2m         [0m
+[8.017s] [2;36m                    [0m         preten [2m         [0m
+[8.018s] [2;36m                    [0m         ding   [2m         [0m
+[8.018s] [2;36m                    [0m         there  [2m         [0m
+[8.018s] [2;36m                    [0m         aren't [2m         [0m
+[8.018s] [2;36m                    [0m         any    [2m         [0m
+[8.020s] reading manifest file 'gui.egg-info/SOURCES.txt'
+[8.051s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[8.054s] running build_ext
+[8.055s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)
+[8.056s] Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/gui
+[8.057s] 
+[8.061s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui
+[8.062s] running install_data
+[8.503s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps install_data

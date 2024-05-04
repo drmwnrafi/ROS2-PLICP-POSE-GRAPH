@@ -1,0 +1,17 @@
+[4.010s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps symlink_data
+[4.881s] running develop
+[5.465s] running egg_info
+[5.465s] writing gui.egg-info/PKG-INFO
+[5.466s] writing dependency_links to gui.egg-info/dependency_links.txt
+[5.466s] writing entry points to gui.egg-info/entry_points.txt
+[5.467s] writing requirements to gui.egg-info/requires.txt
+[5.467s] writing top-level names to gui.egg-info/top_level.txt
+[5.472s] reading manifest file 'gui.egg-info/SOURCES.txt'
+[5.473s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[5.477s] running build_ext
+[5.477s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)
+[5.479s] Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/gui
+[5.480s] 
+[5.480s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui
+[5.480s] running symlink_data
+[5.620s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps symlink_data

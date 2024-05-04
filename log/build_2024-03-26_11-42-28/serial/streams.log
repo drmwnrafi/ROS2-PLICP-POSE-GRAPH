@@ -1,0 +1,37 @@
+[2.774s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial
+[2.823s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.107s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.832s] -- Configuring done
+[4.675s] -- Generating done
+[4.677s] -- Build files have been written to: /home/ziczac/dev/skripsi_code/ros2_workspace/build/serial
+[4.683s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial
+[4.688s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/serial -- -j8 -l8
+[5.038s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[5.083s] [100%] Built target serial
+[5.114s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/serial -- -j8 -l8
+[6.025s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/serial
+[6.045s] -- Install configuration: ""
+[6.046s] -- Execute custom install script
+[6.154s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/environment/library_path.sh
+[6.155s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/environment/library_path.dsv
+[6.156s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/lib/libserial.a
+[6.206s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/include/serial/serial.h
+[6.206s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/include/serial/v8stdint.h
+[6.207s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[6.208s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[6.208s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/environment/ament_prefix_path.sh
+[6.209s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/environment/ament_prefix_path.dsv
+[6.287s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/environment/path.sh
+[6.289s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/environment/path.dsv
+[6.336s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/local_setup.bash
+[6.341s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/local_setup.sh
+[6.342s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/local_setup.zsh
+[6.863s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/local_setup.dsv
+[6.864s] -- Symlinking: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/package.dsv
+[6.957s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/ament_index/resource_index/packages/serial
+[6.958s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.958s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[6.959s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/cmake/serialConfig.cmake
+[7.012s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/cmake/serialConfig-version.cmake
+[7.013s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/share/serial/package.xml
+[7.019s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/serial

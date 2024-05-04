@@ -1,0 +1,1 @@
+Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/install/occupancy_grid

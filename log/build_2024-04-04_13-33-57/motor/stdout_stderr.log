@@ -1,0 +1,37 @@
+/home/ziczac/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:30: RuntimeWarning: 
+ERROR: setuptools==58.2.0 is used in combination with setuptools_scm>=8.x
+
+Your build configuration is incomplete and previously worked by accident!
+setuptools_scm requires setuptools>=61
+
+Suggested workaround if applicable:
+ - migrating from the deprecated setup_requires mechanism to pep517/518
+   and using a pyproject.toml to declare build dependencies
+   which are reliably pre-installed before running the build tools
+
+  warnings.warn(
+running develop
+running egg_info
+writing motor.egg-info/PKG-INFO
+writing dependency_links to motor.egg-info/dependency_links.txt
+writing entry points to motor.egg-info/entry_points.txt
+writing requirements to motor.egg-info/requires.txt
+writing top-level names to motor.egg-info/top_level.txt
+[2;36m[04/04/24 13:34:18][0m[2;36m [0m[1;31mERROR   [0m listin ]8;id=98119;file:///home/ziczac/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py\[2mgit.py[0m]8;;\[2m:[0m]8;id=791323;file:///home/ziczac/.local/lib/python3.10/site-packages/setuptools_scm/_file_finders/git.py#24\[2m24[0m]8;;\
+[2;36m                    [0m         g git  [2m         [0m
+[2;36m                    [0m         files  [2m         [0m
+[2;36m                    [0m         failed [2m         [0m
+[2;36m                    [0m         -      [2m         [0m
+[2;36m                    [0m         preten [2m         [0m
+[2;36m                    [0m         ding   [2m         [0m
+[2;36m                    [0m         there  [2m         [0m
+[2;36m                    [0m         aren't [2m         [0m
+[2;36m                    [0m         any    [2m         [0m
+reading manifest file 'motor.egg-info/SOURCES.txt'
+writing manifest file 'motor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+
+Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+running install_data

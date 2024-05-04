@@ -1,0 +1,20 @@
+[15.034s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/build --no-deps symlink_data
+[17.504s] running develop
+[20.974s] running egg_info
+[20.975s] creating rosboard.egg-info
+[20.977s] writing rosboard.egg-info/PKG-INFO
+[20.982s] writing dependency_links to rosboard.egg-info/dependency_links.txt
+[20.996s] writing entry points to rosboard.egg-info/entry_points.txt
+[20.997s] writing requirements to rosboard.egg-info/requires.txt
+[20.998s] writing top-level names to rosboard.egg-info/top_level.txt
+[21.004s] writing manifest file 'rosboard.egg-info/SOURCES.txt'
+[21.080s] reading manifest file 'rosboard.egg-info/SOURCES.txt'
+[21.098s] writing manifest file 'rosboard.egg-info/SOURCES.txt'
+[21.129s] running build_ext
+[21.130s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/lib/python3.10/site-packages/rosboard.egg-link (link to .)
+[21.149s] Installing rosboard_node script to /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/lib/rosboard
+[21.151s] 
+[21.152s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard
+[21.152s] running symlink_data
+[21.154s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard
+[22.334s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/build --no-deps symlink_data

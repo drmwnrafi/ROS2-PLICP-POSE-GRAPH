@@ -1,0 +1,24 @@
+[17.347s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps install_data
+[17.983s] running develop
+[18.446s] running egg_info
+[18.447s] creating gui.egg-info
+[18.447s] writing gui.egg-info/PKG-INFO
+[18.447s] writing dependency_links to gui.egg-info/dependency_links.txt
+[18.447s] writing entry points to gui.egg-info/entry_points.txt
+[18.448s] writing requirements to gui.egg-info/requires.txt
+[18.448s] writing top-level names to gui.egg-info/top_level.txt
+[18.448s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[18.451s] reading manifest file 'gui.egg-info/SOURCES.txt'
+[18.452s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[18.455s] running build_ext
+[18.455s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)
+[18.457s] Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/gui
+[18.457s] 
+[18.457s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui
+[18.458s] running install_data
+[18.458s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/share/ament_index
+[18.458s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/share/ament_index/resource_index
+[18.458s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/share/ament_index/resource_index/packages
+[18.459s] copying resource/gui -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/share/ament_index/resource_index/packages
+[18.459s] copying package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/share/gui
+[18.544s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps install_data

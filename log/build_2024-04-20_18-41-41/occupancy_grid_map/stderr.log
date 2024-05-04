@@ -1,0 +1,7 @@
+[01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K In member function ‘[01m[Kbool PerceptionNS::GroundSegmentor::worldToMap(double, double, unsigned int&, unsigned int&) const[m[K’:
+[01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:230:12:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  230 |     if ([01;35m[Kmx < cell_num_x_[m[K && my < cell_num_y_)
+      |         [01;35m[K~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:230:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  230 |     if (mx < cell_num_x_ && [01;35m[Kmy < cell_num_y_[m[K)
+      |                             [01;35m[K~~~^~~~~~~~~~~~~[m[K

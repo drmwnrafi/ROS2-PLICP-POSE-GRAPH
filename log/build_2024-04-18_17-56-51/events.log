@@ -1,0 +1,272 @@
+[0.000000] (-) TimerEvent: {}
+[0.000373] (diff_drive) JobQueued: {'identifier': 'diff_drive', 'dependencies': OrderedDict()}
+[0.000489] (log_odds_map) JobQueued: {'identifier': 'log_odds_map', 'dependencies': OrderedDict()}
+[0.000664] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.000874] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.001029] (rosboard) JobQueued: {'identifier': 'rosboard', 'dependencies': OrderedDict()}
+[0.001177] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001238] (wheel_interfaces) JobQueued: {'identifier': 'wheel_interfaces', 'dependencies': OrderedDict()}
+[0.001294] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict([('wheel_interfaces', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces')])}
+[0.001409] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs')])}
+[0.001489] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict([('wheel_interfaces', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces')])}
+[0.001600] (wheel_interfaces) JobStarted: {'identifier': 'wheel_interfaces'}
+[0.098906] (-) TimerEvent: {}
+[0.199315] (-) TimerEvent: {}
+[0.299738] (-) TimerEvent: {}
+[0.339027] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.399908] (-) TimerEvent: {}
+[0.500762] (-) TimerEvent: {}
+[0.516724] (diff_drive) JobStarted: {'identifier': 'diff_drive'}
+[0.601124] (-) TimerEvent: {}
+[0.705596] (-) TimerEvent: {}
+[0.788594] (log_odds_map) JobStarted: {'identifier': 'log_odds_map'}
+[0.805820] (-) TimerEvent: {}
+[0.906469] (-) TimerEvent: {}
+[0.979220] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[1.006574] (-) TimerEvent: {}
+[1.109624] (-) TimerEvent: {}
+[1.127044] (rosboard) JobStarted: {'identifier': 'rosboard'}
+[1.209727] (-) TimerEvent: {}
+[1.310479] (-) TimerEvent: {}
+[1.324586] (serial) JobStarted: {'identifier': 'serial'}
+[1.411072] (-) TimerEvent: {}
+[1.482394] (wheel_interfaces) JobProgress: {'identifier': 'wheel_interfaces', 'progress': 'cmake'}
+[1.511204] (-) TimerEvent: {}
+[1.562275] (wheel_interfaces) JobProgress: {'identifier': 'wheel_interfaces', 'progress': 'build'}
+[1.563782] (wheel_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheel_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheel_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziczac'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziczac'), ('OLDPWD', '/home/ziczac/dev/skripsi_code/ros2_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziczac/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ziczac/.nvm/versions/node/v20.11.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2244'), ('SYSTEMD_EXEC_PID', '2814'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25674'), ('NVM_DIR', '/home/ziczac/.nvm'), ('COLCON_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ziczac'), ('JOURNAL_STREAM', '8:40551'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziczac'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ziczac/.nvm/versions/node/v20.11.1/bin:/opt/ros/humble/bin:/home/ziczac/.cargo/bin:/home/ziczac/.cargo/bin:/home/ziczac/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zz:@/tmp/.ICE-unix/2611,unix/zz:/tmp/.ICE-unix/2611'), ('INVOCATION_ID', '5451e476bdf943ae8575e5a7e79e880c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:2947a8c0-104f-4ce0-94e0-b16ce69d3826'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheel_interfaces'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ziczac/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble')]), 'shell': False}
+[1.569722] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[1.573417] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[1.573904] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_msgs', '--', '-j8', '-l8'], 'cwd': '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziczac'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziczac'), ('OLDPWD', '/home/ziczac/dev/skripsi_code/ros2_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziczac/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ziczac/.nvm/versions/node/v20.11.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2244'), ('SYSTEMD_EXEC_PID', '2814'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25674'), ('NVM_DIR', '/home/ziczac/.nvm'), ('COLCON_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ziczac'), ('JOURNAL_STREAM', '8:40551'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziczac'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ziczac/.nvm/versions/node/v20.11.1/bin:/opt/ros/humble/bin:/home/ziczac/.cargo/bin:/home/ziczac/.cargo/bin:/home/ziczac/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zz:@/tmp/.ICE-unix/2611,unix/zz:/tmp/.ICE-unix/2611'), ('INVOCATION_ID', '5451e476bdf943ae8575e5a7e79e880c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:2947a8c0-104f-4ce0-94e0-b16ce69d3826'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_msgs'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ziczac/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble')]), 'shell': False}
+[1.611319] (-) TimerEvent: {}
+[1.711727] (-) TimerEvent: {}
+[1.812195] (-) TimerEvent: {}
+[1.912605] (-) TimerEvent: {}
+[2.013102] (-) TimerEvent: {}
+[2.113657] (-) TimerEvent: {}
+[2.214252] (-) TimerEvent: {}
+[2.314977] (-) TimerEvent: {}
+[2.415473] (-) TimerEvent: {}
+[2.515944] (-) TimerEvent: {}
+[2.616554] (-) TimerEvent: {}
+[2.717444] (-) TimerEvent: {}
+[2.817935] (-) TimerEvent: {}
+[2.918367] (-) TimerEvent: {}
+[3.018958] (-) TimerEvent: {}
+[3.119503] (-) TimerEvent: {}
+[3.220059] (-) TimerEvent: {}
+[3.320582] (-) TimerEvent: {}
+[3.421167] (-) TimerEvent: {}
+[3.521764] (-) TimerEvent: {}
+[3.622325] (-) TimerEvent: {}
+[3.722783] (-) TimerEvent: {}
+[3.823519] (-) TimerEvent: {}
+[3.924151] (-) TimerEvent: {}
+[4.024574] (-) TimerEvent: {}
+[4.125131] (-) TimerEvent: {}
+[4.225773] (-) TimerEvent: {}
+[4.326384] (-) TimerEvent: {}
+[4.426959] (-) TimerEvent: {}
+[4.527757] (-) TimerEvent: {}
+[4.628689] (-) TimerEvent: {}
+[4.729304] (-) TimerEvent: {}
+[4.829919] (-) TimerEvent: {}
+[4.930518] (-) TimerEvent: {}
+[5.031051] (-) TimerEvent: {}
+[5.131557] (-) TimerEvent: {}
+[5.232083] (-) TimerEvent: {}
+[5.332598] (-) TimerEvent: {}
+[5.433184] (-) TimerEvent: {}
+[5.533735] (-) TimerEvent: {}
+[5.634305] (-) TimerEvent: {}
+[5.734843] (-) TimerEvent: {}
+[5.835409] (-) TimerEvent: {}
+[5.935975] (-) TimerEvent: {}
+[6.036536] (-) TimerEvent: {}
+[6.137094] (-) TimerEvent: {}
+[6.237646] (-) TimerEvent: {}
+[6.338159] (-) TimerEvent: {}
+[6.438651] (-) TimerEvent: {}
+[6.539145] (-) TimerEvent: {}
+[6.639682] (-) TimerEvent: {}
+[6.740256] (-) TimerEvent: {}
+[6.840839] (-) TimerEvent: {}
+[6.941530] (-) TimerEvent: {}
+[7.042121] (-) TimerEvent: {}
+[7.142880] (-) TimerEvent: {}
+[7.243466] (-) TimerEvent: {}
+[7.344014] (-) TimerEvent: {}
+[7.444566] (-) TimerEvent: {}
+[7.544996] (-) TimerEvent: {}
+[7.645464] (-) TimerEvent: {}
+[7.745967] (-) TimerEvent: {}
+[7.846394] (-) TimerEvent: {}
+[7.946766] (-) TimerEvent: {}
+[8.047154] (-) TimerEvent: {}
+[8.147587] (-) TimerEvent: {}
+[8.247960] (-) TimerEvent: {}
+[8.348314] (-) TimerEvent: {}
+[8.448710] (-) TimerEvent: {}
+[8.549259] (-) TimerEvent: {}
+[8.623956] (log_odds_map) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[8.806031] (-) TimerEvent: {}
+[8.806377] (log_odds_map) JobEnded: {'identifier': 'log_odds_map', 'rc': 1}
+[8.830706] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[8.906240] (-) TimerEvent: {}
+[9.006839] (-) TimerEvent: {}
+[9.029878] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[9.031015] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziczac'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/lib:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziczac'), ('OLDPWD', '/home/ziczac/dev/skripsi_code/ros2_workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziczac/.nvm/versions/node/v20.11.1/bin'), ('NVM_INC', '/home/ziczac/.nvm/versions/node/v20.11.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2244'), ('SYSTEMD_EXEC_PID', '2814'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25674'), ('NVM_DIR', '/home/ziczac/.nvm'), ('COLCON_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ziczac'), ('JOURNAL_STREAM', '8:40551'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziczac'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ziczac/.nvm/versions/node/v20.11.1/bin:/opt/ros/humble/bin:/home/ziczac/.cargo/bin:/home/ziczac/.cargo/bin:/home/ziczac/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zz:@/tmp/.ICE-unix/2611,unix/zz:/tmp/.ICE-unix/2611'), ('INVOCATION_ID', '5451e476bdf943ae8575e5a7e79e880c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:2947a8c0-104f-4ce0-94e0-b16ce69d3826'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/my_bot'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ziczac/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble')]), 'shell': False}
+[9.106931] (-) TimerEvent: {}
+[9.207319] (-) TimerEvent: {}
+[9.307715] (-) TimerEvent: {}
+[9.408134] (-) TimerEvent: {}
+[9.508645] (-) TimerEvent: {}
+[9.609216] (-) TimerEvent: {}
+[9.709616] (-) TimerEvent: {}
+[9.810196] (-) TimerEvent: {}
+[9.910799] (-) TimerEvent: {}
+[10.011173] (-) TimerEvent: {}
+[10.111554] (-) TimerEvent: {}
+[10.211939] (-) TimerEvent: {}
+[10.312379] (-) TimerEvent: {}
+[10.412832] (-) TimerEvent: {}
+[10.513358] (-) TimerEvent: {}
+[10.613864] (-) TimerEvent: {}
+[10.714367] (-) TimerEvent: {}
+[10.814808] (-) TimerEvent: {}
+[10.915279] (-) TimerEvent: {}
+[11.015782] (-) TimerEvent: {}
+[11.116239] (-) TimerEvent: {}
+[11.216914] (-) TimerEvent: {}
+[11.263391] (wheel_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[11.264531] (wheel_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[11.265493] (lslidar_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_lslidar_msgs\n'}
+[11.266955] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target lslidar_msgs__cpp\n'}
+[11.267100] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[11.267195] (lslidar_msgs) StdoutLine: {'line': b'[ 23%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[11.267287] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[11.267377] (lslidar_msgs) StdoutLine: {'line': b'[ 46%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[11.267467] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[11.267555] (lslidar_msgs) StdoutLine: {'line': b'[ 77%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[11.267646] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[11.267833] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs\n'}
+[11.267944] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__py\n'}
+[11.268055] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Built target lslidar_msgs__rosidl_generator_py\n'}
+[11.268164] (lslidar_msgs) StdoutLine: {'line': b'[ 93%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[11.268273] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.268382] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[11.268491] (lslidar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[11.268599] (diff_drive) JobEnded: {'identifier': 'diff_drive', 'rc': 'SIGINT'}
+[11.269197] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 'SIGINT'}
+[11.269633] (serial) JobEnded: {'identifier': 'serial', 'rc': 'SIGINT'}
+[11.270122] (rosboard) JobEnded: {'identifier': 'rosboard', 'rc': 'SIGINT'}
+[11.301619] (lslidar_msgs) StdoutLine: {'line': b'writing lslidar_msgs.egg-info/PKG-INFO\n'}
+[11.302376] (lslidar_msgs) StdoutLine: {'line': b'writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt\n'}
+[11.302749] (lslidar_msgs) StdoutLine: {'line': b'writing top-level names to lslidar_msgs.egg-info/top_level.txt\n'}
+[11.317026] (-) TimerEvent: {}
+[11.417442] (-) TimerEvent: {}
+[11.427023] (lslidar_msgs) StdoutLine: {'line': b"reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[11.443340] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[11.499074] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lslidar_msgs_egg\n'}
+[11.509324] (wheel_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[11.517562] (-) TimerEvent: {}
+[11.520906] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 'SIGINT'}
+[11.610783] (wheel_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.617697] (-) TimerEvent: {}
+[11.674037] (wheel_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.717819] (-) TimerEvent: {}
+[11.818208] (-) TimerEvent: {}
+[11.918550] (-) TimerEvent: {}
+[12.018906] (-) TimerEvent: {}
+[12.119285] (-) TimerEvent: {}
+[12.205470] (wheel_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.219420] (-) TimerEvent: {}
+[12.319823] (-) TimerEvent: {}
+[12.420233] (-) TimerEvent: {}
+[12.520566] (-) TimerEvent: {}
+[12.620921] (-) TimerEvent: {}
+[12.721389] (-) TimerEvent: {}
+[12.821789] (-) TimerEvent: {}
+[12.922256] (-) TimerEvent: {}
+[13.022764] (-) TimerEvent: {}
+[13.123160] (-) TimerEvent: {}
+[13.223637] (-) TimerEvent: {}
+[13.324174] (-) TimerEvent: {}
+[13.349361] (wheel_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[13.424269] (-) TimerEvent: {}
+[13.524596] (-) TimerEvent: {}
+[13.624923] (-) TimerEvent: {}
+[13.725254] (-) TimerEvent: {}
+[13.825552] (-) TimerEvent: {}
+[13.907832] (wheel_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.925665] (-) TimerEvent: {}
+[14.026028] (-) TimerEvent: {}
+[14.126395] (-) TimerEvent: {}
+[14.226839] (-) TimerEvent: {}
+[14.327241] (-) TimerEvent: {}
+[14.386558] (wheel_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.427346] (-) TimerEvent: {}
+[14.449008] (wheel_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[14.527475] (-) TimerEvent: {}
+[14.559226] (wheel_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.559854] (wheel_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[14.560230] (wheel_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[14.627613] (-) TimerEvent: {}
+[14.728034] (-) TimerEvent: {}
+[14.828456] (-) TimerEvent: {}
+[14.928895] (-) TimerEvent: {}
+[14.971809] (wheel_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.029021] (-) TimerEvent: {}
+[15.129449] (-) TimerEvent: {}
+[15.229907] (-) TimerEvent: {}
+[15.330379] (-) TimerEvent: {}
+[15.430791] (-) TimerEvent: {}
+[15.531208] (-) TimerEvent: {}
+[15.591442] (wheel_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[15.599857] (wheel_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheel_interfaces\n'}
+[15.631326] (-) TimerEvent: {}
+[15.692309] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_generator_c\x1b[0m\n'}
+[15.719966] (wheel_interfaces) StdoutLine: {'line': b'[  9%] Built target wheel_interfaces__rosidl_generator_c\n'}
+[15.731467] (-) TimerEvent: {}
+[15.737651] (wheel_interfaces) StdoutLine: {'line': b'[ 12%] Built target wheel_interfaces__cpp\n'}
+[15.749376] (wheel_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_wheel_interfaces\n'}
+[15.818818] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[15.831583] (-) TimerEvent: {}
+[15.834973] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[15.835727] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[15.835974] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[15.836172] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[15.837349] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[15.851568] (wheel_interfaces) StdoutLine: {'line': b'[ 22%] Built target wheel_interfaces__rosidl_typesupport_introspection_c\n'}
+[15.866181] (wheel_interfaces) StdoutLine: {'line': b'[ 32%] Built target wheel_interfaces__rosidl_typesupport_c\n'}
+[15.868044] (wheel_interfaces) StdoutLine: {'line': b'[ 54%] Built target wheel_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[15.868358] (wheel_interfaces) StdoutLine: {'line': b'[ 61%] Built target wheel_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[15.868502] (wheel_interfaces) StdoutLine: {'line': b'[ 61%] Built target wheel_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.870894] (wheel_interfaces) StdoutLine: {'line': b'[ 70%] Built target wheel_interfaces__rosidl_typesupport_cpp\n'}
+[15.914870] (wheel_interfaces) StdoutLine: {'line': b'[ 70%] Built target wheel_interfaces\n'}
+[15.931694] (-) TimerEvent: {}
+[15.977353] (wheel_interfaces) StdoutLine: {'line': b'[ 74%] Built target wheel_interfaces__py\n'}
+[16.004219] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_generator_py\x1b[0m\n'}
+[16.031807] (-) TimerEvent: {}
+[16.032320] (wheel_interfaces) StdoutLine: {'line': b'[ 80%] Built target wheel_interfaces__rosidl_generator_py\n'}
+[16.056726] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[16.057103] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[16.057839] (wheel_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wheel_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[16.082160] (wheel_interfaces) StdoutLine: {'line': b'[ 87%] Built target wheel_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[16.082505] (wheel_interfaces) StdoutLine: {'line': b'[ 96%] Built target wheel_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.082747] (wheel_interfaces) StdoutLine: {'line': b'[100%] Built target wheel_interfaces__rosidl_typesupport_c__pyext\n'}
+[16.131916] (-) TimerEvent: {}
+[16.232266] (-) TimerEvent: {}
+[16.237706] (wheel_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[16.275868] (wheel_interfaces) StdoutLine: {'line': b'writing wheel_interfaces.egg-info/PKG-INFO\n'}
+[16.276560] (wheel_interfaces) StdoutLine: {'line': b'writing dependency_links to wheel_interfaces.egg-info/dependency_links.txt\n'}
+[16.277014] (wheel_interfaces) StdoutLine: {'line': b'writing top-level names to wheel_interfaces.egg-info/top_level.txt\n'}
+[16.332376] (-) TimerEvent: {}
+[16.394625] (wheel_interfaces) StdoutLine: {'line': b"reading manifest file 'wheel_interfaces.egg-info/SOURCES.txt'\n"}
+[16.419975] (wheel_interfaces) StdoutLine: {'line': b"writing manifest file 'wheel_interfaces.egg-info/SOURCES.txt'\n"}
+[16.432593] (-) TimerEvent: {}
+[16.465639] (wheel_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_wheel_interfaces_egg\n'}
+[16.498885] (wheel_interfaces) JobEnded: {'identifier': 'wheel_interfaces', 'rc': 'SIGINT'}
+[16.513995] (gui) JobSkipped: {'identifier': 'gui'}
+[16.514063] (lslidar_driver) JobSkipped: {'identifier': 'lslidar_driver'}
+[16.514104] (motor) JobSkipped: {'identifier': 'motor'}
+[16.514138] (-) EventReactorShutdown: {}

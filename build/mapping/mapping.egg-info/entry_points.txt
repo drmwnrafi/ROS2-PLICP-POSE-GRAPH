@@ -1,0 +1,6 @@
+[console_scripts]
+map_tf = mapping.map_tf:main
+mapping_gazebo = mapping.mapping_gazebo:main
+node = mapping.node:main
+robot_marker_publisher = mapping.robot_marker_publisher:main
+

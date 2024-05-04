@@ -1,0 +1,31 @@
+[4.177s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/build --no-deps symlink_data
+[5.255s] running develop
+[5.255s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.255s] !!
+[5.256s] 
+[5.256s]         ********************************************************************************
+[5.256s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.256s]         Instead, use pypa/build, pypa/installer or other
+[5.256s]         standards-based tools.
+[5.256s] 
+[5.257s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.257s]         ********************************************************************************
+[5.257s] 
+[5.257s] !!
+[5.257s]   easy_install.initialize_options(self)
+[6.282s] running egg_info
+[6.341s] writing diff_drive.egg-info/PKG-INFO
+[6.342s] writing dependency_links to diff_drive.egg-info/dependency_links.txt
+[6.343s] writing entry points to diff_drive.egg-info/entry_points.txt
+[6.343s] writing requirements to diff_drive.egg-info/requires.txt
+[6.344s] writing top-level names to diff_drive.egg-info/top_level.txt
+[6.484s] reading manifest file 'diff_drive.egg-info/SOURCES.txt'
+[6.486s] writing manifest file 'diff_drive.egg-info/SOURCES.txt'
+[6.547s] running build_ext
+[6.547s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages/diff-drive.egg-link (link to .)
+[6.549s] Installing diff_drive_model script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/diff_drive
+[6.549s] 
+[6.550s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive
+[6.550s] running symlink_data
+[6.551s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/resource/diff_drive -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/share/ament_index/resource_index/packages
+[6.551s] error: [Errno 17] File exists: '/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/resource/diff_drive' -> '/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/share/ament_index/resource_index/packages/diff_drive'

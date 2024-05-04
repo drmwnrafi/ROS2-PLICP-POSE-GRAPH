@@ -1,0 +1,24 @@
+[16.947s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps install_data
+[17.705s] running develop
+[18.191s] running egg_info
+[18.192s] creating motor.egg-info
+[18.192s] writing motor.egg-info/PKG-INFO
+[18.193s] writing dependency_links to motor.egg-info/dependency_links.txt
+[18.193s] writing entry points to motor.egg-info/entry_points.txt
+[18.194s] writing requirements to motor.egg-info/requires.txt
+[18.194s] writing top-level names to motor.egg-info/top_level.txt
+[18.195s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[18.197s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[18.198s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[18.201s] running build_ext
+[18.201s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+[18.202s] Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+[18.203s] 
+[18.203s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+[18.204s] running install_data
+[18.204s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/ament_index
+[18.204s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/ament_index/resource_index
+[18.204s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/ament_index/resource_index/packages
+[18.204s] copying resource/motor -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/ament_index/resource_index/packages
+[18.205s] copying package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/motor
+[18.371s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps install_data

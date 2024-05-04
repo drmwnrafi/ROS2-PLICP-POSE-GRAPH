@@ -1,0 +1,2 @@
+Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid -- -j8 -l8
+Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid -- -j8 -l8

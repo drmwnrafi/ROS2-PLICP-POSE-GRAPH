@@ -1,0 +1,251 @@
+[8.591s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build
+[9.350s] running develop
+[9.987s] Removing /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard.egg-link (link to .)
+[10.149s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build
+[10.153s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosboard build --build-base /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build install --record /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/install.log --single-version-externally-managed
+[11.230s] running egg_info
+[11.232s] writing ../../build/rosboard/rosboard.egg-info/PKG-INFO
+[11.232s] writing dependency_links to ../../build/rosboard/rosboard.egg-info/dependency_links.txt
+[11.233s] writing entry points to ../../build/rosboard/rosboard.egg-info/entry_points.txt
+[11.233s] writing requirements to ../../build/rosboard/rosboard.egg-info/requires.txt
+[11.234s] writing top-level names to ../../build/rosboard/rosboard.egg-info/top_level.txt
+[11.254s] reading manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'
+[11.258s] adding license file 'LICENSE'
+[11.263s] writing manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'
+[11.263s] running build
+[11.264s] running build_py
+[11.264s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build
+[11.265s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib
+[11.265s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard
+[11.265s] copying rosboard/message_serialization.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard
+[11.274s] copying rosboard/handlers.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard
+[11.284s] copying rosboard/serialization.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard
+[11.284s] copying rosboard/cv_bridge.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard
+[11.286s] copying rosboard/compression.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard
+[11.287s] copying rosboard/rosboard.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard
+[11.287s] copying rosboard/__init__.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard
+[11.288s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/rospy2
+[11.289s] copying rosboard/rospy2/constants.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/rospy2
+[11.289s] copying rosboard/rospy2/__init__.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/rospy2
+[11.290s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers
+[11.291s] copying rosboard/subscribers/dmesg_subscriber.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers
+[11.291s] copying rosboard/subscribers/dummy_subscriber.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers
+[11.292s] copying rosboard/subscribers/system_stats_subscriber.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers
+[11.292s] copying rosboard/subscribers/processes_subscriber.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers
+[11.293s] copying rosboard/subscribers/__init__.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers
+[11.294s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html
+[11.294s] copying rosboard/html/index.html -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html
+[11.301s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.302s] copying rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.303s] copying rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.306s] copying rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.307s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.308s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.309s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.320s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.321s] copying rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.333s] copying rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.359s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.359s] copying rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.360s] copying rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.361s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.363s] copying rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.363s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.365s] copying rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.387s] copying rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.388s] copying rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.390s] copying rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.391s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.392s] copying rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.393s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.394s] copying rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.395s] copying rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.395s] copying rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.397s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts
+[11.398s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css
+[11.399s] copying rosboard/html/css/leaflet.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css
+[11.400s] copying rosboard/html/css/index.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css
+[11.401s] copying rosboard/html/css/material.light_green-lime.min.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css
+[11.429s] copying rosboard/html/css/material-icons.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css
+[11.431s] copying rosboard/html/css/leaflet.easy-button.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css
+[11.432s] copying rosboard/html/css/uPlot.min.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css
+[11.432s] copying rosboard/html/css/material.indigo-blue.min.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css
+[11.438s] copying rosboard/html/css/material.blue_grey-indigo.min.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css
+[11.447s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images
+[11.448s] copying rosboard/html/css/images/layers-2x.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images
+[11.449s] copying rosboard/html/css/images/marker-shadow.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images
+[11.450s] copying rosboard/html/css/images/marker-icon-2x.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images
+[11.450s] copying rosboard/html/css/images/layers.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images
+[11.451s] copying rosboard/html/css/images/marker-icon.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images
+[11.452s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.452s] copying rosboard/html/js/draggabilly.pkgd.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.453s] copying rosboard/html/js/leaflet-src.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.461s] copying rosboard/html/js/litegl.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.476s] copying rosboard/html/js/uPlot.iife.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.477s] copying rosboard/html/js/index.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.478s] copying rosboard/html/js/leaflet-src.js.map -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.490s] copying rosboard/html/js/leaflet.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.492s] copying rosboard/html/js/material.min.js.map -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.548s] copying rosboard/html/js/masonry.pkgd.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.549s] copying rosboard/html/js/jquery-3.1.0.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.551s] copying rosboard/html/js/gl-matrix.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.553s] copying rosboard/html/js/json5.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.555s] copying rosboard/html/js/eventemitter2.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.556s] copying rosboard/html/js/material.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.557s] copying rosboard/html/js/import-helper.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.558s] copying rosboard/html/js/leaflet-src.esm.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.598s] copying rosboard/html/js/leaflet-src.esm.js.map -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.603s] copying rosboard/html/js/rosbag.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.603s] copying rosboard/html/js/leaflet.easy-button.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.604s] copying rosboard/html/js/jquery.transit.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.605s] copying rosboard/html/js/leaflet.js.map -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js
+[11.612s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.612s] copying rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.613s] copying rosboard/html/js/viewers/GenericViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.614s] copying rosboard/html/js/viewers/ProcessListViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.615s] copying rosboard/html/js/viewers/LogViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.616s] copying rosboard/html/js/viewers/LaserScanViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.619s] copying rosboard/html/js/viewers/MapViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.620s] copying rosboard/html/js/viewers/ImageViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.621s] copying rosboard/html/js/viewers/DiagnosticViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.622s] copying rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.623s] copying rosboard/html/js/viewers/PolygonViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.624s] copying rosboard/html/js/viewers/GeometryViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers
+[11.624s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[11.625s] copying rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[11.626s] copying rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[11.627s] copying rosboard/html/js/viewers/meta/Viewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[11.627s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports
+[11.627s] copying rosboard/html/js/transports/RosBridgeTransport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports
+[11.629s] copying rosboard/html/js/transports/RosbagTransport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports
+[11.629s] copying rosboard/html/js/transports/DeviceSensorTransport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports
+[11.629s] copying rosboard/html/js/transports/Rosbag2Transport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports
+[11.630s] copying rosboard/html/js/transports/WebSocketV1Transport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports
+[11.632s] running install
+[11.633s] running install_lib
+[11.635s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard
+[11.635s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/message_serialization.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard
+[11.636s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html
+[11.636s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[11.636s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/leaflet.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[11.637s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/index.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[11.637s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/material.light_green-lime.min.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[11.638s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/material-icons.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[11.638s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/leaflet.easy-button.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[11.638s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/uPlot.min.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[11.639s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[11.641s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images/layers-2x.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[11.642s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images/marker-shadow.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[11.642s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images/marker-icon-2x.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[11.642s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images/layers.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[11.642s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/images/marker-icon.png -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[11.643s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/material.indigo-blue.min.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[11.643s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/css/material.blue_grey-indigo.min.css -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[11.644s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/index.html -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html
+[11.649s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.649s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.650s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.650s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.650s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.651s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.651s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.652s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.653s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.653s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.655s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.655s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.656s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.656s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.657s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.657s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.657s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.658s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.658s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.659s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.659s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.659s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.660s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.660s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.660s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.661s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.661s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[11.662s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.662s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/draggabilly.pkgd.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.662s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.664s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/litegl.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.665s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/uPlot.iife.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.665s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/index.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.665s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js.map -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.669s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/leaflet.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.670s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/material.min.js.map -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.673s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/masonry.pkgd.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.675s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/jquery-3.1.0.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.675s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/gl-matrix.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.675s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/json5.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.675s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/eventemitter2.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.675s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/material.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.676s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/import-helper.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.676s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.676s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js.map -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.677s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/rosbag.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.677s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/leaflet.easy-button.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.677s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/jquery.transit.min.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.678s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.678s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.678s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/GenericViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.679s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/ProcessListViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.679s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/LogViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.679s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[11.679s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[11.679s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[11.680s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Viewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[11.680s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/LaserScanViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.680s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/MapViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.680s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/ImageViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.681s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/DiagnosticViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.681s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.681s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/PolygonViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.681s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/viewers/GeometryViewer.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[11.682s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[11.682s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports/RosBridgeTransport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[11.682s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports/RosbagTransport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[11.682s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports/DeviceSensorTransport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[11.683s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports/Rosbag2Transport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[11.683s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/transports/WebSocketV1Transport.js -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[11.683s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/html/js/leaflet.js.map -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[11.683s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/handlers.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard
+[11.684s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/serialization.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard
+[11.684s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/cv_bridge.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard
+[11.684s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2
+[11.684s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/rospy2/constants.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2
+[11.685s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/rospy2/__init__.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2
+[11.685s] creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[11.685s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers/dmesg_subscriber.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[11.685s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers/dummy_subscriber.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[11.686s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers/system_stats_subscriber.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[11.686s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers/processes_subscriber.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[11.686s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/subscribers/__init__.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[11.686s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/compression.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard
+[11.686s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/rosboard.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard
+[11.687s] copying /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build/lib/rosboard/__init__.py -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard
+[11.688s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/message_serialization.py to message_serialization.cpython-310.pyc
+[11.690s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/handlers.py to handlers.cpython-310.pyc
+[11.693s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/serialization.py to serialization.cpython-310.pyc
+[11.694s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/cv_bridge.py to cv_bridge.cpython-310.pyc
+[11.697s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2/constants.py to constants.cpython-310.pyc
+[11.697s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2/__init__.py to __init__.cpython-310.pyc
+[11.705s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/dmesg_subscriber.py to dmesg_subscriber.cpython-310.pyc
+[11.707s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/dummy_subscriber.py to dummy_subscriber.cpython-310.pyc
+[11.707s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/system_stats_subscriber.py to system_stats_subscriber.cpython-310.pyc
+[11.708s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/processes_subscriber.py to processes_subscriber.cpython-310.pyc
+[11.710s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/__init__.py to __init__.cpython-310.pyc
+[11.710s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/compression.py to compression.cpython-310.pyc
+[11.715s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/rosboard.py to rosboard.cpython-310.pyc
+[11.719s] byte-compiling /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard/__init__.py to __init__.cpython-310.pyc
+[11.719s] running install_data
+[11.721s] running install_egg_info
+[11.726s] Copying ../../build/rosboard/rosboard.egg-info to /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages/rosboard-1.2.1-py3.10.egg-info
+[11.727s] running install_scripts
+[11.772s] Installing rosboard_node script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/rosboard
+[11.774s] writing list of installed files to '/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/install.log'
+[11.896s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosboard build --build-base /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/build install --record /home/ziczac/dev/skripsi_code/ros2_workspace/build/rosboard/install.log --single-version-externally-managed

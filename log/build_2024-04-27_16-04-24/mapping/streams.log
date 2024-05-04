@@ -1,0 +1,20 @@
+[9.191s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/mapping': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/mapping/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/mapping/build --no-deps symlink_data
+[10.312s] running develop
+[11.709s] running egg_info
+[11.711s] writing mapping.egg-info/PKG-INFO
+[11.713s] writing dependency_links to mapping.egg-info/dependency_links.txt
+[11.714s] writing entry points to mapping.egg-info/entry_points.txt
+[11.714s] writing requirements to mapping.egg-info/requires.txt
+[11.714s] writing top-level names to mapping.egg-info/top_level.txt
+[11.721s] reading manifest file 'mapping.egg-info/SOURCES.txt'
+[11.726s] writing manifest file 'mapping.egg-info/SOURCES.txt'
+[11.763s] running build_ext
+[11.766s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping/lib/python3.10/site-packages/mapping.egg-link (link to .)
+[11.770s] Installing map_tf script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping/lib/mapping
+[11.770s] Installing mapping_gazebo script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping/lib/mapping
+[11.775s] Installing node script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping/lib/mapping
+[11.776s] Installing robot_marker_publisher script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping/lib/mapping
+[11.776s] 
+[11.776s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/mapping
+[11.776s] running symlink_data
+[12.049s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/mapping' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/mapping/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/mapping/build --no-deps symlink_data

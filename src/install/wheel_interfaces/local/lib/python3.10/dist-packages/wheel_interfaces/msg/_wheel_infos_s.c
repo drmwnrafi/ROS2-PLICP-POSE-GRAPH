@@ -1,0 +1,1 @@
+/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces/rosidl_generator_py/wheel_interfaces/msg/_wheel_infos_s.c

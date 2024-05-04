@@ -1,0 +1,625 @@
+[0.041s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid_map -- -j8 -l8
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target occupancy_grid_map_exe[0m
+[0.299s] [ 50%] [32mBuilding CXX object CMakeFiles/occupancy_grid_map_exe.dir/src/occupancygrid.cpp.o[0m
+[19.113s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:11:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGroundSegmentor[m[K’ does not name a type
+[19.114s]    11 |   [01;31m[KGroundSegmentor[m[K::GroundSegmentor(const rclcpp::NodeOptions &node_options)
+[19.114s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.114s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:99:15:[m[K [01;31m[Kerror: [m[K‘[01m[KGroundSegmentor[m[K’ has not been declared
+[19.115s]    99 |   inline void [01;31m[KGroundSegmentor[m[K::bresenham2D(
+[19.115s]       |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.115s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:101:56:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.115s]   101 | _b, unsigned int offset, [01;31m[KCellState[m[K state, unsigned int max_length)
+[19.116s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.116s] 
+[19.116s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K In function ‘[01m[Kvoid PercepionNS::bresenham2D(nav_msgs::msg::OccupancyGrid&, unsigned int, unsigned int, int, int, int, unsigned int, int, unsigned int)[m[K’:
+[19.116s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:110:20:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.116s]   110 |       if (state == [01;31m[KCellState[m[K::OCCUPIED)
+[19.117s]       |                    [01;31m[K^~~~~~~~~[m[K
+[19.117s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:114:25:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.117s]   114 |       else if (state == [01;31m[KCellState[m[K::UNKNOWN)
+[19.117s]       |                         [01;31m[K^~~~~~~~~[m[K
+[19.117s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:138:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.118s]   138 |     if (state == [01;31m[KCellState[m[K::OCCUPIED)
+[19.118s]       |                  [01;31m[K^~~~~~~~~[m[K
+[19.118s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:142:23:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.118s]   142 |     else if (state == [01;31m[KCellState[m[K::UNKNOWN)
+[19.118s]       |                       [01;31m[K^~~~~~~~~[m[K
+[19.119s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K At global scope:
+[19.119s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:167:15:[m[K [01;31m[Kerror: [m[K‘[01m[KGroundSegmentor[m[K’ has not been declared
+[19.119s]   167 |   inline void [01;31m[KGroundSegmentor[m[K::raytraceLine(
+[19.119s]       |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.119s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:169:36:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.119s]   169 | gned int y1, int size_x, [01;31m[KCellState[m[K state, unsigned int max_length)
+[19.120s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.120s] 
+[19.120s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:216:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGroundSegmentor[m[K’ has not been declared
+[19.120s]   216 |   bool [01;31m[KGroundSegmentor[m[K::worldToMap(
+[19.121s]       |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.121s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:217:65:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kbool PercepionNS::worldToMap(double, double, unsigned int&, unsigned int&)[m[K’ cannot have cv-qualifier
+[19.121s]   217 | ned int &mx, unsigned int &my) [01;31m[Kconst[m[K
+[19.121s]       |                                [01;31m[K^~~~~[m[K
+[19.122s] 
+[19.151s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K In function ‘[01m[Kbool PercepionNS::worldToMap(double, double, unsigned int&, unsigned int&)[m[K’:
+[19.151s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:220:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kbottomright_x_[m[K’ was not declared in this scope
+[19.151s]   220 |     if (wx < [01;31m[Kbottomright_x_[m[K || wy < bottomright_y_)
+[19.151s]       |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[19.181s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:220:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kbottomright_y_[m[K’ was not declared in this scope
+[19.181s]   220 | < bottomright_x_ || wy < [01;31m[Kbottomright_y_[m[K)
+[19.181s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[19.182s] 
+[19.211s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:226:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kbottomright_x_[m[K’ was not declared in this scope
+[19.211s]   226 | >(std::floor(fabs((wx - ([01;31m[Kbottomright_x_[m[K)) / grid_msg_.info.resolution)));
+[19.211s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[19.212s] 
+[19.226s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:226:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid_msg_[m[K’ was not declared in this scope
+[19.226s]   226 | wx - (bottomright_x_)) / [01;31m[Kgrid_msg_[m[K.info.resolution)));
+[19.226s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.226s] 
+[19.259s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:227:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kbottomright_y_[m[K’ was not declared in this scope
+[19.259s]   227 | >(std::floor(fabs((wy - ([01;31m[Kbottomright_y_[m[K)) / grid_msg_.info.resolution)));
+[19.260s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[19.260s] 
+[19.282s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:230:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcell_num_x_[m[K’ was not declared in this scope
+[19.283s]   230 |     if (mx < [01;31m[Kcell_num_x_[m[K && my < cell_num_y_)
+[19.283s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[19.304s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:230:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcell_num_y_[m[K’ was not declared in this scope
+[19.305s]   230 | mx < cell_num_x_ && my < [01;31m[Kcell_num_y_[m[K)
+[19.305s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[19.306s] 
+[19.306s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K At global scope:
+[19.306s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:251:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGroundSegmentor[m[K’ has not been declared
+[19.307s]   251 |   void [01;31m[KGroundSegmentor[m[K::raytrace(
+[19.307s]       |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.307s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:253:19:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.307s]   253 |       int size_x, [01;31m[KCellState[m[K state)
+[19.308s]       |                   [01;31m[K^~~~~~~~~[m[K
+[19.333s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K In function ‘[01m[Kvoid PercepionNS::raytrace(nav_msgs::msg::OccupancyGrid&, double, double, double, double, int, int)[m[K’:
+[19.334s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:268:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kbottomright_x_[m[K’ was not declared in this scope
+[19.334s]   268 | const double origin_x = ([01;31m[Kbottomright_x_[m[K), origin_y = (bottomright_y_);
+[19.334s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[19.334s] 
+[19.345s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:270:31:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_y[m[K’ was not declared in this scope; did you mean ‘[01m[Korigin_x[m[K’?
+[19.345s]   270 |  const double map_end_y = -[01;31m[Korigin_y[m[K;
+[19.346s]       |                            [01;31m[K^~~~~~~~[m[K
+[19.346s]       |                            [32m[Korigin_x[m[K
+[19.346s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:313:17:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid PercepionNS::raytraceLine(nav_msgs::msg::OccupancyGrid&, unsigned int, unsigned int, unsigned int, unsigned int, int, int, unsigned int)[m[K’
+[19.346s]   313 |     [01;31m[KraytraceLine(map, x0, y0, x1, y1, size_x, state)[m[K;
+[19.346s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.347s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:167:15:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.347s]   167 |   inline void [01;36m[KGroundSegmentor[m[K::raytraceLine(
+[19.347s]       |               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[19.356s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K At global scope:
+[19.357s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:326:46:[m[K [01;31m[Kerror: [m[K‘[01m[KBinInfo3D[m[K’ does not name a type
+[19.357s]   326 | yond_obstacle = [](const [01;31m[KBinInfo3D[m[K &obstacle, const BinInfo3D &raw) -> bool
+[19.357s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.357s] 
+[19.358s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:346:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[19.358s]   346 |   }[01;31m[K;[m[K
+[19.358s]       |    [01;31m[K^[m[K
+[19.358s]       |    [32m[K)[m[K
+[19.359s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:326:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[19.359s]   326 | ible_beyond_obstacle = [][01;36m[K([m[Kconst BinInfo3D &obstacle, const BinInfo3D &raw) -> bool
+[19.359s]       |                          [01;36m[K^[m[K
+[19.359s] 
+[19.359s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K In lambda function:
+[19.360s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:346:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[19.360s]   346 |   }[01;31m[K;[m[K
+[19.360s]       |    [01;31m[K^[m[K
+[19.360s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K At global scope:
+[19.361s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:348:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGroundSegmentor[m[K’ has not been declared
+[19.361s]   348 |   void [01;31m[KGroundSegmentor[m[K::synchro_callback(
+[19.361s]       |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.380s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:[m[K In function ‘[01m[Kvoid PercepionNS::synchro_callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[19.380s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:29:[m[K [01;31m[Kerror: [m[K‘[01m[KBinInfo3D[m[K’ was not declared in this scope; did you mean ‘[01m[KPerceptionNS::BinInfo3D[m[K’?
+[19.381s]   361 |  std::vector<std::vector<[01;31m[KBinInfo3D[m[K>> raw_pointcloud_angle_bins_;
+[19.381s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.381s]       |                          [32m[KPerceptionNS::BinInfo3D[m[K
+[19.381s] In file included from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:7[m[K:
+[19.382s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/include/occupancy_grid_map/occupancygrid.hpp:46:10:[m[K [01;36m[Knote: [m[K‘[01m[KPerceptionNS::BinInfo3D[m[K’ declared here
+[19.382s]    46 |   struct [01;36m[KBinInfo3D[m[K
+[19.382s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.382s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.382s]   361 |  std::vector<std::vector<[01;31m[KBinInfo3D[m[K>> raw_pointcloud_angle_bins_;
+[19.383s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.383s] 
+[19.383s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[19.383s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.383s]   361 | tor<std::vector<BinInfo3D[01;31m[K>>[m[K raw_pointcloud_angle_bins_;
+[19.384s]       |                          [01;31m[K^~[m[K
+[19.384s] 
+[19.384s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:361:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[19.384s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:362:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[19.385s]   362 |  std::vector<std::vector<[01;31m[KBinInfo3D[m[K>> obstacle_pointcloud_angle_bins_;
+[19.385s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.385s] 
+[19.385s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:362:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[19.386s]   362 | tor<std::vector<BinInfo3D[01;31m[K>>[m[K obstacle_pointcloud_angle_bins_;
+[19.386s]       |                          [01;31m[K^~[m[K
+[19.386s] 
+[19.386s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:362:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[19.410s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:377:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid_size_[m[K’ was not declared in this scope
+[19.410s]   377 | igned char> grid_points_([01;31m[Kgrid_size_[m[K, 50);
+[19.411s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[19.411s] 
+[19.429s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:380:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_angle_[m[K’ was not declared in this scope
+[19.429s]   380 | ize_t angle_bin_size = (([01;31m[Kmax_angle_[m[K - min_angle_) / angle_increment_) + size_t(1 /*margin*/);
+[19.430s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[19.430s] 
+[19.449s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:380:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_angle_[m[K’ was not declared in this scope
+[19.450s]   380 | in_size = ((max_angle_ - [01;31m[Kmin_angle_[m[K) / angle_increment_) + size_t(1 /*margin*/);
+[19.450s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[19.450s] 
+[19.486s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:380:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_increment_[m[K’ was not declared in this scope
+[19.486s]   380 | x_angle_ - min_angle_) / [01;31m[Kangle_increment_[m[K) + size_t(1 /*margin*/);
+[19.487s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[19.487s] 
+[19.487s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:383:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kresize[m[K’ in ‘[01m[Kobstacle_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.487s]   383 | e_pointcloud_angle_bins_.[01;31m[Kresize[m[K(angle_bin_size);
+[19.488s]       |                          [01;31m[K^~~~~~[m[K
+[19.488s] 
+[19.488s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:384:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kresize[m[K’ in ‘[01m[Kraw_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.489s]   384 | w_pointcloud_angle_bins_.[01;31m[Kresize[m[K(angle_bin_size);
+[19.489s]       |                          [01;31m[K^~~~~~[m[K
+[19.489s] 
+[19.490s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:397:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[Kraw_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.490s]   397 | w_pointcloud_angle_bins_.[01;31m[Kat[m[K(angle_bin_index).emplace_back(range, point.x, point.y, point.z);
+[19.490s]       |                          [01;31m[K^~[m[K
+[19.490s] 
+[19.491s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:411:29:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_z_[m[K’ was not declared in this scope; did you mean ‘[01m[KPerceptionNS::origin_z_[m[K’?
+[19.491s]   411 |    const double scan_z = [01;31m[Korigin_z_[m[K - robot_z_;
+[19.491s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.492s]       |                          [32m[KPerceptionNS::origin_z_[m[K
+[19.492s] In file included from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:7[m[K:
+[19.492s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/include/occupancy_grid_map/occupancygrid.hpp:69:10:[m[K [01;36m[Knote: [m[K‘[01m[KPerceptionNS::origin_z_[m[K’ declared here
+[19.493s]    69 |   double [01;36m[Korigin_z_[m[K, robot_z_;
+[19.493s]       |          [01;36m[K^~~~~~~~~[m[K
+[19.493s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:411:41:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_z_[m[K’ was not declared in this scope; did you mean ‘[01m[KPerceptionNS::robot_z_[m[K’?
+[19.494s]   411 | ouble scan_z = origin_z_ - [01;31m[Krobot_z_[m[K;
+[19.494s]       |                            [01;31m[K^~~~~~~~[m[K
+[19.494s]       |                            [32m[KPerceptionNS::robot_z_[m[K
+[19.494s] In file included from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:7[m[K:
+[19.495s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/include/occupancy_grid_map/occupancygrid.hpp:69:21:[m[K [01;36m[Knote: [m[K‘[01m[KPerceptionNS::robot_z_[m[K’ declared here
+[19.495s]    69 |   double origin_z_, [01;36m[Krobot_z_[m[K;
+[19.495s]       |                     [01;36m[K^~~~~~~~[m[K
+[19.554s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:416:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kprojection_dz_threshold_[m[K’ was not declared in this scope
+[19.554s]   416 |       if (dz > [01;31m[Kprojection_dz_threshold_[m[K)
+[19.555s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.555s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:429:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[Kobstacle_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.555s]   429 | e_pointcloud_angle_bins_.[01;31m[Kat[m[K(angle_bin_index).emplace_back(range, point.x, point.y, point.z, projection_length, projected_wx, projected_wy);
+[19.555s]       |                          [01;31m[K^~[m[K
+[19.555s] 
+[19.556s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:438:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[Kobstacle_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.556s]   438 | e_pointcloud_angle_bins_.[01;31m[Kat[m[K(angle_bin_index).emplace_back(range, point.x, point.y, point.z, 0, projected_wx, projected_wy);
+[19.556s]       |                          [01;31m[K^~[m[K
+[19.556s] 
+[19.557s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:443:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope
+[19.558s]   443 | w_pointcloud_angle_bin : [01;31m[Kraw_pointcloud_angle_bins_[m[K)
+[19.558s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.558s] 
+[19.558s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:443:43:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[19.559s] In file included from [01m[K/usr/include/c++/11/string:54[m[K,
+[19.559s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[19.560s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[19.562s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[19.562s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[19.563s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[19.563s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[19.563s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[19.564s]                  from [01m[K/usr/include/eigen3/Eigen/StdVector:14[m[K,
+[19.564s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:45[m[K,
+[19.564s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.565s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.566s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::begin[m[K’
+[19.566s]   108 | typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[19.566s]       |                          [01;36m[K^~~~~[m[K
+[19.567s] 
+[19.567s] In file included from [01m[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21[m[K,
+[19.567s]                  from [01m[K/usr/include/boost/mpl/vector/vector0.hpp:31[m[K,
+[19.567s]                  from [01m[K/usr/include/boost/mpl/vector/vector10.hpp:18[m[K,
+[19.567s]                  from [01m[K/usr/include/boost/mpl/vector/vector20.hpp:18[m[K,
+[19.568s]                  from [01m[K/usr/include/boost/mpl/vector.hpp:36[m[K,
+[19.569s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43[m[K,
+[19.569s]                  from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+[19.569s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+[19.570s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3[m[K,
+[19.570s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:47[m[K,
+[19.570s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.570s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.571s] [01m[K/usr/include/boost/mpl/begin_end_fwd.hpp:22:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::begin[m[K’
+[19.571s]    22 | e< typename Sequence > struct [01;36m[Kbegin[m[K;
+[19.571s]       |                               [01;36m[K^~~~~[m[K
+[19.571s] 
+[19.572s] In file included from [01m[K/usr/include/boost/fusion/iterator/segmented_iterator.hpp:13[m[K,
+[19.572s]                  from [01m[K/usr/include/boost/fusion/sequence/intrinsic/detail/segmented_end.hpp:12[m[K,
+[19.572s]                  from [01m[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:18[m[K,
+[19.572s]                  from [01m[K/usr/include/boost/fusion/mpl/back.hpp:12[m[K,
+[19.573s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:15[m[K,
+[19.573s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[19.573s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[19.573s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[19.574s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.574s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.574s] [01m[K/usr/include/boost/fusion/sequence/intrinsic/begin.hpp:92:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::begin[m[K’
+[19.574s]    92 |     [01;36m[Kbegin[m[K(Sequence const& seq)
+[19.574s]       |     [01;36m[K^~~~~[m[K
+[19.575s] In file included from [01m[K/usr/include/boost/foreach.hpp:81[m[K,
+[19.575s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[19.575s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44[m[K,
+[19.575s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099[m[K,
+[19.576s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.576s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.576s] [01m[K/usr/include/boost/range/begin.hpp:110:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::range_adl_barrier::begin[m[K’
+[19.576s]   110 | _iterator<const T>::type [01;36m[Kbegin[m[K( const T& r )
+[19.576s]       |                          [01;36m[K^~~~~[m[K
+[19.577s] 
+[19.577s] In file included from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[19.577s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44[m[K,
+[19.577s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099[m[K,
+[19.577s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.578s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.578s] [01m[K/usr/include/boost/foreach.hpp:696:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::foreach_detail_::begin[m[K’
+[19.578s]   696 | [01;36m[Kbegin[m[K(auto_any_t col, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings
+[19.578s]       | [01;36m[K^~~~~[m[K
+[19.579s] In file included from [01m[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16[m[K,
+[19.579s]                  from [01m[K/usr/include/boost/fusion/mpl/at.hpp:12[m[K,
+[19.579s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:14[m[K,
+[19.580s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[19.580s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[19.580s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[19.581s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.581s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.581s] [01m[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:62:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::result_of::begin[m[K’
+[19.581s]    62 |         struct [01;36m[Kbegin[m[K;
+[19.582s]       |                [01;36m[K^~~~~[m[K
+[19.582s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:443:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope
+[19.582s]   443 | w_pointcloud_angle_bin : [01;31m[Kraw_pointcloud_angle_bins_[m[K)
+[19.583s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.583s] 
+[19.583s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:443:43:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[19.583s] In file included from [01m[K/usr/include/c++/11/string:54[m[K,
+[19.584s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[19.584s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[19.584s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[19.584s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[19.585s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[19.585s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[19.585s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[19.586s]                  from [01m[K/usr/include/eigen3/Eigen/StdVector:14[m[K,
+[19.586s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:45[m[K,
+[19.586s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.586s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.587s] [01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::end[m[K’
+[19.587s]   110 | typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+[19.587s]       |                          [01;36m[K^~~[m[K
+[19.587s] 
+[19.588s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:265[m[K,
+[19.588s]                  from [01m[K/usr/include/eigen3/Eigen/StdVector:14[m[K,
+[19.588s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:45[m[K,
+[19.589s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.589s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.589s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:181:40:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::placeholders::end[m[K’
+[19.589s]   181 | ATED static const end_t  [01;36m[Kend[m[K  = Eigen::lastp1; // PLEASE use Eigen::lastp1 instead of Eigen::placeholders::end
+[19.590s]       |                          [01;36m[K^~~[m[K
+[19.590s] 
+[19.590s] In file included from [01m[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21[m[K,
+[19.591s]                  from [01m[K/usr/include/boost/mpl/vector/vector0.hpp:31[m[K,
+[19.591s]                  from [01m[K/usr/include/boost/mpl/vector/vector10.hpp:18[m[K,
+[19.591s]                  from [01m[K/usr/include/boost/mpl/vector/vector20.hpp:18[m[K,
+[19.591s]                  from [01m[K/usr/include/boost/mpl/vector.hpp:36[m[K,
+[19.592s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43[m[K,
+[19.592s]                  from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+[19.592s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+[19.593s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3[m[K,
+[19.593s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:47[m[K,
+[19.593s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.593s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.594s] [01m[K/usr/include/boost/mpl/begin_end_fwd.hpp:23:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::end[m[K’
+[19.594s]    23 | ate< typename Sequence > struct [01;36m[Kend[m[K;
+[19.594s]       |                                 [01;36m[K^~~[m[K
+[19.594s] 
+[19.594s] In file included from [01m[K/usr/include/boost/fusion/mpl/back.hpp:12[m[K,
+[19.595s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:15[m[K,
+[19.595s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[19.596s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[19.596s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[19.596s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.596s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.596s] [01m[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:92:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::end[m[K’
+[19.597s]    92 |     [01;36m[Kend[m[K(Sequence const& seq)
+[19.597s]       |     [01;36m[K^~~[m[K
+[19.597s] In file included from [01m[K/usr/include/boost/foreach.hpp:80[m[K,
+[19.597s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[19.598s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44[m[K,
+[19.598s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099[m[K,
+[19.598s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.599s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.599s] [01m[K/usr/include/boost/range/end.hpp:104:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::range_adl_barrier::end[m[K’
+[19.599s]   104 | _iterator<const T>::type [01;36m[Kend[m[K( const T& r )
+[19.600s]       |                          [01;36m[K^~~[m[K
+[19.600s] 
+[19.600s] In file included from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[19.600s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44[m[K,
+[19.601s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099[m[K,
+[19.601s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.601s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.602s] [01m[K/usr/include/boost/foreach.hpp:736:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::foreach_detail_::end[m[K’
+[19.602s]   736 | [01;36m[Kend[m[K(auto_any_t, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings
+[19.602s]       | [01;36m[K^~~[m[K
+[19.602s] In file included from [01m[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16[m[K,
+[19.603s]                  from [01m[K/usr/include/boost/fusion/mpl/at.hpp:12[m[K,
+[19.603s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:14[m[K,
+[19.603s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[19.603s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[19.604s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[19.604s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.604s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.604s] [01m[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::result_of::end[m[K’
+[19.605s]    68 |         struct [01;36m[Kend[m[K;
+[19.605s]       |                [01;36m[K^~~[m[K
+[19.605s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:450:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope
+[19.605s]   450 | e_pointcloud_angle_bin : [01;31m[Kobstacle_pointcloud_angle_bins_[m[K)
+[19.606s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.606s] 
+[19.606s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:450:48:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[19.606s] In file included from [01m[K/usr/include/c++/11/string:54[m[K,
+[19.607s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[19.607s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[19.607s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[19.607s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[19.607s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[19.608s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[19.608s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[19.608s]                  from [01m[K/usr/include/eigen3/Eigen/StdVector:14[m[K,
+[19.608s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:45[m[K,
+[19.608s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.609s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.609s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::begin[m[K’
+[19.609s]   108 | typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[19.609s]       |                          [01;36m[K^~~~~[m[K
+[19.610s] 
+[19.610s] In file included from [01m[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21[m[K,
+[19.610s]                  from [01m[K/usr/include/boost/mpl/vector/vector0.hpp:31[m[K,
+[19.610s]                  from [01m[K/usr/include/boost/mpl/vector/vector10.hpp:18[m[K,
+[19.610s]                  from [01m[K/usr/include/boost/mpl/vector/vector20.hpp:18[m[K,
+[19.611s]                  from [01m[K/usr/include/boost/mpl/vector.hpp:36[m[K,
+[19.611s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43[m[K,
+[19.611s]                  from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+[19.611s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+[19.612s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3[m[K,
+[19.612s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:47[m[K,
+[19.612s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.612s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.614s] [01m[K/usr/include/boost/mpl/begin_end_fwd.hpp:22:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::begin[m[K’
+[19.615s]    22 | e< typename Sequence > struct [01;36m[Kbegin[m[K;
+[19.615s]       |                               [01;36m[K^~~~~[m[K
+[19.615s] 
+[19.616s] In file included from [01m[K/usr/include/boost/fusion/iterator/segmented_iterator.hpp:13[m[K,
+[19.616s]                  from [01m[K/usr/include/boost/fusion/sequence/intrinsic/detail/segmented_end.hpp:12[m[K,
+[19.616s]                  from [01m[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:18[m[K,
+[19.616s]                  from [01m[K/usr/include/boost/fusion/mpl/back.hpp:12[m[K,
+[19.616s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:15[m[K,
+[19.617s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[19.617s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[19.617s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[19.617s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.617s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.618s] [01m[K/usr/include/boost/fusion/sequence/intrinsic/begin.hpp:92:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::begin[m[K’
+[19.618s]    92 |     [01;36m[Kbegin[m[K(Sequence const& seq)
+[19.618s]       |     [01;36m[K^~~~~[m[K
+[19.618s] In file included from [01m[K/usr/include/boost/foreach.hpp:81[m[K,
+[19.618s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[19.619s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44[m[K,
+[19.619s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099[m[K,
+[19.619s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.619s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.620s] [01m[K/usr/include/boost/range/begin.hpp:110:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::range_adl_barrier::begin[m[K’
+[19.620s]   110 | _iterator<const T>::type [01;36m[Kbegin[m[K( const T& r )
+[19.620s]       |                          [01;36m[K^~~~~[m[K
+[19.620s] 
+[19.620s] In file included from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[19.621s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44[m[K,
+[19.621s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099[m[K,
+[19.621s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.621s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.622s] [01m[K/usr/include/boost/foreach.hpp:696:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::foreach_detail_::begin[m[K’
+[19.622s]   696 | [01;36m[Kbegin[m[K(auto_any_t col, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings
+[19.622s]       | [01;36m[K^~~~~[m[K
+[19.622s] In file included from [01m[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16[m[K,
+[19.622s]                  from [01m[K/usr/include/boost/fusion/mpl/at.hpp:12[m[K,
+[19.623s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:14[m[K,
+[19.623s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[19.623s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[19.623s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[19.624s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.624s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.624s] [01m[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:62:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::result_of::begin[m[K’
+[19.624s]    62 |         struct [01;36m[Kbegin[m[K;
+[19.625s]       |                [01;36m[K^~~~~[m[K
+[19.625s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:450:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope
+[19.625s]   450 | e_pointcloud_angle_bin : [01;31m[Kobstacle_pointcloud_angle_bins_[m[K)
+[19.626s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.626s] 
+[19.626s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:450:48:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[19.627s] In file included from [01m[K/usr/include/c++/11/string:54[m[K,
+[19.627s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[19.627s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[19.627s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[19.628s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[19.628s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[19.628s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[19.629s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[19.629s]                  from [01m[K/usr/include/eigen3/Eigen/StdVector:14[m[K,
+[19.629s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:45[m[K,
+[19.629s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.630s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.630s] [01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::end[m[K’
+[19.630s]   110 | typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+[19.631s]       |                          [01;36m[K^~~[m[K
+[19.631s] 
+[19.631s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:265[m[K,
+[19.632s]                  from [01m[K/usr/include/eigen3/Eigen/StdVector:14[m[K,
+[19.632s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:45[m[K,
+[19.632s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.633s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.633s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:181:40:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::placeholders::end[m[K’
+[19.633s]   181 | ATED static const end_t  [01;36m[Kend[m[K  = Eigen::lastp1; // PLEASE use Eigen::lastp1 instead of Eigen::placeholders::end
+[19.634s]       |                          [01;36m[K^~~[m[K
+[19.634s] 
+[19.634s] In file included from [01m[K/usr/include/boost/mpl/vector/aux_/begin_end.hpp:21[m[K,
+[19.634s]                  from [01m[K/usr/include/boost/mpl/vector/vector0.hpp:31[m[K,
+[19.635s]                  from [01m[K/usr/include/boost/mpl/vector/vector10.hpp:18[m[K,
+[19.635s]                  from [01m[K/usr/include/boost/mpl/vector/vector20.hpp:18[m[K,
+[19.635s]                  from [01m[K/usr/include/boost/mpl/vector.hpp:36[m[K,
+[19.636s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:43[m[K,
+[19.636s]                  from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+[19.636s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+[19.637s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3[m[K,
+[19.637s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:47[m[K,
+[19.637s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:42[m[K,
+[19.638s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.638s] [01m[K/usr/include/boost/mpl/begin_end_fwd.hpp:23:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::end[m[K’
+[19.638s]    23 | ate< typename Sequence > struct [01;36m[Kend[m[K;
+[19.638s]       |                                 [01;36m[K^~~[m[K
+[19.639s] 
+[19.639s] In file included from [01m[K/usr/include/boost/fusion/mpl/back.hpp:12[m[K,
+[19.639s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:15[m[K,
+[19.640s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[19.640s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[19.640s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[19.640s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.641s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.641s] [01m[K/usr/include/boost/fusion/sequence/intrinsic/end.hpp:92:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::end[m[K’
+[19.641s]    92 |     [01;36m[Kend[m[K(Sequence const& seq)
+[19.641s]       |     [01;36m[K^~~[m[K
+[19.642s] In file included from [01m[K/usr/include/boost/foreach.hpp:80[m[K,
+[19.642s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[19.643s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44[m[K,
+[19.643s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099[m[K,
+[19.643s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.643s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.644s] [01m[K/usr/include/boost/range/end.hpp:104:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::range_adl_barrier::end[m[K’
+[19.644s]   104 | _iterator<const T>::type [01;36m[Kend[m[K( const T& r )
+[19.644s]       |                          [01;36m[K^~~[m[K
+[19.645s] 
+[19.645s] In file included from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:54[m[K,
+[19.645s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/centroid.hpp:44[m[K,
+[19.646s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:1099[m[K,
+[19.646s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.646s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.646s] [01m[K/usr/include/boost/foreach.hpp:736:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::foreach_detail_::end[m[K’
+[19.647s]   736 | [01;36m[Kend[m[K(auto_any_t, type2type<T *, C> *, boost::mpl::true_ *) // null-terminated C-style strings
+[19.647s]       | [01;36m[K^~~[m[K
+[19.647s] In file included from [01m[K/usr/include/boost/fusion/sequence/intrinsic/value_at.hpp:16[m[K,
+[19.648s]                  from [01m[K/usr/include/boost/fusion/mpl/at.hpp:12[m[K,
+[19.648s]                  from [01m[K/usr/include/boost/fusion/mpl.hpp:14[m[K,
+[19.648s]                  from [01m[K/usr/include/boost/fusion/include/mpl.hpp:12[m[K,
+[19.649s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/accumulators.hpp:44[m[K,
+[19.649s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/centroid.h:955[m[K,
+[19.649s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/transforms.h:44[m[K,
+[19.650s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:1[m[K:
+[19.650s] [01m[K/usr/include/boost/fusion/sequence/intrinsic_fwd.hpp:68:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::fusion::result_of::end[m[K’
+[19.651s]    68 |         struct [01;36m[Kend[m[K;
+[19.651s]       |                [01;36m[K^~~[m[K
+[19.652s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:455:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid_msg_[m[K’ was not declared in this scope
+[19.652s]   455 |     [01;31m[Kgrid_msg_[m[K.data = grid_points_;
+[19.652s]       |     [01;31m[K^~~~~~~~~[m[K
+[19.653s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:460:37:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+[19.653s]   460 | aw_pointcloud_angle_bins_[01;31m[K[[m[Kj].size() < 1)
+[19.654s]       |                          [01;31m[K^[m[K
+[19.654s] 
+[19.654s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:463:54:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+[19.655s]   463 | aw_pointcloud_angle_bins_[01;31m[K[[m[Kj].back();
+[19.655s]       |                          [01;31m[K^[m[K
+[19.655s] 
+[19.656s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:464:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kcell_num_x_[m[K’ was not declared in this scope
+[19.656s]   464 | 0, source.wx, source.wy, [01;31m[Kcell_num_x_[m[K, CellState::FREE);
+[19.656s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[19.657s] 
+[19.657s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:464:68:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.657s]   464 |  source.wy, cell_num_x_, [01;31m[KCellState[m[K::FREE);
+[19.658s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.658s] 
+[19.658s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:468:76:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kobstacle_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.658s]   468 | e_pointcloud_angle_bins_.[01;31m[Ksize[m[K(); ++bin_index)
+[19.659s]       |                          [01;31m[K^~~~[m[K
+[19.659s] 
+[19.659s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:471:83:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[Kobstacle_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.660s]   471 | e_pointcloud_angle_bins_.[01;31m[Kat[m[K(bin_index);
+[19.660s]       |                          [01;31m[K^~[m[K
+[19.661s] 
+[19.661s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:472:73:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[Kraw_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.661s]   472 | w_pointcloud_angle_bins_.[01;31m[Kat[m[K(bin_index);
+[19.662s]       |                          [01;31m[K^~[m[K
+[19.662s] 
+[19.662s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:503:95:[m[K [01;31m[Kerror: [m[K‘[01m[Kcell_num_x_[m[K’ was not declared in this scope
+[19.662s]   503 | wx, source.projected_wy, [01;31m[Kcell_num_x_[m[K, CellState::UNKNOWN);
+[19.663s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[19.663s] 
+[19.663s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:503:108:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.663s]   503 | ojected_wy, cell_num_x_, [01;31m[KCellState[m[K::UNKNOWN);
+[19.664s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.664s] 
+[19.673s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:513:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kcell_num_x_[m[K’ was not declared in this scope
+[19.673s]   513 | wx, source.projected_wy, [01;31m[Kcell_num_x_[m[K, CellState::UNKNOWN);
+[19.673s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[19.674s] 
+[19.674s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:513:110:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.674s]   513 | ojected_wy, cell_num_x_, [01;31m[KCellState[m[K::UNKNOWN);
+[19.674s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.674s] 
+[19.756s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:524:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_separation_threshold_[m[K’ was not declared in this scope
+[19.756s]   524 | stacle_point_distance <= [01;31m[Kobstacle_separation_threshold_[m[K)
+[19.757s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.757s] 
+[19.783s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:533:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kcell_num_x_[m[K’ was not declared in this scope
+[19.784s]   533 | y, target.wx, target.wy, [01;31m[Kcell_num_x_[m[K, CellState::UNKNOWN);
+[19.784s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[19.784s] 
+[19.784s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:533:88:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.785s]   533 |  target.wy, cell_num_x_, [01;31m[KCellState[m[K::UNKNOWN);
+[19.785s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.785s] 
+[19.807s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:543:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kcell_num_x_[m[K’ was not declared in this scope
+[19.807s]   543 | y, target.wx, target.wy, [01;31m[Kcell_num_x_[m[K, CellState::UNKNOWN);
+[19.808s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[19.808s] 
+[19.808s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:543:88:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.809s]   543 |  target.wy, cell_num_x_, [01;31m[KCellState[m[K::UNKNOWN);
+[19.809s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.809s] 
+[19.832s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:551:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kcell_num_x_[m[K’ was not declared in this scope
+[19.832s]   551 | y, target.wx, target.wy, [01;31m[Kcell_num_x_[m[K, CellState::UNKNOWN);
+[19.833s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[19.833s] 
+[19.833s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:551:88:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.834s]   551 |  target.wy, cell_num_x_, [01;31m[KCellState[m[K::UNKNOWN);
+[19.834s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.835s] 
+[19.835s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:558:76:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kobstacle_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.835s]   558 | e_pointcloud_angle_bins_.[01;31m[Ksize[m[K(); ++bin_index)
+[19.836s]       |                          [01;31m[K^~~~[m[K
+[19.836s] 
+[19.836s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:561:77:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kat[m[K’ in ‘[01m[Kobstacle_pointcloud_angle_bins_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[19.836s]   561 | e_pointcloud_angle_bins_.[01;31m[Kat[m[K(bin_index);
+[19.837s]       |                          [01;31m[K^~[m[K
+[19.838s] 
+[19.909s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:579:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_separation_threshold_[m[K’ was not declared in this scope
+[19.910s]   579 | bstacle_point_distance < [01;31m[Kobstacle_separation_threshold_[m[K)
+[19.910s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.910s] 
+[19.935s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:583:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kcell_num_x_[m[K’ was not declared in this scope
+[19.935s]   583 | y, target.wx, target.wy, [01;31m[Kcell_num_x_[m[K, CellState::OCCUPIED);
+[19.936s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[19.936s] 
+[19.936s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:583:88:[m[K [01;31m[Kerror: [m[K‘[01m[KCellState[m[K’ has not been declared
+[19.937s]   583 |  target.wy, cell_num_x_, [01;31m[KCellState[m[K::OCCUPIED);
+[19.937s]       |                          [01;31m[K^~~~~~~~~[m[K
+[19.937s] 
+[19.963s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_occupancy_grid_map/src/occupancygrid.cpp:592:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[19.963s]   592 |     [01;31m[Kgrid_publisher_[m[K->publish(grid_msg_);
+[19.963s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[19.964s]       |     [32m[Krmw_publisher_t[m[K
+[29.581s] gmake[2]: *** [CMakeFiles/occupancy_grid_map_exe.dir/build.make:76: CMakeFiles/occupancy_grid_map_exe.dir/src/occupancygrid.cpp.o] Error 1
+[29.582s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_grid_map_exe.dir/all] Error 2
+[29.582s] gmake: *** [Makefile:146: all] Error 2
+[29.588s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid_map' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid_map -- -j8 -l8

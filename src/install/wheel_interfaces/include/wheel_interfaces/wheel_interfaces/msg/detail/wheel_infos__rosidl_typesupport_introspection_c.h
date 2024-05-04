@@ -1,0 +1,1 @@
+/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces/rosidl_typesupport_introspection_c/wheel_interfaces/msg/detail/wheel_infos__rosidl_typesupport_introspection_c.h

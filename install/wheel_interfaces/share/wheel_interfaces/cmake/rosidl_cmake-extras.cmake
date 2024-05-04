@@ -1,0 +1,1 @@
+/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheel_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

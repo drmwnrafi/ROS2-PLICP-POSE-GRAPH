@@ -1,0 +1,45 @@
+[10.075s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/build --no-deps install_data
+[10.891s] running develop
+[10.892s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[10.892s] !!
+[10.892s] 
+[10.892s]         ********************************************************************************
+[10.893s]         Please avoid running ``setup.py`` and ``easy_install``.
+[10.893s]         Instead, use pypa/build, pypa/installer or other
+[10.894s]         standards-based tools.
+[10.894s] 
+[10.894s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[10.894s]         ********************************************************************************
+[10.894s] 
+[10.895s] !!
+[10.895s]   easy_install.initialize_options(self)
+[10.982s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[10.982s] !!
+[10.982s] 
+[10.982s]         ********************************************************************************
+[10.982s]         Please avoid running ``setup.py`` directly.
+[10.982s]         Instead, use pypa/build, pypa/installer or other
+[10.983s]         standards-based tools.
+[10.983s] 
+[10.983s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[10.983s]         ********************************************************************************
+[10.983s] 
+[10.983s] !!
+[10.983s]   self.initialize_options()
+[11.761s] running egg_info
+[11.844s] writing diff_drive.egg-info/PKG-INFO
+[11.845s] writing dependency_links to diff_drive.egg-info/dependency_links.txt
+[11.846s] writing entry points to diff_drive.egg-info/entry_points.txt
+[11.846s] writing requirements to diff_drive.egg-info/requires.txt
+[11.846s] writing top-level names to diff_drive.egg-info/top_level.txt
+[11.971s] reading manifest file 'diff_drive.egg-info/SOURCES.txt'
+[11.991s] writing manifest file 'diff_drive.egg-info/SOURCES.txt'
+[12.051s] running build_ext
+[12.051s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages/diff-drive.egg-link (link to .)
+[12.053s] Installing diff_drive_model script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/diff_drive
+[12.053s] 
+[12.054s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive
+[12.054s] running install_data
+[12.054s] copying resource/diff_drive -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/share/ament_index/resource_index/packages
+[12.139s] copying package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/share/diff_drive
+[12.647s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/build --no-deps install_data

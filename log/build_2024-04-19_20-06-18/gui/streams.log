@@ -1,0 +1,45 @@
+[4.497s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps install_data
+[5.489s] running develop
+[5.489s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.490s] !!
+[5.490s] 
+[5.491s]         ********************************************************************************
+[5.491s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.492s]         Instead, use pypa/build, pypa/installer or other
+[5.492s]         standards-based tools.
+[5.493s] 
+[5.493s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.494s]         ********************************************************************************
+[5.494s] 
+[5.495s] !!
+[5.495s]   easy_install.initialize_options(self)
+[5.602s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.603s] !!
+[5.603s] 
+[5.604s]         ********************************************************************************
+[5.604s]         Please avoid running ``setup.py`` directly.
+[5.604s]         Instead, use pypa/build, pypa/installer or other
+[5.605s]         standards-based tools.
+[5.605s] 
+[5.606s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.606s]         ********************************************************************************
+[5.606s] 
+[5.607s] !!
+[5.607s]   self.initialize_options()
+[6.261s] running egg_info
+[6.326s] writing gui.egg-info/PKG-INFO
+[6.327s] writing dependency_links to gui.egg-info/dependency_links.txt
+[6.328s] writing entry points to gui.egg-info/entry_points.txt
+[6.328s] writing requirements to gui.egg-info/requires.txt
+[6.329s] writing top-level names to gui.egg-info/top_level.txt
+[6.429s] reading manifest file 'gui.egg-info/SOURCES.txt'
+[6.470s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[6.530s] running build_ext
+[6.530s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)
+[6.532s] Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/gui
+[6.532s] 
+[6.533s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui
+[6.533s] running install_data
+[6.533s] copying resource/gui -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/share/ament_index/resource_index/packages
+[6.534s] copying package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/share/gui
+[6.619s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps install_data

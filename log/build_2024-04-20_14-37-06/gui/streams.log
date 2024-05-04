@@ -1,0 +1,31 @@
+[2.842s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps symlink_data
+[3.824s] running develop
+[3.825s] /home/ziczac/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.825s] !!
+[3.825s] 
+[3.825s]         ********************************************************************************
+[3.825s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.825s]         Instead, use pypa/build, pypa/installer or other
+[3.826s]         standards-based tools.
+[3.826s] 
+[3.826s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.826s]         ********************************************************************************
+[3.826s] 
+[3.826s] !!
+[3.826s]   easy_install.initialize_options(self)
+[4.353s] running egg_info
+[4.408s] writing gui.egg-info/PKG-INFO
+[4.408s] writing dependency_links to gui.egg-info/dependency_links.txt
+[4.409s] writing entry points to gui.egg-info/entry_points.txt
+[4.410s] writing requirements to gui.egg-info/requires.txt
+[4.410s] writing top-level names to gui.egg-info/top_level.txt
+[4.525s] reading manifest file 'gui.egg-info/SOURCES.txt'
+[4.526s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[4.576s] running build_ext
+[4.576s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)
+[4.578s] Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/gui
+[4.578s] 
+[4.579s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui
+[4.579s] running symlink_data
+[4.580s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/resource/gui -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/share/ament_index/resource_index/packages
+[4.581s] error: [Errno 17] File exists: '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/resource/gui' -> '/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/share/ament_index/resource_index/packages/gui'
