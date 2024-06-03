@@ -1,3 +1,6 @@
 [submodule "src/LsLIDARN10"]
 	path = src/LsLIDARN10
 	url = https://github.com/drmwnrafi/Lslidar_ROS2_driver.git
+[submodule "src/simulation_gazebo"]
+	path = src/simulation_gazebo
+	url = https://github.com/drmwnrafi/Simulation-SLAM.git
