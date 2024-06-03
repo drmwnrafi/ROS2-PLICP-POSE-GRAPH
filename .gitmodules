@@ -1,0 +1,3 @@
+[submodule "src/LsLIDARN10"]
+	path = src/LsLIDARN10
+	url = https://github.com/drmwnrafi/Lslidar_ROS2_driver.git
