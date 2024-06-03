@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing log_odds_map.egg-info/PKG-INFO
+writing dependency_links to log_odds_map.egg-info/dependency_links.txt
+writing entry points to log_odds_map.egg-info/entry_points.txt
+writing requirements to log_odds_map.egg-info/requires.txt
+writing top-level names to log_odds_map.egg-info/top_level.txt
+reading manifest file 'log_odds_map.egg-info/SOURCES.txt'
+writing manifest file 'log_odds_map.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/lib/python3.10/site-packages/log-odds-map.egg-link (link to .)
+Installing occ_map script to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/lib/log_odds_map
+
+Installed /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map
+running symlink_data
+symbolically linking /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map/resource/log_odds_map -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/ament_index/resource_index/packages
+symbolically linking /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map/package.xml -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map

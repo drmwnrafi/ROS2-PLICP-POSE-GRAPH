@@ -1,9 +1,9 @@
 {
   "package_name": "wheel_interfaces",
-  "output_dir": "/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheel_interfaces/rosidl_generator_c/wheel_interfaces",
+  "output_dir": "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces/rosidl_generator_c/wheel_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheel_interfaces/rosidl_adapter/wheel_interfaces:msg/WheelInfos.idl"
+    "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces/rosidl_adapter/wheel_interfaces:msg/WheelInfos.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheel_interfaces/rosidl_adapter/wheel_interfaces/msg/WheelInfos.idl"
+    "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces/rosidl_adapter/wheel_interfaces/msg/WheelInfos.idl"
   ]
 }

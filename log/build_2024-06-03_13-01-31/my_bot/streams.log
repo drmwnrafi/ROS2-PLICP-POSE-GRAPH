@@ -1,0 +1,36 @@
+[2.370s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot -- -j8 -l8
+[3.333s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot -- -j8 -l8
+[3.540s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot
+[3.575s] -- Install configuration: ""
+[3.579s] -- Execute custom install script
+[3.579s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/config/empty.yaml
+[3.580s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[3.580s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[3.581s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/config/rviz2_learn.rviz
+[3.581s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[3.581s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[3.582s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/description/lidar.xacro
+[3.582s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[3.583s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/description/robot_core.xacro
+[3.584s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[3.585s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/launch/rsp.launch.py
+[3.586s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/worlds/4x6+pwst.world
+[3.587s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/worlds/4x6.world
+[3.587s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/worlds/empty.world
+[3.588s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/worlds/ruangan.world
+[3.589s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[3.591s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[3.592s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[3.592s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[3.593s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/environment/path.sh
+[3.593s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/environment/path.dsv
+[3.593s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/local_setup.bash
+[3.594s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/local_setup.sh
+[3.594s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/local_setup.zsh
+[3.595s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/local_setup.dsv
+[3.596s] -- Symlinking: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.dsv
+[3.667s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[3.667s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[3.668s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[3.672s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.xml
+[3.696s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot

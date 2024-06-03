@@ -1,8 +1,8 @@
-# Install script for directory: /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheel_interfaces/wheel_interfaces__py
+# Install script for directory: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces/wheel_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

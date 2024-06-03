@@ -1,6 +1,12 @@
 package.xml
 setup.cfg
 setup.py
+../../build/rosboard/rosboard.egg-info/PKG-INFO
+../../build/rosboard/rosboard.egg-info/SOURCES.txt
+../../build/rosboard/rosboard.egg-info/dependency_links.txt
+../../build/rosboard/rosboard.egg-info/entry_points.txt
+../../build/rosboard/rosboard.egg-info/requires.txt
+../../build/rosboard/rosboard.egg-info/top_level.txt
 rosboard/__init__.py
 rosboard/compression.py
 rosboard/cv_bridge.py

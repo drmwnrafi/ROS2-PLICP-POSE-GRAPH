@@ -1,0 +1,56 @@
+[0.082s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs -- -j8 -l8
+[2.425s] [  1%] Built target lslidar_msgs__cpp
+[2.426s] [ 12%] Built target lslidar_msgs__rosidl_generator_c
+[2.426s] [ 12%] Built target ament_cmake_python_symlink_lslidar_msgs
+[2.426s] [ 23%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[2.426s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[2.427s] [ 46%] Built target lslidar_msgs__rosidl_typesupport_c
+[2.427s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[2.427s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[2.427s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[2.428s] [ 79%] Built target lslidar_msgs
+[2.428s] [ 80%] Built target lslidar_msgs__py
+[2.428s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[2.428s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[2.429s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.429s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[2.429s] running egg_info
+[2.429s] writing lslidar_msgs.egg-info/PKG-INFO
+[2.429s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[2.430s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[2.430s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[2.435s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[2.435s] [100%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[3.307s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs -- -j8 -l8
+[4.644s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs', '--target', 'help'] to pass: gmake: *** [Makefile:1520: help] Interrupt
+

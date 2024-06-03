@@ -1,0 +1,34 @@
+[2.146s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu -- -j8 -l8
+[2.203s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.471s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.484s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.556s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.563s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.576s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.778s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.781s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.068s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.391s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.692s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[3.692s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[3.692s]   asked CMake to find a package configuration file provided by "serial", but
+[3.692s]   CMake did not find one.
+[3.692s] 
+[3.693s]   Could not find a package configuration file provided by "serial" with any
+[3.693s]   of the following names:
+[3.693s] 
+[3.693s]     serialConfig.cmake
+[3.694s]     serial-config.cmake
+[3.694s] 
+[3.694s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[3.694s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[3.694s]   provides a separate development package or SDK, be sure it has been
+[3.695s]   installed.
+[3.695s] 
+[3.695s] [0m
+[3.695s] -- Configuring incomplete, errors occurred!
+[3.695s] See also "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu/CMakeFiles/CMakeOutput.log".
+[3.709s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[3.733s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu -- -j8 -l8

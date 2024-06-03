@@ -1,0 +1,176 @@
+[0.050s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/snap/alacritty/125/usr/lib/x86_64-linux-gnu/dri PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver
+[0.198s] -- The C compiler identification is GNU 11.4.0
+[0.332s] -- The CXX compiler identification is GNU 11.4.0
+[0.349s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.534s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.534s] -- Detecting C compile features
+[0.535s] -- Detecting C compile features - done
+[0.541s] -- Detecting CXX compiler ABI info
+[0.745s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.763s] -- Detecting CXX compile features
+[0.764s] -- Detecting CXX compile features - done
+[1.198s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.207s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.563s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.896s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.909s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.928s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.142s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.151s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.373s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.429s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.522s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.544s] -- Found Threads: TRUE  
+[2.823s] -- Checking for module 'eigen3'
+[2.862s] --   Found eigen3, version 3.3.4
+[2.972s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.972s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.008s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[3.040s] -- Checking for module 'flann'
+[3.080s] --   Found flann, version 1.9.1
+[3.194s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.194s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.239s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[3.247s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[3.618s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[3.619s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[3.623s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[3.641s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.699s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.713s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.893s] -- Found X11: /usr/include   
+[3.893s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.032s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.032s] -- Looking for gethostbyname
+[4.169s] -- Looking for gethostbyname - found
+[4.169s] -- Looking for connect
+[4.301s] -- Looking for connect - found
+[4.302s] -- Looking for remove
+[4.456s] -- Looking for remove - found
+[4.456s] -- Looking for shmat
+[4.614s] -- Looking for shmat - found
+[4.614s] -- Looking for IceConnectionNumber in ICE
+[4.783s] -- Looking for IceConnectionNumber in ICE - found
+[4.980s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[4.988s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[4.998s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[5.004s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[5.036s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[5.043s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[5.048s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[5.053s] -- Found utf8cpp: /usr/include/utf8cpp  
+[5.220s] -- Checking for module 'libusb-1.0'
+[5.260s] --   Found libusb-1.0, version 1.0.25
+[5.362s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.364s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[5.364s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.534s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[5.534s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.534s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[5.747s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.759s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.770s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.967s] -- Found Qhull version 8.0.2
+[6.173s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.364s] -- looking for PCL_COMMON
+[6.365s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.365s] -- looking for PCL_KDTREE
+[6.366s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[6.366s] -- looking for PCL_OCTREE
+[6.367s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.367s] -- looking for PCL_SEARCH
+[6.368s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.368s] -- looking for PCL_SAMPLE_CONSENSUS
+[6.369s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.369s] -- looking for PCL_FILTERS
+[6.370s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.370s] -- looking for PCL_2D
+[6.371s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[6.371s] -- looking for PCL_GEOMETRY
+[6.371s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[6.371s] -- looking for PCL_IO
+[6.372s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.372s] -- looking for PCL_FEATURES
+[6.373s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.373s] -- looking for PCL_ML
+[6.374s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.374s] -- looking for PCL_SEGMENTATION
+[6.375s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.375s] -- looking for PCL_VISUALIZATION
+[6.376s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.376s] -- looking for PCL_SURFACE
+[6.377s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.378s] -- looking for PCL_REGISTRATION
+[6.378s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.379s] -- looking for PCL_KEYPOINTS
+[6.379s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.380s] -- looking for PCL_TRACKING
+[6.381s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.381s] -- looking for PCL_RECOGNITION
+[6.382s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.382s] -- looking for PCL_STEREO
+[6.383s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.383s] -- looking for PCL_APPS
+[6.384s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.385s] -- looking for PCL_IN_HAND_SCANNER
+[6.385s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[6.385s] -- looking for PCL_MODELER
+[6.386s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[6.386s] -- looking for PCL_POINT_CLOUD_EDITOR
+[6.386s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[6.386s] -- looking for PCL_OUTOFCORE
+[6.387s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.387s] -- looking for PCL_PEOPLE
+[6.388s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.389s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[6.393s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[6.481s] -- Found lslidar_msgs: 1.2.0 (/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[6.545s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[6.592s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[7.140s] -- Configuring done
+[7.218s] -- Generating done
+[7.222s] -- Build files have been written to: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver
+[7.245s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/snap/alacritty/125/usr/lib/x86_64-linux-gnu/dri PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver
+[7.248s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/snap/alacritty/125/usr/lib/x86_64-linux-gnu/dri PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver -- -j8 -l8
+[7.400s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[7.411s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[7.412s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[7.416s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[29.543s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[31.560s] [100%] Built target lslidar_driver_node
+[31.596s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/snap/alacritty/125/usr/lib/x86_64-linux-gnu/dri PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver -- -j8 -l8
+[31.667s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/snap/alacritty/125/usr/lib/x86_64-linux-gnu/dri PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver
+[31.691s] -- Install configuration: ""
+[31.691s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/launch
+[31.692s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/launch/lslidar_launch.py
+[31.743s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[31.776s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/params
+[31.776s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/params/lsx10.yaml
+[31.821s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/params/lsx10_2.yaml
+[31.865s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/params/lsx10_1.yaml
+[31.909s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/rviz
+[31.909s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[31.943s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[31.963s] -- Set runtime path of "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[31.963s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[31.965s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[31.965s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[31.966s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[31.967s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[31.967s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[31.968s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[31.969s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[31.969s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[31.970s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[31.971s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.dsv
+[31.972s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[31.973s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.973s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.974s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[31.974s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[31.975s] -- Installing: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.xml
+[31.983s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/snap/alacritty/125/usr/lib/x86_64-linux-gnu/dri PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver

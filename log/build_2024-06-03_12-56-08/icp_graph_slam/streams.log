@@ -1,0 +1,22 @@
+[3.505s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/build --no-deps symlink_data
+[4.611s] running develop
+[6.098s] running egg_info
+[6.098s] creating icp_graph_slam.egg-info
+[6.099s] writing icp_graph_slam.egg-info/PKG-INFO
+[6.099s] writing dependency_links to icp_graph_slam.egg-info/dependency_links.txt
+[6.100s] writing entry points to icp_graph_slam.egg-info/entry_points.txt
+[6.100s] writing requirements to icp_graph_slam.egg-info/requires.txt
+[6.100s] writing top-level names to icp_graph_slam.egg-info/top_level.txt
+[6.100s] writing manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[6.144s] reading manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[6.146s] writing manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[6.152s] running build_ext
+[6.153s] Creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/python3.10/site-packages/icp-graph-slam.egg-link (link to .)
+[6.155s] Installing collect_data_mapping script to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/icp_graph_slam
+[6.155s] Installing get_lidar script to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/icp_graph_slam
+[6.156s] 
+[6.156s] Installed /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam
+[6.156s] running symlink_data
+[6.169s] symbolically linking /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/resource/icp_graph_slam -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/ament_index/resource_index/packages
+[6.169s] error: [Errno 17] File exists: '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/resource/icp_graph_slam' -> '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/ament_index/resource_index/packages/icp_graph_slam'
+[6.333s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam' returned '1': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/build --no-deps symlink_data

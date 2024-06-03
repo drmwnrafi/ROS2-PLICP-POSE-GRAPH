@@ -1,8 +1,8 @@
-# Install script for directory: /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_msgs/lslidar_msgs__py
+# Install script for directory: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs/lslidar_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

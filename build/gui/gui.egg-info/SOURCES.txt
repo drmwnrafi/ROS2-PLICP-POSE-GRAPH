@@ -1,6 +1,13 @@
 package.xml
 setup.cfg
 setup.py
+../../build/gui/gui.egg-info/PKG-INFO
+../../build/gui/gui.egg-info/SOURCES.txt
+../../build/gui/gui.egg-info/dependency_links.txt
+../../build/gui/gui.egg-info/entry_points.txt
+../../build/gui/gui.egg-info/requires.txt
+../../build/gui/gui.egg-info/top_level.txt
+../../build/gui/gui.egg-info/zip-safe
 gui/__init__.py
 gui/gradio_gui.py
 gui.egg-info/PKG-INFO

@@ -1,0 +1,33 @@
+[2.327s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/ros2_wheeltec_n100_imu -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheeltec_n100_imu
+[2.361s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.803s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.822s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.917s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.924s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.938s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.967s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.157s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.162s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.508s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.911s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.175s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[4.175s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[4.176s]   asked CMake to find a package configuration file provided by "serial", but
+[4.176s]   CMake did not find one.
+[4.176s] 
+[4.177s]   Could not find a package configuration file provided by "serial" with any
+[4.177s]   of the following names:
+[4.177s] 
+[4.177s]     serialConfig.cmake
+[4.178s]     serial-config.cmake
+[4.178s] 
+[4.178s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[4.178s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[4.178s]   provides a separate development package or SDK, be sure it has been
+[4.178s]   installed.
+[4.179s] 
+[4.179s] [0m
+[4.180s] -- Configuring incomplete, errors occurred!
+[4.180s] See also "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu/CMakeFiles/CMakeOutput.log".
+[4.200s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/ros2_wheeltec_n100_imu -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheeltec_n100_imu

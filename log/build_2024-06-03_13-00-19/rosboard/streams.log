@@ -1,0 +1,251 @@
+[4.016s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build
+[4.892s] running develop
+[5.758s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build
+[5.759s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rosboard build --build-base /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build install --record /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/install.log --single-version-externally-managed install_data --force
+[6.556s] running egg_info
+[6.557s] writing ../../build/rosboard/rosboard.egg-info/PKG-INFO
+[6.558s] writing dependency_links to ../../build/rosboard/rosboard.egg-info/dependency_links.txt
+[6.558s] writing entry points to ../../build/rosboard/rosboard.egg-info/entry_points.txt
+[6.558s] writing requirements to ../../build/rosboard/rosboard.egg-info/requires.txt
+[6.559s] writing top-level names to ../../build/rosboard/rosboard.egg-info/top_level.txt
+[6.565s] reading manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'
+[6.566s] adding license file 'LICENSE'
+[6.569s] writing manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'
+[6.569s] running build
+[6.569s] running build_py
+[6.569s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build
+[6.569s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib
+[6.570s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard
+[6.570s] copying rosboard/message_serialization.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard
+[6.583s] copying rosboard/handlers.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard
+[6.594s] copying rosboard/serialization.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard
+[6.605s] copying rosboard/cv_bridge.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard
+[6.618s] copying rosboard/compression.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard
+[6.628s] copying rosboard/rosboard.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard
+[6.638s] copying rosboard/__init__.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard
+[6.639s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/rospy2
+[6.639s] copying rosboard/rospy2/constants.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/rospy2
+[6.649s] copying rosboard/rospy2/__init__.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/rospy2
+[6.661s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers
+[6.661s] copying rosboard/subscribers/dmesg_subscriber.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers
+[6.671s] copying rosboard/subscribers/dummy_subscriber.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers
+[6.673s] copying rosboard/subscribers/system_stats_subscriber.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers
+[6.673s] copying rosboard/subscribers/processes_subscriber.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers
+[6.674s] copying rosboard/subscribers/__init__.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers
+[6.674s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html
+[6.674s] copying rosboard/html/index.html -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html
+[6.684s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.685s] copying rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.701s] copying rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.714s] copying rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.714s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.715s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.715s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.716s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.717s] copying rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.744s] copying rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.746s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.747s] copying rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.748s] copying rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.748s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.749s] copying rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.749s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.750s] copying rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.770s] copying rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.771s] copying rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.772s] copying rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.772s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.773s] copying rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.773s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.774s] copying rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.775s] copying rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.775s] copying rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.776s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts
+[6.777s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css
+[6.777s] copying rosboard/html/css/leaflet.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css
+[6.777s] copying rosboard/html/css/index.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css
+[6.778s] copying rosboard/html/css/material.light_green-lime.min.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css
+[6.800s] copying rosboard/html/css/material-icons.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css
+[6.801s] copying rosboard/html/css/leaflet.easy-button.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css
+[6.801s] copying rosboard/html/css/uPlot.min.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css
+[6.802s] copying rosboard/html/css/material.indigo-blue.min.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css
+[6.826s] copying rosboard/html/css/material.blue_grey-indigo.min.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css
+[6.850s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images
+[6.850s] copying rosboard/html/css/images/layers-2x.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images
+[6.851s] copying rosboard/html/css/images/marker-shadow.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images
+[6.851s] copying rosboard/html/css/images/marker-icon-2x.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images
+[6.852s] copying rosboard/html/css/images/layers.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images
+[6.852s] copying rosboard/html/css/images/marker-icon.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images
+[6.853s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.853s] copying rosboard/html/js/draggabilly.pkgd.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.854s] copying rosboard/html/js/leaflet-src.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.856s] copying rosboard/html/js/litegl.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.857s] copying rosboard/html/js/uPlot.iife.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.858s] copying rosboard/html/js/index.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.859s] copying rosboard/html/js/leaflet-src.js.map -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.889s] copying rosboard/html/js/leaflet.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.891s] copying rosboard/html/js/material.min.js.map -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.892s] copying rosboard/html/js/masonry.pkgd.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.893s] copying rosboard/html/js/jquery-3.1.0.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.911s] copying rosboard/html/js/gl-matrix.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.912s] copying rosboard/html/js/json5.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.912s] copying rosboard/html/js/eventemitter2.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.913s] copying rosboard/html/js/material.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.914s] copying rosboard/html/js/import-helper.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.914s] copying rosboard/html/js/leaflet-src.esm.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.917s] copying rosboard/html/js/leaflet-src.esm.js.map -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.920s] copying rosboard/html/js/rosbag.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.920s] copying rosboard/html/js/leaflet.easy-button.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.921s] copying rosboard/html/js/jquery.transit.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.922s] copying rosboard/html/js/leaflet.js.map -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js
+[6.923s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.923s] copying rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.924s] copying rosboard/html/js/viewers/GenericViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.925s] copying rosboard/html/js/viewers/ProcessListViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.925s] copying rosboard/html/js/viewers/LogViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.925s] copying rosboard/html/js/viewers/LaserScanViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.926s] copying rosboard/html/js/viewers/MapViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.926s] copying rosboard/html/js/viewers/ImageViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.927s] copying rosboard/html/js/viewers/DiagnosticViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.927s] copying rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.928s] copying rosboard/html/js/viewers/PolygonViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.928s] copying rosboard/html/js/viewers/GeometryViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.928s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[6.929s] copying rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[6.929s] copying rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[6.929s] copying rosboard/html/js/viewers/meta/Viewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[6.930s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports
+[6.930s] copying rosboard/html/js/transports/RosBridgeTransport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports
+[6.931s] copying rosboard/html/js/transports/RosbagTransport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports
+[6.931s] copying rosboard/html/js/transports/DeviceSensorTransport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports
+[6.932s] copying rosboard/html/js/transports/Rosbag2Transport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports
+[6.932s] copying rosboard/html/js/transports/WebSocketV1Transport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports
+[6.933s] running install
+[6.933s] running install_lib
+[6.935s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard
+[6.935s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/message_serialization.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard
+[6.935s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html
+[6.935s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[6.935s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/leaflet.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[6.935s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/index.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[6.936s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/material.light_green-lime.min.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[6.936s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/material-icons.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[6.936s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/leaflet.easy-button.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[6.936s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/uPlot.min.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[6.937s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[6.937s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images/layers-2x.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[6.937s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images/marker-shadow.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[6.937s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images/marker-icon-2x.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[6.937s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images/layers.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[6.938s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/images/marker-icon.png -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[6.938s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/material.indigo-blue.min.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[6.938s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/css/material.blue_grey-indigo.min.css -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[6.938s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/index.html -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html
+[6.939s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.939s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.939s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.939s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.939s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.939s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.940s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.940s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.940s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.941s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.941s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.941s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.942s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.942s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.942s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.942s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.943s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.943s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.943s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.944s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.944s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.944s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.944s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.944s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.945s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.945s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.945s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[6.945s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.946s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/draggabilly.pkgd.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.946s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.947s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/litegl.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.947s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/uPlot.iife.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.947s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/index.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.948s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js.map -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.949s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/leaflet.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.950s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/material.min.js.map -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.950s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/masonry.pkgd.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.950s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/jquery-3.1.0.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.951s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/gl-matrix.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.951s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/json5.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.951s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/eventemitter2.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.952s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/material.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.952s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/import-helper.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.952s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.953s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js.map -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.954s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/rosbag.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.955s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/leaflet.easy-button.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.955s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/jquery.transit.min.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.955s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.955s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.955s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/GenericViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.956s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/ProcessListViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.956s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/LogViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.956s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[6.956s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[6.956s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[6.956s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Viewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[6.957s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/LaserScanViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.957s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/MapViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.957s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/ImageViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.957s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/DiagnosticViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.957s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.957s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/PolygonViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.958s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/viewers/GeometryViewer.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[6.958s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[6.958s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports/RosBridgeTransport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[6.958s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports/RosbagTransport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[6.958s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports/DeviceSensorTransport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[6.959s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports/Rosbag2Transport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[6.959s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/transports/WebSocketV1Transport.js -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[6.959s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/html/js/leaflet.js.map -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[6.959s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/handlers.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard
+[6.960s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/serialization.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard
+[6.960s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/cv_bridge.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard
+[6.960s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2
+[6.960s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/rospy2/constants.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2
+[6.960s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/rospy2/__init__.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2
+[6.961s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[6.961s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers/dmesg_subscriber.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[6.961s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers/dummy_subscriber.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[6.961s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers/system_stats_subscriber.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[6.961s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers/processes_subscriber.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[6.961s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/subscribers/__init__.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[6.962s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/compression.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard
+[6.962s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/rosboard.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard
+[6.962s] copying /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build/lib/rosboard/__init__.py -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard
+[6.963s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/message_serialization.py to message_serialization.cpython-310.pyc
+[6.964s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/handlers.py to handlers.cpython-310.pyc
+[6.966s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/serialization.py to serialization.cpython-310.pyc
+[6.967s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/cv_bridge.py to cv_bridge.cpython-310.pyc
+[6.968s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2/constants.py to constants.cpython-310.pyc
+[6.969s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2/__init__.py to __init__.cpython-310.pyc
+[6.974s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/dmesg_subscriber.py to dmesg_subscriber.cpython-310.pyc
+[6.974s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/dummy_subscriber.py to dummy_subscriber.cpython-310.pyc
+[6.975s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/system_stats_subscriber.py to system_stats_subscriber.cpython-310.pyc
+[6.975s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/processes_subscriber.py to processes_subscriber.cpython-310.pyc
+[6.976s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/__init__.py to __init__.cpython-310.pyc
+[6.976s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/compression.py to compression.cpython-310.pyc
+[6.980s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/rosboard.py to rosboard.cpython-310.pyc
+[6.982s] byte-compiling /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard/__init__.py to __init__.cpython-310.pyc
+[6.983s] running install_data
+[6.983s] copying package.xml -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard
+[6.983s] running install_egg_info
+[6.985s] Copying ../../build/rosboard/rosboard.egg-info to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard-1.2.1-py3.10.egg-info
+[6.987s] running install_scripts
+[7.016s] Installing rosboard_node script to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/rosboard
+[7.017s] writing list of installed files to '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/install.log'
+[7.071s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rosboard build --build-base /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build install --record /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/install.log --single-version-externally-managed install_data --force

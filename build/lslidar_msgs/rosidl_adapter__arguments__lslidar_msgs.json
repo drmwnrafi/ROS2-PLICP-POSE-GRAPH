@@ -1,10 +1,10 @@
 {
   "package_name": "lslidar_msgs",
   "non_idl_tuples": [
-    "/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarDifop.msg",
-    "/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarPacket.msg",
-    "/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarPoint.msg",
-    "/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarScan.msg",
-    "/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_msgs:msg/LslidarSweep.msg"
+    "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_msgs:msg/LslidarDifop.msg",
+    "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_msgs:msg/LslidarPacket.msg",
+    "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_msgs:msg/LslidarPoint.msg",
+    "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_msgs:msg/LslidarScan.msg",
+    "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_msgs:msg/LslidarSweep.msg"
   ]
 }

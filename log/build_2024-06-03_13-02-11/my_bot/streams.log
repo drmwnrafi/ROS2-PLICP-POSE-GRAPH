@@ -1,0 +1,2 @@
+[1.690s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot': /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot -- -j8 -l8
+[2.266s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot' returned '0': /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot -- -j8 -l8

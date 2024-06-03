@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/ziczac/dev/skripsi_code/ros2_workspace/build/log_odds_map"
+_colcon_prepend_unique_value PYTHONPATH "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map"

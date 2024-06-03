@@ -1,0 +1,18 @@
+[3.593s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/build --no-deps symlink_data
+[4.860s] running develop
+[6.038s] running egg_info
+[6.039s] creating diff_drive.egg-info
+[6.040s] writing diff_drive.egg-info/PKG-INFO
+[6.044s] writing dependency_links to diff_drive.egg-info/dependency_links.txt
+[6.045s] writing entry points to diff_drive.egg-info/entry_points.txt
+[6.045s] writing requirements to diff_drive.egg-info/requires.txt
+[6.045s] writing top-level names to diff_drive.egg-info/top_level.txt
+[6.046s] writing manifest file 'diff_drive.egg-info/SOURCES.txt'
+[6.050s] reading manifest file 'diff_drive.egg-info/SOURCES.txt'
+[6.052s] writing manifest file 'diff_drive.egg-info/SOURCES.txt'
+[6.055s] running build_ext
+[6.056s] Creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/python3.10/site-packages/diff-drive.egg-link (link to .)
+[6.058s] Installing diff_drive_model script to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/diff_drive
+[6.058s] 
+[6.059s] Installed /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive
+[6.059s] running symlink_data

@@ -1,1 +1,1 @@
-/home/ziczac/dev/skripsi_code/ros2_workspace/src/my_bot/launch/launch_sim.launch.py
+/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/simulation_gazebo/launch/launch_sim.launch.py

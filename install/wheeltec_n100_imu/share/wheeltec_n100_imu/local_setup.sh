@@ -1,1 +1,0 @@
-/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu/ament_cmake_environment_hooks/local_setup.sh

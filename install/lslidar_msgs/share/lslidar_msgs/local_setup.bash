@@ -1,1 +1,1 @@
-/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_msgs/ament_cmake_environment_hooks/local_setup.bash
+/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs/ament_cmake_environment_hooks/local_setup.bash

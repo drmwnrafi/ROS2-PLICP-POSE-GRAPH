@@ -1,8 +1,8 @@
-# Install script for directory: /home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu
+# Install script for directory: /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/ros2_wheeltec_n100_imu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu")
+  set(CMAKE_INSTALL_PREFIX "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheeltec_n100_imu")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheeltec_n100_imu/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

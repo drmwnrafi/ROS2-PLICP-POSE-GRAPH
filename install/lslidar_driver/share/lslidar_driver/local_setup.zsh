@@ -1,1 +1,1 @@
-/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver/ament_cmake_environment_hooks/local_setup.zsh
+/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver/ament_cmake_environment_hooks/local_setup.zsh

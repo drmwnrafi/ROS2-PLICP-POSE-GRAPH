@@ -1,0 +1,22 @@
+[5.920s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rosboard build --build-base /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build install --record /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/install.log --single-version-externally-managed install_data
+[6.995s] running egg_info
+[6.997s] writing ../../build/rosboard/rosboard.egg-info/PKG-INFO
+[6.998s] writing dependency_links to ../../build/rosboard/rosboard.egg-info/dependency_links.txt
+[6.998s] writing entry points to ../../build/rosboard/rosboard.egg-info/entry_points.txt
+[6.999s] writing requirements to ../../build/rosboard/rosboard.egg-info/requires.txt
+[7.000s] writing top-level names to ../../build/rosboard/rosboard.egg-info/top_level.txt
+[7.023s] reading manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'
+[7.026s] adding license file 'LICENSE'
+[7.032s] writing manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'
+[7.032s] running build
+[7.032s] running build_py
+[7.052s] running install
+[7.055s] running install_lib
+[7.075s] running install_data
+[7.075s] running install_egg_info
+[7.080s] removing '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard-1.2.1-py3.10.egg-info' (and everything under it)
+[7.083s] Copying ../../build/rosboard/rosboard.egg-info to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages/rosboard-1.2.1-py3.10.egg-info
+[7.084s] running install_scripts
+[7.141s] Installing rosboard_node script to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/rosboard
+[7.143s] writing list of installed files to '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/install.log'
+[8.316s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rosboard build --build-base /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build install --record /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[3.393s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/build --no-deps symlink_data
+[4.118s] running develop
+[4.591s] running egg_info
+[4.591s] writing diff_drive.egg-info/PKG-INFO
+[4.592s] writing dependency_links to diff_drive.egg-info/dependency_links.txt
+[4.592s] writing entry points to diff_drive.egg-info/entry_points.txt
+[4.592s] writing requirements to diff_drive.egg-info/requires.txt
+[4.592s] writing top-level names to diff_drive.egg-info/top_level.txt
+[4.596s] reading manifest file 'diff_drive.egg-info/SOURCES.txt'
+[4.597s] writing manifest file 'diff_drive.egg-info/SOURCES.txt'
+[4.600s] running build_ext
+[4.600s] Creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/python3.10/site-packages/diff-drive.egg-link (link to .)
+[4.601s] Installing diff_drive_model script to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/diff_drive
+[4.602s] 
+[4.602s] Installed /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive
+[4.602s] running symlink_data
+[4.602s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/ament_index
+[4.603s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/ament_index/resource_index
+[4.603s] creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/ament_index/resource_index/packages
+[4.603s] symbolically linking /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/resource/diff_drive -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/ament_index/resource_index/packages
+[4.603s] symbolically linking /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/package.xml -> /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive
