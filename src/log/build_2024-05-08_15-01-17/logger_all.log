@@ -1,0 +1,751 @@
+[0.320s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.320s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78fade31a950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78fade31a410>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78fade31a410>>)
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.927s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ziczac/dev/skripsi_code/ros2_workspace/src'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extension 'ros'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extensions ['cmake', 'python']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extension 'cmake'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extension 'python'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extensions ['python_setup_py']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver) by extension 'python_setup_py'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_driver) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_driver) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_driver) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_driver) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_driver) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_driver) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_driver) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_driver) by extension 'ros'
+[0.963s] DEBUG:colcon.colcon_core.package_identification:Package 'Lslidar_ROS2_driver/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_msgs) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_msgs) by extension 'ignore_ament_install'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_msgs) by extensions ['colcon_pkg']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_msgs) by extension 'colcon_pkg'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_msgs) by extensions ['colcon_meta']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_msgs) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_msgs) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(Lslidar_ROS2_driver/lslidar_msgs) by extension 'ros'
+[0.966s] DEBUG:colcon.colcon_core.package_identification:Package 'Lslidar_ROS2_driver/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(diff_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(diff_drive) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(diff_drive) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(diff_drive) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(diff_drive) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(diff_drive) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(diff_drive) by extension 'colcon_meta'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(diff_drive) by extensions ['ros']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(diff_drive) by extension 'ros'
+[0.969s] DEBUG:colcon.colcon_core.package_identification:Package 'diff_drive' with type 'ros.ament_python' and name 'diff_drive'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(gui) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(gui) by extension 'ignore'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(gui) by extension 'ignore_ament_install'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(gui) by extensions ['colcon_pkg']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(gui) by extension 'colcon_pkg'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(gui) by extensions ['colcon_meta']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(gui) by extension 'colcon_meta'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(gui) by extensions ['ros']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(gui) by extension 'ros'
+[0.972s] DEBUG:colcon.colcon_core.package_identification:Package 'gui' with type 'ros.ament_python' and name 'gui'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(log_odds_map) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(log_odds_map) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(log_odds_map) by extension 'ignore_ament_install'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(log_odds_map) by extensions ['colcon_pkg']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(log_odds_map) by extension 'colcon_pkg'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(log_odds_map) by extensions ['colcon_meta']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(log_odds_map) by extension 'colcon_meta'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(log_odds_map) by extensions ['ros']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(log_odds_map) by extension 'ros'
+[0.975s] DEBUG:colcon.colcon_core.package_identification:Package 'log_odds_map' with type 'ros.ament_python' and name 'log_odds_map'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'ignore'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'ignore_ament_install'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extensions ['colcon_pkg']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'colcon_pkg'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extensions ['colcon_meta']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'colcon_meta'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extensions ['ros']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(motor) by extension 'ros'
+[0.977s] DEBUG:colcon.colcon_core.package_identification:Package 'motor' with type 'ros.ament_python' and name 'motor'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'ros'
+[0.979s] DEBUG:colcon.colcon_core.package_identification:Package 'my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_wheeltec_n100_imu) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_wheeltec_n100_imu) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_wheeltec_n100_imu) by extension 'ignore_ament_install'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_wheeltec_n100_imu) by extensions ['colcon_pkg']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_wheeltec_n100_imu) by extension 'colcon_pkg'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_wheeltec_n100_imu) by extensions ['colcon_meta']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_wheeltec_n100_imu) by extension 'colcon_meta'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_wheeltec_n100_imu) by extensions ['ros']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_wheeltec_n100_imu) by extension 'ros'
+[0.986s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_wheeltec_n100_imu' with type 'ros.ament_cmake' and name 'wheeltec_n100_imu'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosboard) by extensions ['ignore', 'ignore_ament_install']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosboard) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosboard) by extension 'ignore_ament_install'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosboard) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosboard) by extension 'colcon_pkg'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(rosboard) by extensions ['colcon_meta']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(rosboard) by extension 'colcon_meta'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(rosboard) by extensions ['ros']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(rosboard) by extension 'ros'
+[0.993s] DEBUG:colcon.colcon_core.package_identification:Package 'rosboard' with type 'ros.ament_python' and name 'rosboard'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(serial-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(serial-ros2) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(serial-ros2) by extension 'ignore_ament_install'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(serial-ros2) by extensions ['colcon_pkg']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(serial-ros2) by extension 'colcon_pkg'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(serial-ros2) by extensions ['colcon_meta']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(serial-ros2) by extension 'colcon_meta'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(serial-ros2) by extensions ['ros']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(serial-ros2) by extension 'ros'
+[0.996s] DEBUG:colcon.colcon_core.package_identification:Package 'serial-ros2' with type 'ros.ament_cmake' and name 'serial'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(wheel_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(wheel_interfaces) by extension 'ignore'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(wheel_interfaces) by extension 'ignore_ament_install'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(wheel_interfaces) by extensions ['colcon_pkg']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(wheel_interfaces) by extension 'colcon_pkg'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(wheel_interfaces) by extensions ['colcon_meta']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(wheel_interfaces) by extension 'colcon_meta'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(wheel_interfaces) by extensions ['ros']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(wheel_interfaces) by extension 'ros'
+[0.998s] DEBUG:colcon.colcon_core.package_identification:Package 'wheel_interfaces' with type 'ros.ament_cmake' and name 'wheel_interfaces'
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.043s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.045s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/ziczac/dev/skripsi_code/ros2_workspace/install
+[1.048s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/humble
+[1.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_target' from command line to 'None'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_clean_first' from command line to 'False'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_force_configure' from command line to 'False'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'ament_cmake_args' from command line to 'None'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.137s] DEBUG:colcon.colcon_core.verb:Building package 'diff_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/diff_drive', 'symlink_install': True, 'test_result_base': None}
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_target' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_clean_cache' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_clean_first' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_force_configure' from command line to 'False'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'ament_cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'catkin_cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.138s] DEBUG:colcon.colcon_core.verb:Building package 'log_odds_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/log_odds_map', 'symlink_install': True, 'test_result_base': None}
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to 'None'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.139s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.140s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_args' from command line to 'None'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_target' from command line to 'None'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_clean_cache' from command line to 'False'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_clean_first' from command line to 'False'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_force_configure' from command line to 'False'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'ament_cmake_args' from command line to 'None'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'catkin_cmake_args' from command line to 'None'
+[1.141s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.141s] DEBUG:colcon.colcon_core.verb:Building package 'rosboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/rosboard', 'symlink_install': True, 'test_result_base': None}
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.142s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/serial-ros2', 'symlink_install': True, 'test_result_base': None}
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.143s] DEBUG:colcon.colcon_core.verb:Building package 'wheel_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/wheel_interfaces', 'symlink_install': True, 'test_result_base': None}
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_args' from command line to 'None'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_target' from command line to 'None'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_clean_cache' from command line to 'False'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_clean_first' from command line to 'False'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_force_configure' from command line to 'False'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'ament_cmake_args' from command line to 'None'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'catkin_cmake_args' from command line to 'None'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.145s] DEBUG:colcon.colcon_core.verb:Building package 'gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/gui', 'symlink_install': True, 'test_result_base': None}
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.146s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_driver', 'symlink_install': True, 'test_result_base': None}
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_args' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_cache' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_first' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_force_configure' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'ament_cmake_args' from command line to 'None'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_cmake_args' from command line to 'None'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.147s] DEBUG:colcon.colcon_core.verb:Building package 'motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/motor', 'symlink_install': True, 'test_result_base': None}
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_target' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_clean_first' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'cmake_force_configure' from command line to 'False'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'ament_cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_n100_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.148s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_n100_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu', 'symlink_install': True, 'test_result_base': None}
+[1.148s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.151s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/wheel_interfaces' with build type 'ament_cmake'
+[1.152s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/wheel_interfaces'
+[1.157s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.158s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_msgs' with build type 'ament_cmake'
+[1.168s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_msgs'
+[1.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/serial-ros2' with build type 'ament_cmake'
+[1.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/serial-ros2'
+[1.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.189s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/diff_drive' with build type 'ament_python'
+[1.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_drive', 'ament_prefix_path')
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/hook/ament_prefix_path.ps1'
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/hook/ament_prefix_path.dsv'
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/hook/ament_prefix_path.sh'
+[1.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.224s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/log_odds_map' with build type 'ament_python'
+[1.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('log_odds_map', 'ament_prefix_path')
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/hook/ament_prefix_path.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/hook/ament_prefix_path.dsv'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/hook/ament_prefix_path.sh'
+[1.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.252s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/my_bot' with build type 'ament_cmake'
+[1.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/my_bot'
+[1.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.262s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/rosboard' with build type 'ament_python'
+[1.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosboard', 'ament_prefix_path')
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/hook/ament_prefix_path.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/hook/ament_prefix_path.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/hook/ament_prefix_path.sh'
+[1.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces -- -j8 -l8
+[1.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_msgs -- -j8 -l8
+[1.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial
+[2.540s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/diff_drive'
+[2.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.695s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/log_odds_map'
+[3.695s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.695s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot -- -j8 -l8
+[4.720s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'rosboard' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[4.721s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/rosboard'
+[4.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_msgs -- -j8 -l8
+[4.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces -- -j8 -l8
+[4.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot -- -j8 -l8
+[4.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot
+[5.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[5.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/my_bot
+[5.091s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot' for CMake module files
+[5.096s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot' for CMake config files
+[5.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[5.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[5.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[5.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[5.106s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/bin'
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/lib/pkgconfig/my_bot.pc'
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/lib/python3.10/site-packages'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/bin'
+[5.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.ps1'
+[5.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.dsv'
+[5.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.sh'
+[5.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.bash'
+[5.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.zsh'
+[5.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/colcon-core/packages/my_bot)
+[5.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces
+[5.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[5.292s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot' for CMake module files
+[5.300s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot' for CMake config files
+[5.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[5.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[5.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/bin'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/lib/pkgconfig/my_bot.pc'
+[5.310s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/lib/python3.10/site-packages'
+[5.311s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/bin'
+[5.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.ps1'
+[5.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.dsv'
+[5.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.sh'
+[5.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.bash'
+[5.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/my_bot/package.zsh'
+[5.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/my_bot/share/colcon-core/packages/my_bot)
+[5.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_msgs
+[5.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_interfaces)
+[5.822s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces' for CMake module files
+[5.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheel_interfaces
+[5.834s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces' for CMake config files
+[5.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_interfaces', 'cmake_prefix_path')
+[5.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.ps1'
+[5.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.dsv'
+[5.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.sh'
+[5.873s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib'
+[5.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_interfaces', 'ld_library_path_lib')
+[5.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.ps1'
+[5.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.dsv'
+[5.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.sh'
+[5.898s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/bin'
+[5.901s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib/pkgconfig/wheel_interfaces.pc'
+[5.902s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib/python3.10/site-packages'
+[5.903s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/bin'
+[5.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.ps1'
+[5.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.dsv'
+[5.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.sh'
+[5.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.bash'
+[5.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.zsh'
+[5.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/colcon-core/packages/wheel_interfaces)
+[6.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_interfaces)
+[6.262s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces' for CMake module files
+[6.268s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces' for CMake config files
+[6.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_interfaces', 'cmake_prefix_path')
+[6.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.ps1'
+[6.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.dsv'
+[6.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.sh'
+[6.278s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib'
+[6.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_interfaces', 'ld_library_path_lib')
+[6.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.ps1'
+[6.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.dsv'
+[6.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.sh'
+[6.286s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/bin'
+[6.287s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib/pkgconfig/wheel_interfaces.pc'
+[6.288s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib/python3.10/site-packages'
+[6.289s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/bin'
+[6.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.ps1'
+[6.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.dsv'
+[6.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.sh'
+[6.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.bash'
+[6.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/wheel_interfaces/package.zsh'
+[6.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/share/colcon-core/packages/wheel_interfaces)
+[6.308s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/gui' with build type 'ament_python'
+[6.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'ament_prefix_path')
+[6.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/hook/ament_prefix_path.ps1'
+[6.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/hook/ament_prefix_path.dsv'
+[6.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/hook/ament_prefix_path.sh'
+[6.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.343s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/motor' with build type 'ament_python'
+[6.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'ament_prefix_path')
+[6.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/hook/ament_prefix_path.ps1'
+[6.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/hook/ament_prefix_path.dsv'
+[6.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/hook/ament_prefix_path.sh'
+[6.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.628s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/motor'
+[7.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.630s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.591s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/gui'
+[8.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/build --no-deps symlink_data
+[8.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map/build --no-deps symlink_data
+[8.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[8.621s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs' for CMake module files
+[8.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/build --no-deps symlink_data
+[8.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_msgs
+[8.627s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs' for CMake config files
+[8.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[8.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[8.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[8.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[8.637s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib'
+[8.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[8.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[8.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[8.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[8.643s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/bin'
+[8.644s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[8.644s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib/python3.10/site-packages'
+[8.645s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/bin'
+[8.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[8.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[8.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[8.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[8.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[8.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[8.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial
+[8.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial -- -j8 -l8
+[10.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[10.298s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs' for CMake module files
+[10.301s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs' for CMake config files
+[10.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[10.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[10.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[10.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[10.317s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib'
+[10.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[10.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[10.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[10.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[10.328s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/bin'
+[10.329s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[10.331s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib/python3.10/site-packages'
+[10.332s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/bin'
+[10.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[10.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[10.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[10.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[10.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[10.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[10.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_driver' with build type 'ament_cmake'
+[10.354s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_driver'
+[10.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_driver -- -j8 -l8
+[12.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosboard', 'pythonpath_develop')
+[12.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/share/rosboard/hook/pythonpath_develop.ps1'
+[12.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/build --no-deps symlink_data
+[12.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/share/rosboard/hook/pythonpath_develop.dsv'
+[12.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/rosboard/share/rosboard/hook/pythonpath_develop.sh'
+[12.480s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard' for CMake module files
+[12.482s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard' for CMake config files
+[12.484s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/lib'
+[12.484s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/bin'
+[12.485s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/lib/pkgconfig/rosboard.pc'
+[12.485s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/lib/python3.10/site-packages'
+[12.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosboard', 'pythonpath')
+[12.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/hook/pythonpath.ps1'
+[12.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/hook/pythonpath.dsv'
+[12.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/hook/pythonpath.sh'
+[12.512s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/bin'
+[12.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosboard)
+[12.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/package.ps1'
+[12.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/package.dsv'
+[12.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/package.sh'
+[12.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/package.bash'
+[12.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/rosboard/package.zsh'
+[12.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/rosboard/share/colcon-core/packages/rosboard)
+[12.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_drive', 'pythonpath_develop')
+[12.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/share/diff_drive/hook/pythonpath_develop.ps1'
+[12.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/share/diff_drive/hook/pythonpath_develop.dsv'
+[12.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/build --no-deps symlink_data
+[12.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/diff_drive/share/diff_drive/hook/pythonpath_develop.sh'
+[12.562s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive' for CMake module files
+[12.565s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive' for CMake config files
+[12.567s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/lib'
+[12.567s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/bin'
+[12.567s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/lib/pkgconfig/diff_drive.pc'
+[12.586s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/lib/python3.10/site-packages'
+[12.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_drive', 'pythonpath')
+[12.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/hook/pythonpath.ps1'
+[12.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/hook/pythonpath.dsv'
+[12.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/hook/pythonpath.sh'
+[12.600s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/bin'
+[12.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_drive)
+[12.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/package.ps1'
+[12.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/package.dsv'
+[12.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/package.sh'
+[12.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/package.bash'
+[12.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/diff_drive/package.zsh'
+[12.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/diff_drive/share/colcon-core/packages/diff_drive)
+[13.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/build --no-deps symlink_data
+[13.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor/build --no-deps symlink_data
+[13.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('log_odds_map', 'pythonpath_develop')
+[13.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map/share/log_odds_map/hook/pythonpath_develop.ps1'
+[13.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map/build --no-deps symlink_data
+[13.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map/share/log_odds_map/hook/pythonpath_develop.dsv'
+[13.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/log_odds_map/share/log_odds_map/hook/pythonpath_develop.sh'
+[13.781s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map' for CMake module files
+[13.783s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map' for CMake config files
+[13.786s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/lib'
+[13.786s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/bin'
+[13.787s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/lib/pkgconfig/log_odds_map.pc'
+[13.787s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/lib/python3.10/site-packages'
+[13.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('log_odds_map', 'pythonpath')
+[13.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/hook/pythonpath.ps1'
+[13.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/hook/pythonpath.dsv'
+[13.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/hook/pythonpath.sh'
+[13.793s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/bin'
+[13.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(log_odds_map)
+[13.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/package.ps1'
+[13.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/package.dsv'
+[13.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/package.sh'
+[13.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/package.bash'
+[13.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/log_odds_map/package.zsh'
+[13.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/log_odds_map/share/colcon-core/packages/log_odds_map)
+[13.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial -- -j8 -l8
+[13.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial
+[14.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_driver -- -j8 -l8
+[14.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_driver
+[14.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[14.453s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver' for CMake module files
+[14.455s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver' for CMake config files
+[14.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[14.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[14.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[14.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[14.465s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/lib'
+[14.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/lslidar_driver
+[14.467s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/bin'
+[14.467s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[14.468s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/lib/python3.10/site-packages'
+[14.469s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/bin'
+[14.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[14.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[14.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.sh'
+[14.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.bash'
+[14.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[14.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[14.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[14.621s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver' for CMake module files
+[14.623s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver' for CMake config files
+[14.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[14.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[14.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[14.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[14.630s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/lib'
+[14.630s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/bin'
+[14.631s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[14.631s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/lib/python3.10/site-packages'
+[14.632s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/bin'
+[14.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[14.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[14.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.sh'
+[14.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.bash'
+[14.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[14.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[14.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[14.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial
+[14.787s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial' for CMake module files
+[14.789s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial' for CMake config files
+[14.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[14.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[14.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[14.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[14.796s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib'
+[14.796s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/bin'
+[14.796s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib/pkgconfig/serial.pc'
+[14.797s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib/python3.10/site-packages'
+[14.798s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/bin'
+[14.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.ps1'
+[14.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.dsv'
+[14.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.sh'
+[14.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.bash'
+[14.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.zsh'
+[14.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/colcon-core/packages/serial)
+[14.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[14.921s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial' for CMake module files
+[14.923s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial' for CMake config files
+[14.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[14.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[14.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[14.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[14.931s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib'
+[14.931s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/bin'
+[14.932s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib/pkgconfig/serial.pc'
+[14.933s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib/python3.10/site-packages'
+[14.934s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/bin'
+[14.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.ps1'
+[14.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.dsv'
+[14.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.sh'
+[14.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.bash'
+[14.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/serial/package.zsh'
+[14.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/share/colcon-core/packages/serial)
+[14.945s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu' with build type 'ament_cmake'
+[14.946s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu'
+[14.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu
+[15.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'pythonpath_develop')
+[15.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/share/gui/hook/pythonpath_develop.ps1'
+[15.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/build --no-deps symlink_data
+[15.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/share/gui/hook/pythonpath_develop.dsv'
+[15.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/share/gui/hook/pythonpath_develop.sh'
+[15.618s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui' for CMake module files
+[15.619s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui' for CMake config files
+[15.621s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/lib'
+[15.621s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/bin'
+[15.621s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/lib/pkgconfig/gui.pc'
+[15.622s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/lib/python3.10/site-packages'
+[15.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'pythonpath')
+[15.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/hook/pythonpath.ps1'
+[15.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/hook/pythonpath.dsv'
+[15.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/hook/pythonpath.sh'
+[15.625s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/bin'
+[15.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui)
+[15.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/package.ps1'
+[15.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/package.dsv'
+[15.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/package.sh'
+[15.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/package.bash'
+[15.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/gui/package.zsh'
+[15.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/share/colcon-core/packages/gui)
+[15.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'pythonpath_develop')
+[15.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor/share/motor/hook/pythonpath_develop.ps1'
+[15.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor/build --no-deps symlink_data
+[15.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor/share/motor/hook/pythonpath_develop.dsv'
+[15.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/motor/share/motor/hook/pythonpath_develop.sh'
+[15.640s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor' for CMake module files
+[15.641s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor' for CMake config files
+[15.642s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/lib'
+[15.642s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/bin'
+[15.643s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/lib/pkgconfig/motor.pc'
+[15.643s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/lib/python3.10/site-packages'
+[15.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'pythonpath')
+[15.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/hook/pythonpath.ps1'
+[15.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/hook/pythonpath.dsv'
+[15.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/hook/pythonpath.sh'
+[15.648s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/bin'
+[15.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor)
+[15.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/package.ps1'
+[15.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/package.dsv'
+[15.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/package.sh'
+[15.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/package.bash'
+[15.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/motor/package.zsh'
+[15.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/motor/share/colcon-core/packages/motor)
+[24.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu
+[24.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu -- -j8 -l8
+[44.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu -- -j8 -l8
+[44.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu
+[45.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_n100_imu)
+[45.077s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu' for CMake module files
+[45.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/wheeltec_n100_imu
+[45.080s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu' for CMake config files
+[45.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_n100_imu', 'cmake_prefix_path')
+[45.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.ps1'
+[45.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.dsv'
+[45.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.sh'
+[45.085s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/lib'
+[45.085s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/bin'
+[45.085s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/lib/pkgconfig/wheeltec_n100_imu.pc'
+[45.086s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/lib/python3.10/site-packages'
+[45.086s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/bin'
+[45.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.ps1'
+[45.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.dsv'
+[45.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.sh'
+[45.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.bash'
+[45.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.zsh'
+[45.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/colcon-core/packages/wheeltec_n100_imu)
+[45.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_n100_imu)
+[45.163s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu' for CMake module files
+[45.164s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu' for CMake config files
+[45.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_n100_imu', 'cmake_prefix_path')
+[45.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.ps1'
+[45.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.dsv'
+[45.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/hook/cmake_prefix_path.sh'
+[45.171s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/lib'
+[45.171s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/bin'
+[45.171s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/lib/pkgconfig/wheeltec_n100_imu.pc'
+[45.172s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/lib/python3.10/site-packages'
+[45.172s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/bin'
+[45.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.ps1'
+[45.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.dsv'
+[45.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.sh'
+[45.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.bash'
+[45.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.zsh'
+[45.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheeltec_n100_imu/share/colcon-core/packages/wheeltec_n100_imu)
+[45.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.182s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.319s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.320s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.342s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/local_setup.ps1'
+[45.345s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/_local_setup_util_ps1.py'
+[45.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/setup.ps1'
+[45.351s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/local_setup.sh'
+[45.352s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/_local_setup_util_sh.py'
+[45.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/setup.sh'
+[45.355s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/local_setup.bash'
+[45.356s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/setup.bash'
+[45.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/local_setup.zsh'
+[45.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/setup.zsh'

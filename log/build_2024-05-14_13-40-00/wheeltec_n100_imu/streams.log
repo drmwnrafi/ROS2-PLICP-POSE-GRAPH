@@ -1,0 +1,24 @@
+[0.080s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu -- -j8 -l8
+[0.522s] [35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[0.646s] [100%] Built target imu_node
+[2.383s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu -- -j8 -l8
+[2.641s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu
+[2.740s] -- Install configuration: ""
+[2.766s] -- Execute custom install script
+[2.797s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/lib/wheeltec_n100_imu/imu_node
+[2.798s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/ament_index/resource_index/package_run_dependencies/wheeltec_n100_imu
+[2.799s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/ament_index/resource_index/parent_prefix_path/wheeltec_n100_imu
+[2.799s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/environment/ament_prefix_path.sh
+[2.800s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/environment/ament_prefix_path.dsv
+[2.800s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/environment/path.sh
+[2.801s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/environment/path.dsv
+[2.802s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/local_setup.bash
+[2.802s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/local_setup.sh
+[2.803s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/local_setup.zsh
+[2.804s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/local_setup.dsv
+[2.824s] -- Symlinking: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.dsv
+[2.877s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/ament_index/resource_index/packages/wheeltec_n100_imu
+[2.877s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/cmake/wheeltec_n100_imuConfig.cmake
+[2.877s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/cmake/wheeltec_n100_imuConfig-version.cmake
+[2.877s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu/share/wheeltec_n100_imu/package.xml
+[2.901s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu

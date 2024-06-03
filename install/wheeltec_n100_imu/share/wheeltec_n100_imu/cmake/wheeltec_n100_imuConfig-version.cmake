@@ -1,0 +1,1 @@
+/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu/ament_cmake_core/wheeltec_n100_imuConfig-version.cmake

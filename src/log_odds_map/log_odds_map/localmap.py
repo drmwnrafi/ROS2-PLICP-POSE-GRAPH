@@ -20,7 +20,6 @@ class localmap:
         self.map_origin=morigin
 
     def updatemap(self,scandata,angle_min,angle_max,angle_increment,range_min,range_max, pose):
-        self.localmap=[self.punknown]*int(self.width/self.resolution)*int(self.height/self.resolution)
         centreray=(len(scandata)/2)+1
         for i in range(len(scandata)):
             if scandata[i] < range_max and scandata[i] > range_min:

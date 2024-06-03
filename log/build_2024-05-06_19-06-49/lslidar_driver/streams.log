@@ -1,0 +1,174 @@
+[0.033s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver
+[0.256s] -- The C compiler identification is GNU 11.4.0
+[0.455s] -- The CXX compiler identification is GNU 11.4.0
+[0.481s] -- Detecting C compiler ABI info
+[0.814s] -- Detecting C compiler ABI info - done
+[0.839s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.840s] -- Detecting C compile features
+[0.843s] -- Detecting C compile features - done
+[0.854s] -- Detecting CXX compiler ABI info
+[1.152s] -- Detecting CXX compiler ABI info - done
+[1.172s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.173s] -- Detecting CXX compile features
+[1.176s] -- Detecting CXX compile features - done
+[1.878s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.914s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.269s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.430s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.650s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.663s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.683s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.943s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.949s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.275s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.360s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.486s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.511s] -- Found Threads: TRUE  
+[4.178s] -- Checking for module 'eigen3'
+[4.230s] --   Found eigen3, version 3.3.4
+[4.374s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.374s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.486s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[4.545s] -- Checking for module 'flann'
+[4.623s] --   Found flann, version 1.9.1
+[4.984s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.985s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.247s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[5.355s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[6.543s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[6.544s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[6.572s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[6.626s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.699s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[6.996s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[7.627s] -- Found X11: /usr/include   
+[7.631s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[8.099s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[8.099s] -- Looking for gethostbyname
+[8.307s] -- Looking for gethostbyname - found
+[8.308s] -- Looking for connect
+[8.492s] -- Looking for connect - found
+[8.492s] -- Looking for remove
+[8.662s] -- Looking for remove - found
+[8.663s] -- Looking for shmat
+[8.811s] -- Looking for shmat - found
+[8.811s] -- Looking for IceConnectionNumber in ICE
+[9.025s] -- Looking for IceConnectionNumber in ICE - found
+[9.344s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[9.352s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[9.364s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[9.379s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[9.613s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[9.652s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[9.666s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[9.752s] -- Found utf8cpp: /usr/include/utf8cpp  
+[10.368s] -- Checking for module 'libusb-1.0'
+[10.449s] --   Found libusb-1.0, version 1.0.25
+[10.596s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.620s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[10.621s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.909s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[10.910s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.911s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[11.297s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.312s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.328s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.216s] -- Found Qhull version 8.0.2
+[12.623s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.973s] -- looking for PCL_COMMON
+[12.978s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[12.978s] -- looking for PCL_KDTREE
+[12.980s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[12.981s] -- looking for PCL_OCTREE
+[12.983s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[12.983s] -- looking for PCL_SEARCH
+[12.987s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[12.987s] -- looking for PCL_SAMPLE_CONSENSUS
+[12.990s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[12.990s] -- looking for PCL_FILTERS
+[12.994s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[12.994s] -- looking for PCL_2D
+[12.995s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[12.996s] -- looking for PCL_GEOMETRY
+[12.996s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[12.997s] -- looking for PCL_IO
+[12.999s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[13.000s] -- looking for PCL_FEATURES
+[13.004s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[13.004s] -- looking for PCL_ML
+[13.007s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[13.007s] -- looking for PCL_SEGMENTATION
+[13.010s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[13.011s] -- looking for PCL_VISUALIZATION
+[13.013s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[13.014s] -- looking for PCL_SURFACE
+[13.016s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[13.017s] -- looking for PCL_REGISTRATION
+[13.020s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[13.020s] -- looking for PCL_KEYPOINTS
+[13.023s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[13.023s] -- looking for PCL_TRACKING
+[13.026s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[13.026s] -- looking for PCL_RECOGNITION
+[13.029s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[13.029s] -- looking for PCL_STEREO
+[13.032s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[13.033s] -- looking for PCL_APPS
+[13.036s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[13.037s] -- looking for PCL_IN_HAND_SCANNER
+[13.038s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[13.038s] -- looking for PCL_MODELER
+[13.039s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[13.040s] -- looking for PCL_POINT_CLOUD_EDITOR
+[13.040s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[13.041s] -- looking for PCL_OUTOFCORE
+[13.043s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[13.044s] -- looking for PCL_PEOPLE
+[13.046s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[13.047s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[14.929s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[16.067s] -- Found lslidar_msgs: 1.2.0 (/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[16.268s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[16.705s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[17.800s] -- Configuring done
+[18.229s] -- Generating done
+[18.241s] -- Build files have been written to: /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver
+[18.297s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziczac/dev/skripsi_code/ros2_workspace/src/Lslidar_ROS2_driver/lslidar_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver
+[18.303s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver -- -j8 -l8
+[18.438s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[18.438s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[18.438s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[18.438s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[59.843s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[65.557s] [100%] Built target lslidar_driver_node
+[65.605s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver -- -j8 -l8
+[65.734s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver
+[65.776s] -- Install configuration: ""
+[65.778s] -- Execute custom install script
+[65.847s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[65.848s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/launch/lslidar_launch.py
+[65.902s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/params/lsx10.yaml
+[65.912s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/params/lsx10_1.yaml
+[65.913s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/params/lsx10_2.yaml
+[65.915s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[65.916s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[65.968s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[65.969s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[66.033s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[66.050s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[66.051s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[66.051s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[66.053s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[66.054s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[66.055s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[66.056s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[66.056s] -- Symlinking: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/package.dsv
+[66.097s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[66.098s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.099s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.100s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[66.101s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[66.102s] -- Up-to-date symlink: /home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver/share/lslidar_driver/package.xml
+[66.110s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/lslidar_driver

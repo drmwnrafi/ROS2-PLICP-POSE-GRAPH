@@ -1,0 +1,17 @@
+[2.599s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps symlink_data
+[3.959s] running develop
+[4.185s] running egg_info
+[4.186s] writing gui.egg-info/PKG-INFO
+[4.186s] writing dependency_links to gui.egg-info/dependency_links.txt
+[4.186s] writing entry points to gui.egg-info/entry_points.txt
+[4.187s] writing requirements to gui.egg-info/requires.txt
+[4.187s] writing top-level names to gui.egg-info/top_level.txt
+[4.189s] reading manifest file 'gui.egg-info/SOURCES.txt'
+[4.292s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[4.295s] running build_ext
+[4.295s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)
+[4.296s] Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/gui
+[4.297s] 
+[4.297s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui
+[4.298s] running symlink_data
+[4.607s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui' returned '0': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/gui/build --no-deps symlink_data

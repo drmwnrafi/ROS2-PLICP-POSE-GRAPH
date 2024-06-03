@@ -1,0 +1,335 @@
+[0.249s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu -- -j8 -l8
+[0.420s] [35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[0.635s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[12.597s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:[m[K In member function ‘[01m[Kvoid ImuNode::read_imu()[m[K’:
+[12.597s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:221:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_sn_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.597s]   221 |         size_t [01;35m[Kground_sn_s[m[K = serial_.read(ground_sn, 1);
+[12.598s]       |                [01;35m[K^~~~~~~~~~~[m[K
+[12.598s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:244:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_ignore_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.598s]   244 |         size_t [01;35m[Kground_ignore_s[m[K = serial_.read(ground_ignore, (check_len[0]+4));
+[12.598s]       |                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[12.606s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:333:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.606s]   333 |         size_t [01;35m[Kdata_s[m[K = serial_.read(imu_frame_.read_buf.read_msg, (IMU_LEN + 1)); //48+1
+[12.606s]       |                [01;35m[K^~~~~~[m[K
+[12.610s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:366:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.610s]   366 |         size_t [01;35m[Kdata_s[m[K = serial_.read(ahrs_frame_.read_buf.read_msg, (AHRS_LEN + 1)); //48+1
+[12.610s]       |                [01;35m[K^~~~~~[m[K
+[12.611s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:397:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.611s]   397 |         size_t [01;35m[Kdata_s[m[K = serial_.read(insgps_frame_.read_buf.read_msg, (INSGPS_LEN + 1)); //48+1
+[12.611s]       |                [01;35m[K^~~~~~[m[K
+[12.660s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:422:28:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kq_r[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[12.660s]   422 |         Eigen::Quaterniond [01;35m[Kq_r[m[K =
+[12.660s]       |                            [01;35m[K^~~[m[K
+[12.661s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:434:28:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kq_xiao_rr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[12.661s]   434 |       Eigen::Quaterniond [01;35m[Kq_xiao_rr[m[K =
+[12.661s]       |                          [01;35m[K^~~~~~~~~[m[K
+[12.661s] 
+[12.661s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:190:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktype_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.662s]   190 |       size_t [01;35m[Ktype_s[m[K = serial_.read(head_type, 1);
+[12.662s]       |              [01;35m[K^~~~~~[m[K
+[12.662s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:201:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klen_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.662s]   201 |       size_t [01;35m[Klen_s[m[K = serial_.read(check_len, 1);
+[12.663s]       |              [01;35m[K^~~~~[m[K
+[12.663s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:249:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksn_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.663s]   249 |       size_t [01;35m[Ksn_s[m[K = serial_.read(check_sn, 1);
+[12.663s]       |              [01;35m[K^~~~[m[K
+[12.664s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:251:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc8_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.664s]   251 |       size_t [01;35m[Kcrc8_s[m[K = serial_.read(head_crc8, 1);
+[12.664s]       |              [01;35m[K^~~~~~[m[K
+[12.665s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:254:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_H_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.665s]   254 |       size_t [01;35m[Kcrc16_H_s[m[K = serial_.read(head_crc16_H, 1);
+[12.665s]       |              [01;35m[K^~~~~~~~~[m[K
+[12.666s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:255:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_L_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.666s]   255 |       size_t [01;35m[Kcrc16_L_s[m[K = serial_.read(head_crc16_L, 1);
+[12.666s]       |              [01;35m[K^~~~~~~~~[m[K
+[12.666s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:[m[K In member function ‘[01m[Kvoid ImuNode::magCalculateYaw(double, double, double&, double, double, double)[m[K’:
+[12.666s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:550:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+[12.667s]   550 |     [01;31m[Kcout[m[K << magyaw;
+[12.667s]       |     [01;31m[K^~~~[m[K
+[12.667s]       |     [32m[Kstd::cout[m[K
+[12.667s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[12.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.668s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:9[m[K,
+[12.668s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[12.669s] [01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[12.669s]    61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+[12.669s]       |                  [01;36m[K^~~~[m[K
+[12.962s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Geometry:55[m[K,
+[12.962s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:6[m[K,
+[12.963s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[12.963s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[12.963s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[12.963s] /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h: In instantiation of ‘[01m[Kstatic Eigen::Quaternion<double> Eigen::internal::quat_product<1, Derived, OtherDerived, double>::run(const Eigen::QuaternionBase<Derived>&, const Eigen::QuaternionBase<Derived1>&) [with Derived = Eigen::Quaternion<double>; OtherDerived = Eigen::Quaternion<double>][m[K’:
+[12.964s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:449:74:[m[K   required from ‘[01m[KEigen::Quaternion<typename Eigen::internal::traits<T>::Scalar> Eigen::QuaternionBase<Derived>::operator*(const Eigen::QuaternionBase<OtherDerived>&) const [with OtherDerived = Eigen::Quaternion<double>; Derived = Eigen::Quaternion<double>; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[12.964s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:453:45:[m[K   required from here
+[12.964s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h:136:10:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KEigen::Quaternion<double>::Quaternion(const Eigen::Quaternion<double>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[12.964s]   136 |   return [01;35m[Kres[m[K;
+[12.964s]       |          [01;35m[K^~~[m[K
+[12.965s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Geometry:42[m[K,
+[12.965s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:6[m[K,
+[12.965s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[12.966s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[12.966s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[12.966s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:483:64:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KEigen::Quaternion<double>[m[K’ has user-provided ‘[01m[KEigen::QuaternionBase<Derived>& Eigen::QuaternionBase<Derived>::operator=(const Eigen::QuaternionBase<Derived>&) [with Derived = Eigen::Quaternion<double>][m[K’
+[12.966s]   483 | QuaternionBase<Derived>& [01;36m[KQuaternionBase<Derived>[m[K::operator=(const QuaternionBase<Derived>& other)
+[12.966s]       |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.967s] 
+[12.967s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:227:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Eigen::QuaternionBase<Eigen::Quaternion<double> >::QuaternionBase(const Eigen::QuaternionBase<Eigen::Quaternion<double> >&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[12.967s]   227 | class [01;35m[KQuaternion[m[K : public QuaternionBase<Quaternion<_Scalar,_Options> >
+[12.967s]       |       [01;35m[K^~~~~~~~~~[m[K
+[12.968s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:483:64:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KEigen::QuaternionBase<Eigen::Quaternion<double> >[m[K’ has user-provided ‘[01m[KEigen::QuaternionBase<Derived>& Eigen::QuaternionBase<Derived>::operator=(const Eigen::QuaternionBase<Derived>&) [with Derived = Eigen::Quaternion<double>][m[K’
+[12.968s]   483 | QuaternionBase<Derived>& [01;36m[KQuaternionBase<Derived>[m[K::operator=(const QuaternionBase<Derived>& other)
+[12.968s]       |                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.968s] 
+[12.969s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Geometry:55[m[K,
+[12.969s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:6[m[K,
+[12.969s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[12.969s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[12.969s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[12.970s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h:136:10:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[KEigen::Quaternion<double>::Quaternion(const Eigen::Quaternion<double>&)[m[K’ first required here
+[12.970s]   136 |   return [01;36m[Kres[m[K;
+[12.970s]       |          [01;36m[K^~~[m[K
+[13.341s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:442[m[K,
+[13.341s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.341s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.342s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.342s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.342s] /usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h: In instantiation of ‘[01m[KEigen::internal::BlockImpl_dense<XprType, BlockRows, BlockCols, InnerPanel, HasDirectAccess>::BlockImpl_dense(XprType&, Eigen::Index) [with XprType = const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >; int BlockRows = 3; int BlockCols = 1; bool InnerPanel = false; bool HasDirectAccess = false; Eigen::Index = long int][m[K’:
+[13.343s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Block.h:162:75:[m[K   required from ‘[01m[KEigen::BlockImpl<XprType, BlockRows, BlockCols, InnerPanel, Eigen::Dense>::BlockImpl(XprType&, Eigen::Index) [with XprType = const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >; int BlockRows = 3; int BlockCols = 1; bool InnerPanel = false; Eigen::Index = long int][m[K’
+[13.343s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Block.h:118:53:[m[K   required from ‘[01m[KEigen::Block<XprType, BlockRows, BlockCols, InnerPanel>::Block(XprType&, Eigen::Index) [with XprType = const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >; int BlockRows = 3; int BlockCols = 1; bool InnerPanel = false; Eigen::Index = long int][m[K’
+[13.343s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:821:10:[m[K   required from ‘[01m[Kstatic const BasisReturnType Eigen::MatrixBase<Derived>::Unit(Eigen::Index) [with Derived = Eigen::Matrix<double, 3, 1>; Eigen::MatrixBase<Derived>::BasisReturnType = Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false>; Eigen::Index = long int][m[K’
+[13.344s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:852:23:[m[K   required from ‘[01m[Kstatic const BasisReturnType Eigen::MatrixBase<Derived>::UnitZ() [with Derived = Eigen::Matrix<double, 3, 1>; Eigen::MatrixBase<Derived>::BasisReturnType = Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false>][m[K’
+[13.344s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:423:54:[m[K   required from here
+[13.344s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:60:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Eigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> > >::MatrixBase(const Eigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> > >&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[13.344s]    60 | class [01;35m[KCwiseNullaryOp[m[K : public internal::dense_xpr_base< CwiseNullaryOp<NullaryOp, PlainObjectType> >::type, internal::no_assignment_operator
+[13.345s]       |       [01;35m[K^~~~~~~~~~~~~~[m[K
+[13.345s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:424[m[K,
+[13.345s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.346s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.346s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.346s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.346s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Assign.h:55:30:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KEigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> > >[m[K’ has user-provided ‘[01m[KDerived& Eigen::MatrixBase<Derived>::operator=(const Eigen::MatrixBase<Derived>&) [with Derived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >][m[K’
+[13.347s]    55 | N_STRONG_INLINE Derived& [01;36m[KMatrixBase<Derived>[m[K::operator=(const MatrixBase& other)
+[13.347s]       |                          [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.347s] 
+[13.347s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:442[m[K,
+[13.347s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.347s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.348s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.348s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.348s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:60:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Eigen::internal::no_assignment_operator::no_assignment_operator(const Eigen::internal::no_assignment_operator&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[13.348s]    60 | class [01;35m[KCwiseNullaryOp[m[K : public internal::dense_xpr_base< CwiseNullaryOp<NullaryOp, PlainObjectType> >::type, internal::no_assignment_operator
+[13.348s]       |       [01;35m[K^~~~~~~~~~~~~~[m[K
+[13.348s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:348[m[K,
+[13.348s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.349s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.349s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.349s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.349s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h:92:29:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KEigen::internal::no_assignment_operator[m[K’ has user-provided ‘[01m[KEigen::internal::no_assignment_operator& Eigen::internal::no_assignment_operator::operator=(const Eigen::internal::no_assignment_operator&)[m[K’
+[13.349s]    92 |  no_assignment_operator& [01;36m[Koperator[m[K=(const no_assignment_operator&);
+[13.349s]       |                          [01;36m[K^~~~~~~~[m[K
+[13.349s] 
+[13.349s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:451[m[K,
+[13.350s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.350s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.350s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.350s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.350s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Block.h:189:9:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[KEigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >::CwiseNullaryOp(const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >&)[m[K’ first required here
+[13.350s]   189 |       : [01;36m[Km_xpr(xpr)[m[K,
+[13.350s]       |         [01;36m[K^~~~~~~~~~[m[K
+[13.350s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:442[m[K,
+[13.351s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.351s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.351s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.351s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.351s] /usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_product_op<double, double>; LhsType = const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >; RhsType = const Eigen::Matrix<double, 3, 1>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Matrix<double, 3, 1>][m[K’:
+[13.351s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:50:1:[m[K   required from ‘[01m[Ktypename Eigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::promote_scalar_arg<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<T, typename Eigen::internal::traits<T>::Scalar, Eigen::internal::scalar_product_op<T, typename Eigen::internal::traits<T>::Scalar> > >::value>::type, typename Eigen::internal::traits<T>::Scalar>, const typename Eigen::internal::plain_constant_type<Derived, typename Eigen::internal::promote_scalar_arg<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<T, typename Eigen::internal::traits<T>::Scalar, Eigen::internal::scalar_product_op<T, typename Eigen::internal::traits<T>::Scalar> > >::value>::type>::type, const Derived> >::type Eigen::operator*(const T&, const StorageBaseType&) [with T = double; Derived = Eigen::Matrix<double, 3, 1>; typename Eigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::promote_scalar_arg<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<T, typename Eigen::internal::traits<T>::Scalar, Eigen::internal::scalar_product_op<T, typename Eigen::internal::traits<T>::Scalar> > >::value>::type, typename Eigen::internal::traits<T>::Scalar>, const typename Eigen::internal::plain_constant_type<Derived, typename Eigen::internal::promote_scalar_arg<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<T, typename Eigen::internal::traits<T>::Scalar, Eigen::internal::scalar_product_op<T, typename Eigen::internal::traits<T>::Scalar> > >::value>::type>::type, const Derived> >::type = const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> >; typename Eigen::internal::plain_constant_type<Derived, typename Eigen::internal::promote_scalar_arg<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<T, typename Eigen::internal::traits<T>::Scalar, Eigen::internal::scalar_product_op<T, typename Eigen::internal::traits<T>::Scalar> > >::value>::type>::type = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >; typename Eigen::internal::promote_scalar_arg<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<T, typename Eigen::internal::traits<T>::Scalar, Eigen::internal::scalar_product_op<T, typename Eigen::internal::traits<T>::Scalar> > >::value>::type = double; typename Eigen::internal::traits<T>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double; Eigen::MatrixBase<Derived>::StorageBaseType = Eigen::MatrixBase<Eigen::Matrix<double, 3, 1> >][m[K’
+[13.351s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:506:25:[m[K   required from ‘[01m[KDerived& Eigen::QuaternionBase<Derived>::operator=(const AngleAxisType&) [with Derived = Eigen::Quaternion<double>; Eigen::QuaternionBase<Derived>::AngleAxisType = Eigen::AngleAxis<double>][m[K’
+[13.352s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:260:81:[m[K   required from ‘[01m[KEigen::Quaternion<Scalar, Options>::Quaternion(const AngleAxisType&) [with _Scalar = double; int _Options = 0; Eigen::Quaternion<Scalar, Options>::AngleAxisType = Eigen::AngleAxis<double>][m[K’
+[13.352s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h:105:12:[m[K   required from ‘[01m[KEigen::AngleAxis<Scalar>::QuaternionType Eigen::AngleAxis<Scalar>::operator*(const Eigen::AngleAxis<Scalar>&) const [with _Scalar = double; Eigen::AngleAxis<Scalar>::QuaternionType = Eigen::Quaternion<double>][m[K’
+[13.352s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:424:61:[m[K   required from here
+[13.352s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:60:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Eigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> > >::MatrixBase(const Eigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> > >&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[13.352s]    60 | class [01;35m[KCwiseNullaryOp[m[K : public internal::dense_xpr_base< CwiseNullaryOp<NullaryOp, PlainObjectType> >::type, internal::no_assignment_operator
+[13.352s]       |       [01;35m[K^~~~~~~~~~~~~~[m[K
+[13.352s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:424[m[K,
+[13.352s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.353s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.353s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.353s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.353s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Assign.h:55:30:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KEigen::MatrixBase<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> > >[m[K’ has user-provided ‘[01m[KDerived& Eigen::MatrixBase<Derived>::operator=(const Eigen::MatrixBase<Derived>&) [with Derived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >][m[K’
+[13.353s]    55 | N_STRONG_INLINE Derived& [01;36m[KMatrixBase<Derived>[m[K::operator=(const MatrixBase& other)
+[13.353s]       |                          [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.353s] 
+[13.353s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:442[m[K,
+[13.354s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.354s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.354s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.354s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.354s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:60:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Eigen::internal::no_assignment_operator::no_assignment_operator(const Eigen::internal::no_assignment_operator&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[13.354s]    60 | class [01;35m[KCwiseNullaryOp[m[K : public internal::dense_xpr_base< CwiseNullaryOp<NullaryOp, PlainObjectType> >::type, internal::no_assignment_operator
+[13.354s]       |       [01;35m[K^~~~~~~~~~~~~~[m[K
+[13.354s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:348[m[K,
+[13.355s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.355s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.355s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.355s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.355s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h:92:29:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KEigen::internal::no_assignment_operator[m[K’ has user-provided ‘[01m[KEigen::internal::no_assignment_operator& Eigen::internal::no_assignment_operator::operator=(const Eigen::internal::no_assignment_operator&)[m[K’
+[13.355s]    92 |  no_assignment_operator& [01;36m[Koperator[m[K=(const no_assignment_operator&);
+[13.355s]       |                          [01;36m[K^~~~~~~~[m[K
+[13.355s] 
+[13.356s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:440[m[K,
+[13.356s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.356s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.356s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.356s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.356s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:105:9:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[KEigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >::CwiseNullaryOp(const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >&)[m[K’ first required here
+[13.356s]   105 |       : [01;36m[Km_lhs(aLhs)[m[K, m_rhs(aRhs), m_functor(func)
+[13.356s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[13.501s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.501s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.501s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.502s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.502s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.502s] /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kstruct Eigen::internal::copy_using_evaluator_traits<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::assign_op<double, double> >[m[K’:
+[13.502s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:607:49:[m[K   required from ‘[01m[Kclass Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::assign_op<double, double>, 0>[m[K’
+[13.502s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:739:10:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_dense_assignment_loop(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::Matrix<double, 3, 1>; Functor = Eigen::internal::assign_op<double, double>][m[K’
+[13.502s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:879:31:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::run(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::Matrix<double, 3, 1>; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K’
+[13.502s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::Matrix<double, 3, 1>; Func = Eigen::internal::assign_op<double, double>][m[K’
+[13.502s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h:728:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 3, 1>; Derived = Eigen::Matrix<double, 3, 1>][m[K’
+[13.502s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:278:27:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[13.503s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h:109:10:[m[K   required from ‘[01m[KEigen::Matrix<typename Eigen::internal::traits<T>::Scalar, 3, 1> Eigen::MatrixBase<Derived>::eulerAngles(Eigen::Index, Eigen::Index, Eigen::Index) const [with Derived = Eigen::Matrix<double, 3, 3>; typename Eigen::internal::traits<T>::Scalar = double; Eigen::Index = long int][m[K’
+[13.503s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:513:66:[m[K   required from here
+[13.503s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:86:63:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.503s]    86 | [01;35m[Kctorize) && MayLinearize && DstHasDirectAccess[m[K
+[13.503s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.503s] 
+[13.503s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.503s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.503s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.504s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.504s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.504s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:90:55:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.504s]    90 | (MightVectorize) && bool([01;35m[KDstHasDirectAccess[m[K)
+[13.504s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.504s] 
+[13.537s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.537s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.537s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.537s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.538s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.538s] /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kstruct Eigen::internal::copy_using_evaluator_traits<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false> >, Eigen::internal::assign_op<double, double> >[m[K’:
+[13.538s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:607:49:[m[K   required from ‘[01m[Kclass Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false> >, Eigen::internal::assign_op<double, double>, 0>[m[K’
+[13.538s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:739:10:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_dense_assignment_loop(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false>; Functor = Eigen::internal::assign_op<double, double>][m[K’
+[13.538s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:879:31:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::run(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false>; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K’
+[13.539s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false>; Func = Eigen::internal::assign_op<double, double>][m[K’
+[13.539s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h:728:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false>; Derived = Eigen::Matrix<double, 3, 1>][m[K’
+[13.539s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h:812:25:[m[K   required from ‘[01m[Kvoid Eigen::PlainObjectBase<Derived>::_init1(const Eigen::DenseBase<ElseDerived>&) [with T = Eigen::MatrixBase<Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false> >; OtherDerived = Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false>; Derived = Eigen::Matrix<double, 3, 1>][m[K’
+[13.539s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:296:31:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = Eigen::MatrixBase<Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false> >; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[13.539s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h:80:76:[m[K   required from ‘[01m[KEigen::AngleAxis<Scalar>::AngleAxis(const Scalar&, const Eigen::MatrixBase<OtherDerived>&) [with Derived = Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false>; _Scalar = double; Eigen::AngleAxis<Scalar>::Scalar = double][m[K’
+[13.540s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:423:61:[m[K   required from here
+[13.540s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:86:63:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.540s]    86 | [01;35m[Kctorize) && MayLinearize && DstHasDirectAccess[m[K
+[13.540s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.540s] 
+[13.540s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.541s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.541s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.541s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.542s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.542s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:90:55:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.542s]    90 | (MightVectorize) && bool([01;35m[KDstHasDirectAccess[m[K)
+[13.542s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.542s] 
+[13.547s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.548s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.548s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.548s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.548s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.548s] /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kstruct Eigen::internal::copy_using_evaluator_traits<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 3> >, Eigen::internal::evaluator<Eigen::Matrix<double, 3, 3> >, Eigen::internal::assign_op<double, double> >[m[K’:
+[13.549s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:607:49:[m[K   required from ‘[01m[Kclass Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 3> >, Eigen::internal::evaluator<Eigen::Matrix<double, 3, 3> >, Eigen::internal::assign_op<double, double>, 0>[m[K’
+[13.549s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:739:10:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_dense_assignment_loop(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 3, 3>; SrcXprType = Eigen::Matrix<double, 3, 3>; Functor = Eigen::internal::assign_op<double, double>][m[K’
+[13.549s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:879:31:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::run(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 3, 3>; SrcXprType = Eigen::Matrix<double, 3, 3>; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K’
+[13.549s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::Matrix<double, 3, 3>; Func = Eigen::internal::assign_op<double, double>][m[K’
+[13.549s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h:728:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 3, 3>; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[13.550s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:278:27:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’
+[13.550s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:562:10:[m[K   required from ‘[01m[KEigen::QuaternionBase<Derived>::Matrix3 Eigen::QuaternionBase<Derived>::toRotationMatrix() const [with Derived = Eigen::Quaternion<double>; Eigen::QuaternionBase<Derived>::Matrix3 = Eigen::Matrix<double, 3, 3>][m[K’
+[13.550s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h:50:99:[m[K   required from ‘[01m[KEigen::RotationBase<Derived, _Dim>::RotationMatrixType Eigen::RotationBase<Derived, _Dim>::matrix() const [with Derived = Eigen::Quaternion<double>; int _Dim = 3; Eigen::RotationBase<Derived, _Dim>::RotationMatrixType = Eigen::Matrix<double, 3, 3>][m[K’
+[13.550s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:513:52:[m[K   required from here
+[13.551s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:86:63:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.551s]    86 | [01;35m[Kctorize) && MayLinearize && DstHasDirectAccess[m[K
+[13.551s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.551s] 
+[13.551s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.552s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.552s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.552s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.552s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.552s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:90:55:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.553s]    90 | (MightVectorize) && bool([01;35m[KDstHasDirectAccess[m[K)
+[13.553s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.553s] 
+[13.587s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.587s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.587s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.587s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.588s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.588s] /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kstruct Eigen::internal::copy_using_evaluator_traits<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Matrix<double, 3, 1> > >, Eigen::internal::assign_op<double, double> >[m[K’:
+[13.588s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:607:49:[m[K   required from ‘[01m[Kclass Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Matrix<double, 3, 1> > >, Eigen::internal::assign_op<double, double>, 0>[m[K’
+[13.588s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:739:10:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_dense_assignment_loop(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Matrix<double, 3, 1> >; Functor = Eigen::internal::assign_op<double, double>][m[K’
+[13.588s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:879:31:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::run(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Matrix<double, 3, 1> >; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K’
+[13.589s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Matrix<double, 3, 1> >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[13.589s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:804:27:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename Eigen::internal::enable_if<(! Eigen::internal::evaluator_assume_aliasing<Src>::value), void*>::type) [with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Matrix<double, 3, 1> >; Func = Eigen::internal::assign_op<double, double>; typename Eigen::internal::enable_if<(! Eigen::internal::evaluator_assume_aliasing<Src>::value), void*>::type = void*; typename Eigen::internal::evaluator_traits<SrcXprType>::Shape = Eigen::DenseShape][m[K’
+[13.589s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:782:18:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&) [with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Matrix<double, 3, 1> >][m[K’
+[13.589s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h:710:32:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Matrix<double, 3, 1> >; Derived = Eigen::Matrix<double, 3, 1>][m[K’
+[13.589s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:225:24:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseUnaryOp<Eigen::internal::scalar_opposite_op<double>, const Eigen::Matrix<double, 3, 1> >; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[13.590s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h:107:9:[m[K   required from ‘[01m[KEigen::Matrix<typename Eigen::internal::traits<T>::Scalar, 3, 1> Eigen::MatrixBase<Derived>::eulerAngles(Eigen::Index, Eigen::Index, Eigen::Index) const [with Derived = Eigen::Matrix<double, 3, 3>; typename Eigen::internal::traits<T>::Scalar = double; Eigen::Index = long int][m[K’
+[13.590s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:513:66:[m[K   required from here
+[13.590s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:86:63:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.590s]    86 | [01;35m[Kctorize) && MayLinearize && DstHasDirectAccess[m[K
+[13.590s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.591s] 
+[13.591s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.591s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.591s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.592s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.592s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.592s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:90:55:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.592s]    90 | (MightVectorize) && bool([01;35m[KDstHasDirectAccess[m[K)
+[13.592s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.593s] 
+[13.615s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.615s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.615s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.616s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.616s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.616s] /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kstruct Eigen::internal::copy_using_evaluator_traits<Eigen::internal::evaluator<Eigen::Block<Eigen::Matrix<double, 4, 1>, 3, 1, false> >, Eigen::internal::evaluator<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> > >, Eigen::internal::assign_op<double, double> >[m[K’:
+[13.616s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:607:49:[m[K   required from ‘[01m[Kclass Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Block<Eigen::Matrix<double, 4, 1>, 3, 1, false> >, Eigen::internal::evaluator<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> > >, Eigen::internal::assign_op<double, double>, 0>[m[K’
+[13.616s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:739:10:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_dense_assignment_loop(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Block<Eigen::Matrix<double, 4, 1>, 3, 1, false>; SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> >; Functor = Eigen::internal::assign_op<double, double>][m[K’
+[13.617s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:879:31:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::run(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Block<Eigen::Matrix<double, 4, 1>, 3, 1, false>; SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> >; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K’
+[13.617s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Block<Eigen::Matrix<double, 4, 1>, 3, 1, false>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[13.617s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:804:27:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename Eigen::internal::enable_if<(! Eigen::internal::evaluator_assume_aliasing<Src>::value), void*>::type) [with Dst = Eigen::Block<Eigen::Matrix<double, 4, 1>, 3, 1, false>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> >; Func = Eigen::internal::assign_op<double, double>; typename Eigen::internal::enable_if<(! Eigen::internal::evaluator_assume_aliasing<Src>::value), void*>::type = void*; typename Eigen::internal::evaluator_traits<SrcXprType>::Shape = Eigen::DenseShape][m[K’
+[13.618s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:782:18:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&) [with Dst = Eigen::Block<Eigen::Matrix<double, 4, 1>, 3, 1, false>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> >][m[K’
+[13.618s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Assign.h:66:28:[m[K   required from ‘[01m[KDerived& Eigen::MatrixBase<Derived>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 3, 1> >, const Eigen::Matrix<double, 3, 1> >; Derived = Eigen::Block<Eigen::Matrix<double, 4, 1>, 3, 1, false>][m[K’
+[13.618s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:506:15:[m[K   required from ‘[01m[KDerived& Eigen::QuaternionBase<Derived>::operator=(const AngleAxisType&) [with Derived = Eigen::Quaternion<double>; Eigen::QuaternionBase<Derived>::AngleAxisType = Eigen::AngleAxis<double>][m[K’
+[13.619s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:260:81:[m[K   required from ‘[01m[KEigen::Quaternion<Scalar, Options>::Quaternion(const AngleAxisType&) [with _Scalar = double; int _Options = 0; Eigen::Quaternion<Scalar, Options>::AngleAxisType = Eigen::AngleAxis<double>][m[K’
+[13.619s] [01m[K/usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h:105:12:[m[K   required from ‘[01m[KEigen::AngleAxis<Scalar>::QuaternionType Eigen::AngleAxis<Scalar>::operator*(const Eigen::AngleAxis<Scalar>&) const [with _Scalar = double; Eigen::AngleAxis<Scalar>::QuaternionType = Eigen::Quaternion<double>][m[K’
+[13.620s] [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:424:61:[m[K   required from here
+[13.620s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:86:63:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.620s]    86 | [01;35m[Kctorize) && MayLinearize && DstHasDirectAccess[m[K
+[13.620s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.620s] 
+[13.621s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:420[m[K,
+[13.621s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.621s]                  from [01m[K/usr/local/include/eigen3/Eigen/Eigen:1[m[K,
+[13.621s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/include/wheeltec_n100_imu/imu_node.hpp:18[m[K,
+[13.621s]                  from [01m[K/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu/src/imu_node.cpp:5[m[K:
+[13.622s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:90:55:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[13.622s]    90 | (MightVectorize) && bool([01;35m[KDstHasDirectAccess[m[K)
+[13.622s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.623s] 
+[14.928s] gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:76: CMakeFiles/imu_node.dir/src/imu_node.cpp.o] Error 1
+[14.929s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_node.dir/all] Error 2
+[14.930s] gmake: *** [Makefile:146: all] Error 2
+[14.934s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu' returned '2': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor:/home/ziczac/dev/skripsi_code/ros2_workspace/install/gui:/home/ziczac/dev/skripsi_code/ros2_workspace/install/rosboard:/home/ziczac/dev/skripsi_code/ros2_workspace/install/log_odds_map:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu -- -j8 -l8

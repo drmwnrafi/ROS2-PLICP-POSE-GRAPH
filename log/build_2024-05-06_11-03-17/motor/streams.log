@@ -1,0 +1,19 @@
+[3.171s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data --force
+[4.122s] running develop
+[4.738s] running egg_info
+[4.738s] writing motor.egg-info/PKG-INFO
+[4.739s] writing dependency_links to motor.egg-info/dependency_links.txt
+[4.740s] writing entry points to motor.egg-info/entry_points.txt
+[4.741s] writing requirements to motor.egg-info/requires.txt
+[4.741s] writing top-level names to motor.egg-info/top_level.txt
+[4.745s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[4.780s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[4.784s] running build_ext
+[4.784s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+[4.786s] Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+[4.787s] 
+[4.787s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+[4.788s] running symlink_data
+[4.788s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/resource/motor -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/ament_index/resource_index/packages
+[4.788s] symbolically linking /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/package.xml -> /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/share/motor
+[4.882s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data --force

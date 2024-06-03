@@ -1,0 +1,17 @@
+[5.117s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data
+[10.401s] running develop
+[11.351s] running egg_info
+[11.352s] writing motor.egg-info/PKG-INFO
+[11.353s] writing dependency_links to motor.egg-info/dependency_links.txt
+[11.354s] writing entry points to motor.egg-info/entry_points.txt
+[11.354s] writing requirements to motor.egg-info/requires.txt
+[11.355s] writing top-level names to motor.egg-info/top_level.txt
+[11.361s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[11.362s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[11.366s] running build_ext
+[11.368s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+[11.370s] Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+[11.370s] 
+[11.371s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+[11.371s] running symlink_data
+[11.566s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor' returned '0': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheeltec_n100_imu:/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial:/home/ziczac/dev/skripsi_code/ros2_workspace/install/my_bot:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ros2_workspace/install/lslidar_msgs PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data

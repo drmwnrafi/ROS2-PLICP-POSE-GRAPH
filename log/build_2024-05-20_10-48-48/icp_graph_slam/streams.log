@@ -1,0 +1,18 @@
+[6.916s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam/build --no-deps symlink_data
+[8.595s] running develop
+[9.712s] running egg_info
+[9.713s] writing icp_graph_slam.egg-info/PKG-INFO
+[9.716s] writing dependency_links to icp_graph_slam.egg-info/dependency_links.txt
+[9.716s] writing entry points to icp_graph_slam.egg-info/entry_points.txt
+[9.716s] writing requirements to icp_graph_slam.egg-info/requires.txt
+[9.717s] writing top-level names to icp_graph_slam.egg-info/top_level.txt
+[9.720s] reading manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[9.726s] writing manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[9.731s] running build_ext
+[9.732s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/icp_graph_slam/lib/python3.10/site-packages/icp-graph-slam.egg-link (link to .)
+[9.738s] Installing collect_data_mapping script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/icp_graph_slam/lib/icp_graph_slam
+[9.739s] Installing get_lidar script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/icp_graph_slam/lib/icp_graph_slam
+[9.740s] 
+[9.741s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam
+[9.742s] running symlink_data
+[9.907s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam/build --no-deps symlink_data

@@ -1,4 +1,0 @@
-source;share/occupancy_grid/local_setup.bash
-source;share/occupancy_grid/local_setup.dsv
-source;share/occupancy_grid/local_setup.sh
-source;share/occupancy_grid/local_setup.zsh

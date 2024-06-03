@@ -1,0 +1,17 @@
+[3.836s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data
+[5.318s] running develop
+[6.022s] running egg_info
+[6.023s] writing motor.egg-info/PKG-INFO
+[6.023s] writing dependency_links to motor.egg-info/dependency_links.txt
+[6.024s] writing entry points to motor.egg-info/entry_points.txt
+[6.024s] writing requirements to motor.egg-info/requires.txt
+[6.025s] writing top-level names to motor.egg-info/top_level.txt
+[6.032s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[6.095s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[6.100s] running build_ext
+[6.102s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages/motor.egg-link (link to .)
+[6.105s] Installing motor script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/motor
+[6.107s] 
+[6.107s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor
+[6.108s] running symlink_data
+[6.300s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/motor/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/motor/build --no-deps symlink_data

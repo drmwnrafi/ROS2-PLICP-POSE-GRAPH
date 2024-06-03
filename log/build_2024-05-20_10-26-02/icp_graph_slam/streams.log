@@ -1,0 +1,17 @@
+[6.909s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam/build --no-deps symlink_data
+[8.204s] running develop
+[9.349s] running egg_info
+[9.353s] writing icp_graph_slam.egg-info/PKG-INFO
+[9.356s] writing dependency_links to icp_graph_slam.egg-info/dependency_links.txt
+[9.357s] writing entry points to icp_graph_slam.egg-info/entry_points.txt
+[9.363s] writing requirements to icp_graph_slam.egg-info/requires.txt
+[9.363s] writing top-level names to icp_graph_slam.egg-info/top_level.txt
+[9.371s] reading manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[9.434s] writing manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[9.446s] running build_ext
+[9.446s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/icp_graph_slam/lib/python3.10/site-packages/icp-graph-slam.egg-link (link to .)
+[9.469s] Installing get_lidar = icp_graph_slam.slam:maincollect_data_mapping script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/icp_graph_slam/lib/icp_graph_slam
+[9.470s] 
+[9.470s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam
+[9.470s] running symlink_data
+[9.785s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/icp_graph_slam/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/serial/ament_cmake_environment_hooks/local_setup.sh

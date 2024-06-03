@@ -1,0 +1,4 @@
+Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial': /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/serial -- -j8 -l8
+Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial' returned '0': /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/serial -- -j8 -l8
+Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial': /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/serial
+Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/serial' returned '0': /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ros2_workspace/build/serial

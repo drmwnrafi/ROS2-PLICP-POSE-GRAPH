@@ -1,0 +1,17 @@
+[13.904s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/build --no-deps symlink_data
+[15.412s] running develop
+[15.708s] running egg_info
+[15.709s] writing diff_drive.egg-info/PKG-INFO
+[15.709s] writing dependency_links to diff_drive.egg-info/dependency_links.txt
+[15.710s] writing entry points to diff_drive.egg-info/entry_points.txt
+[15.710s] writing requirements to diff_drive.egg-info/requires.txt
+[15.711s] writing top-level names to diff_drive.egg-info/top_level.txt
+[15.717s] reading manifest file 'diff_drive.egg-info/SOURCES.txt'
+[15.736s] writing manifest file 'diff_drive.egg-info/SOURCES.txt'
+[15.740s] running build_ext
+[15.741s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages/diff-drive.egg-link (link to .)
+[15.743s] Installing diff_drive_model script to /home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/diff_drive
+[15.743s] 
+[15.744s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive
+[15.744s] running symlink_data
+[15.984s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/diff_drive/build --no-deps symlink_data

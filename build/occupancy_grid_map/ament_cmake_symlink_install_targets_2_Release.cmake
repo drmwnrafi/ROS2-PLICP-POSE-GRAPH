@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziczac/dev/skripsi_code/ros2_workspace/build/occupancy_grid_map/occupancy_grid_map_exe" "TARGETS" "occupancy_grid_map_exe" "DESTINATION" "lib/occupancy_grid_map")

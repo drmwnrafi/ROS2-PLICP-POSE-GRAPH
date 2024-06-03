@@ -1,3 +1,0 @@
-[console_scripts]
-gui_control = gui.gradio_gui:main
-

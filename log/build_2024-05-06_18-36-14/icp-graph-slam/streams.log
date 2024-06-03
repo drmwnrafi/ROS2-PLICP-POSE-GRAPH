@@ -1,0 +1,16 @@
+[12.994s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp-graph-slam': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp-graph-slam/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/icp-graph-slam/build --no-deps symlink_data
+[13.856s] running develop
+[14.902s] running egg_info
+[14.902s] writing icp_graph_slam.egg-info/PKG-INFO
+[14.903s] writing dependency_links to icp_graph_slam.egg-info/dependency_links.txt
+[14.903s] writing entry points to icp_graph_slam.egg-info/entry_points.txt
+[14.904s] writing requirements to icp_graph_slam.egg-info/requires.txt
+[14.904s] writing top-level names to icp_graph_slam.egg-info/top_level.txt
+[14.908s] reading manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[14.921s] writing manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[14.926s] running build_ext
+[14.928s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam/lib/python3.10/site-packages/icp-graph-slam.egg-link (link to .)
+[14.930s] 
+[14.931s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/build/icp-graph-slam
+[14.931s] running symlink_data
+[15.323s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp-graph-slam' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/build/icp-graph-slam/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/install/icp-graph-slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/build/icp-graph-slam/build --no-deps symlink_data

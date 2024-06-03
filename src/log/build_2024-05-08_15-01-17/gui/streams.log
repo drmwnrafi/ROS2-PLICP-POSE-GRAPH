@@ -1,0 +1,17 @@
+[6.732s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/build --no-deps symlink_data
+[7.877s] running develop
+[8.761s] running egg_info
+[8.762s] writing gui.egg-info/PKG-INFO
+[8.763s] writing dependency_links to gui.egg-info/dependency_links.txt
+[8.763s] writing entry points to gui.egg-info/entry_points.txt
+[8.766s] writing requirements to gui.egg-info/requires.txt
+[8.767s] writing top-level names to gui.egg-info/top_level.txt
+[8.772s] reading manifest file 'gui.egg-info/SOURCES.txt'
+[8.809s] writing manifest file 'gui.egg-info/SOURCES.txt'
+[8.819s] running build_ext
+[8.821s] Creating /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/lib/python3.10/site-packages/gui.egg-link (link to .)
+[8.822s] Installing gui_control script to /home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/lib/gui
+[8.823s] 
+[8.824s] Installed /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui
+[8.828s] running symlink_data
+[9.017s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui' returned '0': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/gui/lib/python3.10/site-packages:/home/ziczac/dev/skripsi_code/ros2_workspace/src/install/wheel_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ros2_workspace/src/build/gui/build --no-deps symlink_data
