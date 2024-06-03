@@ -4,3 +4,6 @@
 [submodule "src/simulation_gazebo"]
 	path = src/simulation_gazebo
 	url = https://github.com/drmwnrafi/Simulation-SLAM.git
+[submodule "src/rosboard"]
+	path = src/rosboard
+	url = https://github.com/drmwnrafi/rosboard.git
