@@ -1,0 +1,1112 @@
+[0.800s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.801s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71d3f8732a40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71d3f8732500>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71d3f8732500>>)
+[12.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[12.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[12.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[12.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[12.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[12.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[12.571s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH'
+[12.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[12.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[12.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[12.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[12.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[12.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[12.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[12.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[12.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[12.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[12.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[12.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[12.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[12.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[12.683s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['ignore', 'ignore_ament_install']
+[12.684s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'ignore'
+[12.684s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'ignore_ament_install'
+[12.684s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['colcon_pkg']
+[12.684s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'colcon_pkg'
+[12.684s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['colcon_meta']
+[12.684s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'colcon_meta'
+[12.685s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['ros']
+[12.685s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'ros'
+[12.685s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['cmake', 'python']
+[12.685s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'cmake'
+[12.685s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'python'
+[12.685s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['python_setup_py']
+[12.685s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'python_setup_py'
+[12.686s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extensions ['ignore', 'ignore_ament_install']
+[12.686s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extension 'ignore'
+[12.686s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extension 'ignore_ament_install'
+[12.687s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extensions ['colcon_pkg']
+[12.687s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extension 'colcon_pkg'
+[12.687s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extensions ['colcon_meta']
+[12.687s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extension 'colcon_meta'
+[12.687s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extensions ['ros']
+[12.687s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extension 'ros'
+[12.687s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extensions ['cmake', 'python']
+[12.687s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extension 'cmake'
+[12.688s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extension 'python'
+[12.688s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extensions ['python_setup_py']
+[12.688s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:10:58) by extension 'python_setup_py'
+[12.689s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extensions ['ignore', 'ignore_ament_install']
+[12.689s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extension 'ignore'
+[12.689s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extension 'ignore_ament_install'
+[12.689s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extensions ['colcon_pkg']
+[12.689s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extension 'colcon_pkg'
+[12.689s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extensions ['colcon_meta']
+[12.689s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extension 'colcon_meta'
+[12.689s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extensions ['ros']
+[12.690s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extension 'ros'
+[12.690s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extensions ['cmake', 'python']
+[12.690s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extension 'cmake'
+[12.690s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extension 'python'
+[12.690s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extensions ['python_setup_py']
+[12.690s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|12:45:41) by extension 'python_setup_py'
+[12.691s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extensions ['ignore', 'ignore_ament_install']
+[12.691s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extension 'ignore'
+[12.691s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extension 'ignore_ament_install'
+[12.691s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extensions ['colcon_pkg']
+[12.692s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extension 'colcon_pkg'
+[12.692s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extensions ['colcon_meta']
+[12.692s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extension 'colcon_meta'
+[12.692s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extensions ['ros']
+[12.692s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extension 'ros'
+[12.692s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extensions ['cmake', 'python']
+[12.692s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extension 'cmake'
+[12.692s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extension 'python'
+[12.693s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extensions ['python_setup_py']
+[12.693s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/20-05|13:04:03) by extension 'python_setup_py'
+[12.693s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extensions ['ignore', 'ignore_ament_install']
+[12.694s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extension 'ignore'
+[12.694s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extension 'ignore_ament_install'
+[12.694s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extensions ['colcon_pkg']
+[12.694s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extension 'colcon_pkg'
+[12.694s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extensions ['colcon_meta']
+[12.694s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extension 'colcon_meta'
+[12.694s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extensions ['ros']
+[12.694s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extension 'ros'
+[12.695s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extensions ['cmake', 'python']
+[12.695s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extension 'cmake'
+[12.695s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extension 'python'
+[12.695s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extensions ['python_setup_py']
+[12.695s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:37:45) by extension 'python_setup_py'
+[12.696s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extensions ['ignore', 'ignore_ament_install']
+[12.696s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extension 'ignore'
+[12.696s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extension 'ignore_ament_install'
+[12.696s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extensions ['colcon_pkg']
+[12.696s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extension 'colcon_pkg'
+[12.696s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extensions ['colcon_meta']
+[12.697s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extension 'colcon_meta'
+[12.697s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extensions ['ros']
+[12.697s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extension 'ros'
+[12.697s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extensions ['cmake', 'python']
+[12.697s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extension 'cmake'
+[12.697s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extension 'python'
+[12.697s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extensions ['python_setup_py']
+[12.697s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:41:12) by extension 'python_setup_py'
+[12.698s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extensions ['ignore', 'ignore_ament_install']
+[12.698s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extension 'ignore'
+[12.698s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extension 'ignore_ament_install'
+[12.699s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extensions ['colcon_pkg']
+[12.699s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extension 'colcon_pkg'
+[12.699s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extensions ['colcon_meta']
+[12.699s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extension 'colcon_meta'
+[12.699s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extensions ['ros']
+[12.699s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extension 'ros'
+[12.699s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extensions ['cmake', 'python']
+[12.699s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extension 'cmake'
+[12.699s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extension 'python'
+[12.700s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extensions ['python_setup_py']
+[12.700s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:06) by extension 'python_setup_py'
+[12.700s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extensions ['ignore', 'ignore_ament_install']
+[12.701s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extension 'ignore'
+[12.701s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extension 'ignore_ament_install'
+[12.701s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extensions ['colcon_pkg']
+[12.701s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extension 'colcon_pkg'
+[12.701s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extensions ['colcon_meta']
+[12.701s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extension 'colcon_meta'
+[12.701s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extensions ['ros']
+[12.701s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extension 'ros'
+[12.702s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extensions ['cmake', 'python']
+[12.702s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extension 'cmake'
+[12.702s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extension 'python'
+[12.702s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extensions ['python_setup_py']
+[12.702s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/21-05|14:43:07) by extension 'python_setup_py'
+[12.703s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extensions ['ignore', 'ignore_ament_install']
+[12.703s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extension 'ignore'
+[12.703s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extension 'ignore_ament_install'
+[12.703s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extensions ['colcon_pkg']
+[12.703s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extension 'colcon_pkg'
+[12.703s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extensions ['colcon_meta']
+[12.703s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extension 'colcon_meta'
+[12.704s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extensions ['ros']
+[12.704s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extension 'ros'
+[12.704s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extensions ['cmake', 'python']
+[12.704s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extension 'cmake'
+[12.704s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extension 'python'
+[12.704s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extensions ['python_setup_py']
+[12.704s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|11:58:45) by extension 'python_setup_py'
+[12.705s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extensions ['ignore', 'ignore_ament_install']
+[12.705s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extension 'ignore'
+[12.705s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extension 'ignore_ament_install'
+[12.705s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extensions ['colcon_pkg']
+[12.706s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extension 'colcon_pkg'
+[12.706s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extensions ['colcon_meta']
+[12.706s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extension 'colcon_meta'
+[12.706s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extensions ['ros']
+[12.706s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extension 'ros'
+[12.706s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extensions ['cmake', 'python']
+[12.706s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extension 'cmake'
+[12.706s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extension 'python'
+[12.707s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extensions ['python_setup_py']
+[12.707s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:57) by extension 'python_setup_py'
+[12.707s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extensions ['ignore', 'ignore_ament_install']
+[12.707s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extension 'ignore'
+[12.708s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extension 'ignore_ament_install'
+[12.708s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extensions ['colcon_pkg']
+[12.708s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extension 'colcon_pkg'
+[12.708s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extensions ['colcon_meta']
+[12.708s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extension 'colcon_meta'
+[12.708s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extensions ['ros']
+[12.708s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extension 'ros'
+[12.709s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extensions ['cmake', 'python']
+[12.709s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extension 'cmake'
+[12.709s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extension 'python'
+[12.709s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extensions ['python_setup_py']
+[12.709s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:09:58) by extension 'python_setup_py'
+[12.710s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extensions ['ignore', 'ignore_ament_install']
+[12.710s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extension 'ignore'
+[12.710s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extension 'ignore_ament_install'
+[12.710s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extensions ['colcon_pkg']
+[12.710s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extension 'colcon_pkg'
+[12.711s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extensions ['colcon_meta']
+[12.711s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extension 'colcon_meta'
+[12.711s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extensions ['ros']
+[12.711s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extension 'ros'
+[12.711s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extensions ['cmake', 'python']
+[12.711s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extension 'cmake'
+[12.711s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extension 'python'
+[12.711s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extensions ['python_setup_py']
+[12.712s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:10:01) by extension 'python_setup_py'
+[12.712s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extensions ['ignore', 'ignore_ament_install']
+[12.713s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extension 'ignore'
+[12.713s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extension 'ignore_ament_install'
+[12.713s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extensions ['colcon_pkg']
+[12.713s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extension 'colcon_pkg'
+[12.713s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extensions ['colcon_meta']
+[12.713s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extension 'colcon_meta'
+[12.713s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extensions ['ros']
+[12.713s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extension 'ros'
+[12.714s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extensions ['cmake', 'python']
+[12.714s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extension 'cmake'
+[12.714s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extension 'python'
+[12.714s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extensions ['python_setup_py']
+[12.714s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:34) by extension 'python_setup_py'
+[12.715s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extensions ['ignore', 'ignore_ament_install']
+[12.715s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extension 'ignore'
+[12.715s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extension 'ignore_ament_install'
+[12.715s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extensions ['colcon_pkg']
+[12.715s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extension 'colcon_pkg'
+[12.716s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extensions ['colcon_meta']
+[12.716s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extension 'colcon_meta'
+[12.716s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extensions ['ros']
+[12.716s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extension 'ros'
+[12.716s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extensions ['cmake', 'python']
+[12.716s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extension 'cmake'
+[12.716s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extension 'python'
+[12.716s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extensions ['python_setup_py']
+[12.717s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:12:44) by extension 'python_setup_py'
+[12.725s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extensions ['ignore', 'ignore_ament_install']
+[12.725s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extension 'ignore'
+[12.725s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extension 'ignore_ament_install'
+[12.725s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extensions ['colcon_pkg']
+[12.725s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extension 'colcon_pkg'
+[12.725s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extensions ['colcon_meta']
+[12.726s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extension 'colcon_meta'
+[12.726s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extensions ['ros']
+[12.726s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extension 'ros'
+[12.726s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extensions ['cmake', 'python']
+[12.726s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extension 'cmake'
+[12.726s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extension 'python'
+[12.726s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extensions ['python_setup_py']
+[12.726s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:35) by extension 'python_setup_py'
+[12.727s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extensions ['ignore', 'ignore_ament_install']
+[12.727s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extension 'ignore'
+[12.728s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extension 'ignore_ament_install'
+[12.728s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extensions ['colcon_pkg']
+[12.728s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extension 'colcon_pkg'
+[12.728s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extensions ['colcon_meta']
+[12.728s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extension 'colcon_meta'
+[12.728s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extensions ['ros']
+[12.728s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extension 'ros'
+[12.728s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extensions ['cmake', 'python']
+[12.729s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extension 'cmake'
+[12.729s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extension 'python'
+[12.729s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extensions ['python_setup_py']
+[12.729s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:37) by extension 'python_setup_py'
+[12.730s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extensions ['ignore', 'ignore_ament_install']
+[12.730s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extension 'ignore'
+[12.730s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extension 'ignore_ament_install'
+[12.730s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extensions ['colcon_pkg']
+[12.730s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extension 'colcon_pkg'
+[12.730s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extensions ['colcon_meta']
+[12.730s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extension 'colcon_meta'
+[12.731s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extensions ['ros']
+[12.731s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extension 'ros'
+[12.731s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extensions ['cmake', 'python']
+[12.731s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extension 'cmake'
+[12.731s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extension 'python'
+[12.731s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extensions ['python_setup_py']
+[12.731s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:33:39) by extension 'python_setup_py'
+[12.747s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extensions ['ignore', 'ignore_ament_install']
+[12.747s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extension 'ignore'
+[12.748s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extension 'ignore_ament_install'
+[12.748s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extensions ['colcon_pkg']
+[12.748s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extension 'colcon_pkg'
+[12.748s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extensions ['colcon_meta']
+[12.748s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extension 'colcon_meta'
+[12.748s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extensions ['ros']
+[12.748s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extension 'ros'
+[12.749s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extensions ['cmake', 'python']
+[12.749s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extension 'cmake'
+[12.749s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extension 'python'
+[12.749s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extensions ['python_setup_py']
+[12.749s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:41) by extension 'python_setup_py'
+[12.760s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extensions ['ignore', 'ignore_ament_install']
+[12.760s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extension 'ignore'
+[12.760s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extension 'ignore_ament_install'
+[12.760s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extensions ['colcon_pkg']
+[12.761s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extension 'colcon_pkg'
+[12.761s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extensions ['colcon_meta']
+[12.761s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extension 'colcon_meta'
+[12.761s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extensions ['ros']
+[12.761s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extension 'ros'
+[12.761s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extensions ['cmake', 'python']
+[12.761s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extension 'cmake'
+[12.761s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extension 'python'
+[12.762s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extensions ['python_setup_py']
+[12.762s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:42) by extension 'python_setup_py'
+[12.762s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extensions ['ignore', 'ignore_ament_install']
+[12.763s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extension 'ignore'
+[12.763s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extension 'ignore_ament_install'
+[12.763s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extensions ['colcon_pkg']
+[12.763s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extension 'colcon_pkg'
+[12.763s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extensions ['colcon_meta']
+[12.763s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extension 'colcon_meta'
+[12.763s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extensions ['ros']
+[12.763s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extension 'ros'
+[12.764s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extensions ['cmake', 'python']
+[12.764s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extension 'cmake'
+[12.764s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extension 'python'
+[12.764s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extensions ['python_setup_py']
+[12.764s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:43) by extension 'python_setup_py'
+[12.765s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extensions ['ignore', 'ignore_ament_install']
+[12.765s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extension 'ignore'
+[12.765s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extension 'ignore_ament_install'
+[12.765s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extensions ['colcon_pkg']
+[12.765s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extension 'colcon_pkg'
+[12.766s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extensions ['colcon_meta']
+[12.766s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extension 'colcon_meta'
+[12.766s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extensions ['ros']
+[12.766s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extension 'ros'
+[12.766s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extensions ['cmake', 'python']
+[12.766s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extension 'cmake'
+[12.766s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extension 'python'
+[12.766s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extensions ['python_setup_py']
+[12.767s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:42:44) by extension 'python_setup_py'
+[12.767s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extensions ['ignore', 'ignore_ament_install']
+[12.767s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extension 'ignore'
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extension 'ignore_ament_install'
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extensions ['colcon_pkg']
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extension 'colcon_pkg'
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extensions ['colcon_meta']
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extension 'colcon_meta'
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extensions ['ros']
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extension 'ros'
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extensions ['cmake', 'python']
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extension 'cmake'
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extension 'python'
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extensions ['python_setup_py']
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:21) by extension 'python_setup_py'
+[12.770s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extensions ['ignore', 'ignore_ament_install']
+[12.770s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extension 'ignore'
+[12.770s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extension 'ignore_ament_install'
+[12.770s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extensions ['colcon_pkg']
+[12.770s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extension 'colcon_pkg'
+[12.771s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extensions ['colcon_meta']
+[12.771s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extension 'colcon_meta'
+[12.771s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extensions ['ros']
+[12.771s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extension 'ros'
+[12.771s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extensions ['cmake', 'python']
+[12.771s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extension 'cmake'
+[12.771s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extension 'python'
+[12.771s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extensions ['python_setup_py']
+[12.772s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:22) by extension 'python_setup_py'
+[12.772s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extensions ['ignore', 'ignore_ament_install']
+[12.772s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extension 'ignore'
+[12.772s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extension 'ignore_ament_install'
+[12.773s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extensions ['colcon_pkg']
+[12.773s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extension 'colcon_pkg'
+[12.773s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extensions ['colcon_meta']
+[12.773s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extension 'colcon_meta'
+[12.773s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extensions ['ros']
+[12.773s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extension 'ros'
+[12.773s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extensions ['cmake', 'python']
+[12.773s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extension 'cmake'
+[12.774s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extension 'python'
+[12.774s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extensions ['python_setup_py']
+[12.774s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/22-05|12:51:40) by extension 'python_setup_py'
+[12.774s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[12.774s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[12.774s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[12.775s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extensions ['ignore', 'ignore_ament_install']
+[12.775s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extension 'ignore'
+[12.775s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extension 'ignore_ament_install'
+[12.775s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extensions ['colcon_pkg']
+[12.775s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extension 'colcon_pkg'
+[12.776s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extensions ['colcon_meta']
+[12.776s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extension 'colcon_meta'
+[12.776s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extensions ['ros']
+[12.776s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extension 'ros'
+[12.776s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extensions ['cmake', 'python']
+[12.776s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extension 'cmake'
+[12.776s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extension 'python'
+[12.776s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extensions ['python_setup_py']
+[12.777s] Level 1:colcon.colcon_core.package_identification:_identify(data_store) by extension 'python_setup_py'
+[12.789s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extensions ['ignore', 'ignore_ament_install']
+[12.789s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extension 'ignore'
+[12.789s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extension 'ignore_ament_install'
+[12.790s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extensions ['colcon_pkg']
+[12.790s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extension 'colcon_pkg'
+[12.790s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extensions ['colcon_meta']
+[12.790s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extension 'colcon_meta'
+[12.790s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extensions ['ros']
+[12.790s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extension 'ros'
+[12.790s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extensions ['cmake', 'python']
+[12.790s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extension 'cmake'
+[12.791s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extension 'python'
+[12.791s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extensions ['python_setup_py']
+[12.791s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm) by extension 'python_setup_py'
+[12.792s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extensions ['ignore', 'ignore_ament_install']
+[12.792s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extension 'ignore'
+[12.792s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extension 'ignore_ament_install'
+[12.792s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extensions ['colcon_pkg']
+[12.792s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extension 'colcon_pkg'
+[12.792s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extensions ['colcon_meta']
+[12.792s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extension 'colcon_meta'
+[12.793s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extensions ['ros']
+[12.793s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extension 'ros'
+[12.793s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extensions ['cmake', 'python']
+[12.793s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extension 'cmake'
+[12.793s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extension 'python'
+[12.793s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extensions ['python_setup_py']
+[12.793s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/20rpm/trash) by extension 'python_setup_py'
+[12.794s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extensions ['ignore', 'ignore_ament_install']
+[12.794s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extension 'ignore'
+[12.794s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extension 'ignore_ament_install'
+[12.794s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extensions ['colcon_pkg']
+[12.795s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extension 'colcon_pkg'
+[12.795s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extensions ['colcon_meta']
+[12.795s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extension 'colcon_meta'
+[12.795s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extensions ['ros']
+[12.795s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extension 'ros'
+[12.795s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extensions ['cmake', 'python']
+[12.795s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extension 'cmake'
+[12.795s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extension 'python'
+[12.796s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extensions ['python_setup_py']
+[12.796s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/lidar_data) by extension 'python_setup_py'
+[12.797s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extensions ['ignore', 'ignore_ament_install']
+[12.797s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extension 'ignore'
+[12.797s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extension 'ignore_ament_install'
+[12.797s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extensions ['colcon_pkg']
+[12.797s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extension 'colcon_pkg'
+[12.798s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extensions ['colcon_meta']
+[12.798s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extension 'colcon_meta'
+[12.798s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extensions ['ros']
+[12.798s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extension 'ros'
+[12.798s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extensions ['cmake', 'python']
+[12.798s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extension 'cmake'
+[12.798s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extension 'python'
+[12.798s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extensions ['python_setup_py']
+[12.799s] Level 1:colcon.colcon_core.package_identification:_identify(data_store/mapping) by extension 'python_setup_py'
+[12.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[12.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[12.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[12.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[12.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[12.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[12.809s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[12.809s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[12.810s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[12.810s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[12.810s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[12.810s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[12.810s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[12.810s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[12.810s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[12.811s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[12.811s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[12.811s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[12.811s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[12.811s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[12.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[12.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[12.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[12.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[12.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[12.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[12.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[12.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[12.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[12.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[12.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[12.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[12.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[12.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[12.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extensions ['ignore', 'ignore_ament_install']
+[12.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extension 'ignore'
+[12.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extension 'ignore_ament_install'
+[12.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extensions ['colcon_pkg']
+[12.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extension 'colcon_pkg'
+[12.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extensions ['colcon_meta']
+[12.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extension 'colcon_meta'
+[12.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extensions ['ros']
+[12.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extension 'ros'
+[12.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extensions ['cmake', 'python']
+[12.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extension 'cmake'
+[12.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extension 'python'
+[12.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extensions ['python_setup_py']
+[12.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10) by extension 'python_setup_py'
+[12.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[12.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_driver) by extension 'ignore'
+[12.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_driver) by extension 'ignore_ament_install'
+[12.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_driver) by extensions ['colcon_pkg']
+[12.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_driver) by extension 'colcon_pkg'
+[12.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_driver) by extensions ['colcon_meta']
+[12.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_driver) by extension 'colcon_meta'
+[12.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_driver) by extensions ['ros']
+[12.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_driver) by extension 'ros'
+[12.848s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LsLIDARN10/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[12.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[12.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_msgs) by extension 'ignore'
+[12.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_msgs) by extension 'ignore_ament_install'
+[12.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_msgs) by extensions ['colcon_pkg']
+[12.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_msgs) by extension 'colcon_pkg'
+[12.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_msgs) by extensions ['colcon_meta']
+[12.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_msgs) by extension 'colcon_meta'
+[12.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_msgs) by extensions ['ros']
+[12.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/LsLIDARN10/lslidar_msgs) by extension 'ros'
+[12.868s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LsLIDARN10/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[12.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive) by extensions ['ignore', 'ignore_ament_install']
+[12.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive) by extension 'ignore'
+[12.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive) by extension 'ignore_ament_install'
+[12.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive) by extensions ['colcon_pkg']
+[12.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive) by extension 'colcon_pkg'
+[12.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive) by extensions ['colcon_meta']
+[12.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive) by extension 'colcon_meta'
+[12.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive) by extensions ['ros']
+[12.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_drive) by extension 'ros'
+[12.877s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_drive' with type 'ros.ament_python' and name 'diff_drive'
+[12.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['ignore', 'ignore_ament_install']
+[12.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ignore'
+[12.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ignore_ament_install'
+[12.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['colcon_pkg']
+[12.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'colcon_pkg'
+[12.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['colcon_meta']
+[12.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'colcon_meta'
+[12.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['ros']
+[12.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ros'
+[12.880s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gui' with type 'ros.ament_python' and name 'gui'
+[12.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_graph_slam) by extensions ['ignore', 'ignore_ament_install']
+[12.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_graph_slam) by extension 'ignore'
+[12.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_graph_slam) by extension 'ignore_ament_install'
+[12.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_graph_slam) by extensions ['colcon_pkg']
+[12.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_graph_slam) by extension 'colcon_pkg'
+[12.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_graph_slam) by extensions ['colcon_meta']
+[12.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_graph_slam) by extension 'colcon_meta'
+[12.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_graph_slam) by extensions ['ros']
+[12.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/icp_graph_slam) by extension 'ros'
+[12.884s] DEBUG:colcon.colcon_core.package_identification:Package 'src/icp_graph_slam' with type 'ros.ament_python' and name 'icp_graph_slam'
+[12.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[12.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[12.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[12.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[12.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[12.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[12.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/log_odds_map) by extensions ['ignore', 'ignore_ament_install']
+[12.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/log_odds_map) by extension 'ignore'
+[12.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/log_odds_map) by extension 'ignore_ament_install'
+[12.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/log_odds_map) by extensions ['colcon_pkg']
+[12.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/log_odds_map) by extension 'colcon_pkg'
+[12.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/log_odds_map) by extensions ['colcon_meta']
+[12.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/log_odds_map) by extension 'colcon_meta'
+[12.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/log_odds_map) by extensions ['ros']
+[12.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/log_odds_map) by extension 'ros'
+[12.908s] DEBUG:colcon.colcon_core.package_identification:Package 'src/log_odds_map' with type 'ros.ament_python' and name 'log_odds_map'
+[12.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['ignore', 'ignore_ament_install']
+[12.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ignore'
+[12.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ignore_ament_install'
+[12.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['colcon_pkg']
+[12.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'colcon_pkg'
+[12.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['colcon_meta']
+[12.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'colcon_meta'
+[12.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['ros']
+[12.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ros'
+[12.912s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor' with type 'ros.ament_python' and name 'motor'
+[12.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosboard) by extensions ['ignore', 'ignore_ament_install']
+[12.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosboard) by extension 'ignore'
+[12.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosboard) by extension 'ignore_ament_install'
+[12.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosboard) by extensions ['colcon_pkg']
+[12.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosboard) by extension 'colcon_pkg'
+[12.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosboard) by extensions ['colcon_meta']
+[12.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosboard) by extension 'colcon_meta'
+[12.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosboard) by extensions ['ros']
+[12.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosboard) by extension 'ros'
+[12.933s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosboard' with type 'ros.ament_python' and name 'rosboard'
+[12.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[12.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_gazebo) by extension 'ignore'
+[12.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_gazebo) by extension 'ignore_ament_install'
+[12.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_gazebo) by extensions ['colcon_pkg']
+[12.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_gazebo) by extension 'colcon_pkg'
+[12.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_gazebo) by extensions ['colcon_meta']
+[12.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_gazebo) by extension 'colcon_meta'
+[12.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_gazebo) by extensions ['ros']
+[12.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_gazebo) by extension 'ros'
+[12.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation_gazebo' with type 'ros.ament_cmake' and name 'my_bot'
+[12.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[12.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_interfaces) by extension 'ignore'
+[12.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_interfaces) by extension 'ignore_ament_install'
+[12.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_interfaces) by extensions ['colcon_pkg']
+[12.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_interfaces) by extension 'colcon_pkg'
+[12.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_interfaces) by extensions ['colcon_meta']
+[12.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_interfaces) by extension 'colcon_meta'
+[12.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_interfaces) by extensions ['ros']
+[12.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_interfaces) by extension 'ros'
+[12.946s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheel_interfaces' with type 'ros.ament_cmake' and name 'wheel_interfaces'
+[12.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[12.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[12.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[12.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[12.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[13.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[13.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[13.360s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install
+[13.363s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/humble
+[13.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[13.585s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_args' from command line to 'None'
+[13.586s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_target' from command line to 'None'
+[13.586s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.586s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[13.586s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_clean_first' from command line to 'False'
+[13.586s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'cmake_force_configure' from command line to 'False'
+[13.586s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'ament_cmake_args' from command line to 'None'
+[13.586s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[13.586s] Level 5:colcon.colcon_core.verb:set package 'diff_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.586s] DEBUG:colcon.colcon_core.verb:Building package 'diff_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/diff_drive', 'symlink_install': True, 'test_result_base': None}
+[13.587s] Level 5:colcon.colcon_core.verb:set package 'icp_graph_slam' build argument 'cmake_args' from command line to 'None'
+[13.587s] Level 5:colcon.colcon_core.verb:set package 'icp_graph_slam' build argument 'cmake_target' from command line to 'None'
+[13.587s] Level 5:colcon.colcon_core.verb:set package 'icp_graph_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.587s] Level 5:colcon.colcon_core.verb:set package 'icp_graph_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[13.587s] Level 5:colcon.colcon_core.verb:set package 'icp_graph_slam' build argument 'cmake_clean_first' from command line to 'False'
+[13.587s] Level 5:colcon.colcon_core.verb:set package 'icp_graph_slam' build argument 'cmake_force_configure' from command line to 'False'
+[13.587s] Level 5:colcon.colcon_core.verb:set package 'icp_graph_slam' build argument 'ament_cmake_args' from command line to 'None'
+[13.587s] Level 5:colcon.colcon_core.verb:set package 'icp_graph_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[13.587s] Level 5:colcon.colcon_core.verb:set package 'icp_graph_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.587s] DEBUG:colcon.colcon_core.verb:Building package 'icp_graph_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/icp_graph_slam', 'symlink_install': True, 'test_result_base': None}
+[13.588s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_args' from command line to 'None'
+[13.588s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_target' from command line to 'None'
+[13.588s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.588s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_clean_cache' from command line to 'False'
+[13.588s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_clean_first' from command line to 'False'
+[13.588s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'cmake_force_configure' from command line to 'False'
+[13.588s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'ament_cmake_args' from command line to 'None'
+[13.588s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'catkin_cmake_args' from command line to 'None'
+[13.588s] Level 5:colcon.colcon_core.verb:set package 'log_odds_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.588s] DEBUG:colcon.colcon_core.verb:Building package 'log_odds_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/log_odds_map', 'symlink_install': True, 'test_result_base': None}
+[13.589s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to 'None'
+[13.589s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[13.589s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.589s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[13.589s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[13.589s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[13.589s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[13.589s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[13.589s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.589s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_msgs', 'symlink_install': True, 'test_result_base': None}
+[13.590s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[13.590s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[13.590s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.590s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[13.590s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[13.590s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[13.590s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[13.590s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[13.590s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.590s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/simulation_gazebo', 'symlink_install': True, 'test_result_base': None}
+[13.591s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_args' from command line to 'None'
+[13.591s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_target' from command line to 'None'
+[13.591s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.591s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_clean_cache' from command line to 'False'
+[13.591s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_clean_first' from command line to 'False'
+[13.591s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_force_configure' from command line to 'False'
+[13.591s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'ament_cmake_args' from command line to 'None'
+[13.591s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'catkin_cmake_args' from command line to 'None'
+[13.591s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.591s] DEBUG:colcon.colcon_core.verb:Building package 'rosboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/rosboard', 'symlink_install': True, 'test_result_base': None}
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_args' from command line to 'None'
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_target' from command line to 'None'
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'wheel_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.592s] DEBUG:colcon.colcon_core.verb:Building package 'wheel_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/wheel_interfaces', 'symlink_install': True, 'test_result_base': None}
+[13.592s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_args' from command line to 'None'
+[13.593s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_target' from command line to 'None'
+[13.593s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.593s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_clean_cache' from command line to 'False'
+[13.593s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_clean_first' from command line to 'False'
+[13.593s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_force_configure' from command line to 'False'
+[13.593s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'ament_cmake_args' from command line to 'None'
+[13.593s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'catkin_cmake_args' from command line to 'None'
+[13.593s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.593s] DEBUG:colcon.colcon_core.verb:Building package 'gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/gui', 'symlink_install': True, 'test_result_base': None}
+[13.593s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to 'None'
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.594s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_driver', 'symlink_install': True, 'test_result_base': None}
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_args' from command line to 'None'
+[13.594s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target' from command line to 'None'
+[13.595s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.595s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_cache' from command line to 'False'
+[13.595s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_first' from command line to 'False'
+[13.595s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_force_configure' from command line to 'False'
+[13.595s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'ament_cmake_args' from command line to 'None'
+[13.595s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_cmake_args' from command line to 'None'
+[13.595s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.595s] DEBUG:colcon.colcon_core.verb:Building package 'motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor', 'merge_install': False, 'path': '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/motor', 'symlink_install': True, 'test_result_base': None}
+[13.595s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[13.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[13.597s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/wheel_interfaces' with build type 'ament_cmake'
+[13.598s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/wheel_interfaces'
+[13.644s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[13.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.663s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_msgs' with build type 'ament_cmake'
+[13.663s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_msgs'
+[13.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.671s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/diff_drive' with build type 'ament_python'
+[13.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_drive', 'ament_prefix_path')
+[13.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/hook/ament_prefix_path.ps1'
+[13.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/hook/ament_prefix_path.dsv'
+[13.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/hook/ament_prefix_path.sh'
+[13.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.702s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/icp_graph_slam' with build type 'ament_python'
+[13.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_graph_slam', 'ament_prefix_path')
+[13.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/hook/ament_prefix_path.ps1'
+[13.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/hook/ament_prefix_path.dsv'
+[13.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/hook/ament_prefix_path.sh'
+[13.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.714s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/log_odds_map' with build type 'ament_python'
+[13.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('log_odds_map', 'ament_prefix_path')
+[13.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/hook/ament_prefix_path.ps1'
+[13.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/hook/ament_prefix_path.dsv'
+[13.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/hook/ament_prefix_path.sh'
+[13.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.725s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/simulation_gazebo' with build type 'ament_cmake'
+[13.726s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/simulation_gazebo'
+[13.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.737s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/rosboard' with build type 'ament_python'
+[13.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosboard', 'ament_prefix_path')
+[13.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/hook/ament_prefix_path.ps1'
+[13.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/hook/ament_prefix_path.dsv'
+[13.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/hook/ament_prefix_path.sh'
+[13.741s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.742s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces -- -j8 -l8
+[13.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs -- -j8 -l8
+[14.569s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/diff_drive'
+[14.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.286s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/icp_graph_slam'
+[15.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.104s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/log_odds_map'
+[16.105s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot -- -j8 -l8
+[17.109s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'rosboard' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[17.109s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/rosboard'
+[17.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot -- -j8 -l8
+[17.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs -- -j8 -l8
+[17.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces -- -j8 -l8
+[17.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot
+[17.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces
+[17.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[17.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot
+[17.859s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot' for CMake module files
+[17.861s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot' for CMake config files
+[17.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[17.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[17.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[17.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[17.891s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/bin'
+[17.892s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/lib/pkgconfig/my_bot.pc'
+[17.892s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/lib/python3.10/site-packages'
+[17.893s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/bin'
+[17.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.ps1'
+[17.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.dsv'
+[17.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.sh'
+[17.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.bash'
+[18.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.zsh'
+[18.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/colcon-core/packages/my_bot)
+[18.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs
+[18.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[18.169s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot' for CMake module files
+[18.170s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot' for CMake config files
+[18.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[18.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[18.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[18.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[18.178s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/bin'
+[18.179s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/lib/pkgconfig/my_bot.pc'
+[18.180s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/lib/python3.10/site-packages'
+[18.180s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/bin'
+[18.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.ps1'
+[18.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.dsv'
+[18.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.sh'
+[18.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.bash'
+[18.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/my_bot/package.zsh'
+[18.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot/share/colcon-core/packages/my_bot)
+[18.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_interfaces)
+[18.680s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces' for CMake module files
+[18.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/wheel_interfaces
+[18.685s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces' for CMake config files
+[18.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_interfaces', 'cmake_prefix_path')
+[18.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.ps1'
+[18.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.dsv'
+[18.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.sh'
+[18.692s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib'
+[18.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_interfaces', 'ld_library_path_lib')
+[18.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.ps1'
+[18.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.dsv'
+[18.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.sh'
+[18.697s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/bin'
+[18.697s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib/pkgconfig/wheel_interfaces.pc'
+[18.698s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib/python3.10/site-packages'
+[18.698s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/bin'
+[18.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.ps1'
+[18.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.dsv'
+[18.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.sh'
+[18.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.bash'
+[18.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.zsh'
+[18.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/colcon-core/packages/wheel_interfaces)
+[18.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_interfaces)
+[18.880s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces' for CMake module files
+[18.881s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces' for CMake config files
+[18.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_interfaces', 'cmake_prefix_path')
+[18.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.ps1'
+[18.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.dsv'
+[18.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/cmake_prefix_path.sh'
+[18.886s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib'
+[18.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_interfaces', 'ld_library_path_lib')
+[18.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.ps1'
+[18.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.dsv'
+[18.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/hook/ld_library_path_lib.sh'
+[18.888s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/bin'
+[18.888s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib/pkgconfig/wheel_interfaces.pc'
+[18.889s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib/python3.10/site-packages'
+[18.889s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/bin'
+[18.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.ps1'
+[18.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.dsv'
+[18.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.sh'
+[18.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.bash'
+[18.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/wheel_interfaces/package.zsh'
+[18.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/share/colcon-core/packages/wheel_interfaces)
+[18.896s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/gui' with build type 'ament_python'
+[18.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'ament_prefix_path')
+[18.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/hook/ament_prefix_path.ps1'
+[18.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/hook/ament_prefix_path.dsv'
+[18.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/hook/ament_prefix_path.sh'
+[18.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.907s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/motor' with build type 'ament_python'
+[18.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'ament_prefix_path')
+[18.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/hook/ament_prefix_path.ps1'
+[18.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/hook/ament_prefix_path.dsv'
+[18.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/hook/ament_prefix_path.sh'
+[18.913s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.836s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/motor'
+[19.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.986s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/gui'
+[20.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[21.002s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs' for CMake module files
+[21.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_msgs
+[21.005s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs' for CMake config files
+[21.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[21.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[21.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[21.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[21.014s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib'
+[21.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[21.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[21.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[21.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[21.017s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/bin'
+[21.018s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[21.018s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib/python3.10/site-packages'
+[21.019s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/bin'
+[21.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[21.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[21.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[21.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[21.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[21.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[21.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map/build --no-deps symlink_data
+[21.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/build --no-deps symlink_data
+[21.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build --no-deps symlink_data
+[21.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/build --no-deps symlink_data
+[21.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[21.674s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs' for CMake module files
+[21.676s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs' for CMake config files
+[21.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[21.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[21.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[21.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[21.686s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib'
+[21.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[21.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[21.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[21.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[21.692s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/bin'
+[21.692s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[21.693s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib/python3.10/site-packages'
+[21.694s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/bin'
+[21.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[21.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[21.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[21.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[21.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[21.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[21.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_driver' with build type 'ament_cmake'
+[21.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_driver'
+[21.708s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver -- -j8 -l8
+[22.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor/build --no-deps symlink_data
+[23.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_drive', 'pythonpath_develop')
+[23.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/share/diff_drive/hook/pythonpath_develop.ps1'
+[23.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/build --no-deps symlink_data
+[23.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/share/diff_drive/hook/pythonpath_develop.dsv'
+[23.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/diff_drive/share/diff_drive/hook/pythonpath_develop.sh'
+[23.288s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive' for CMake module files
+[23.290s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive' for CMake config files
+[23.291s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib'
+[23.291s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/bin'
+[23.292s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/pkgconfig/diff_drive.pc'
+[23.292s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/lib/python3.10/site-packages'
+[23.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_drive', 'pythonpath')
+[23.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/hook/pythonpath.ps1'
+[23.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/hook/pythonpath.dsv'
+[23.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/hook/pythonpath.sh'
+[23.297s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/bin'
+[23.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_drive)
+[23.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/package.ps1'
+[23.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/package.dsv'
+[23.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/package.sh'
+[23.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/package.bash'
+[23.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/diff_drive/package.zsh'
+[23.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive/share/colcon-core/packages/diff_drive)
+[23.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui/build --no-deps symlink_data
+[23.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosboard', 'pythonpath_develop')
+[23.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/share/rosboard/hook/pythonpath_develop.ps1'
+[23.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/build --no-deps symlink_data
+[23.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/share/rosboard/hook/pythonpath_develop.dsv'
+[23.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/rosboard/share/rosboard/hook/pythonpath_develop.sh'
+[23.600s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard' for CMake module files
+[23.602s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard' for CMake config files
+[23.603s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib'
+[23.604s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/bin'
+[23.604s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/pkgconfig/rosboard.pc'
+[23.604s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/lib/python3.10/site-packages'
+[23.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosboard', 'pythonpath')
+[23.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/hook/pythonpath.ps1'
+[23.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/hook/pythonpath.dsv'
+[23.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/hook/pythonpath.sh'
+[23.609s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/bin'
+[23.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosboard)
+[23.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/package.ps1'
+[23.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/package.dsv'
+[23.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/package.sh'
+[23.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/package.bash'
+[23.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/rosboard/package.zsh'
+[23.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard/share/colcon-core/packages/rosboard)
+[23.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('log_odds_map', 'pythonpath_develop')
+[23.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map/share/log_odds_map/hook/pythonpath_develop.ps1'
+[23.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map/build --no-deps symlink_data
+[23.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map/share/log_odds_map/hook/pythonpath_develop.dsv'
+[23.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/log_odds_map/share/log_odds_map/hook/pythonpath_develop.sh'
+[23.639s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map' for CMake module files
+[23.640s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map' for CMake config files
+[23.641s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/lib'
+[23.642s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/bin'
+[23.642s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/lib/pkgconfig/log_odds_map.pc'
+[23.642s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/lib/python3.10/site-packages'
+[23.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('log_odds_map', 'pythonpath')
+[23.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/hook/pythonpath.ps1'
+[23.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/hook/pythonpath.dsv'
+[23.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/hook/pythonpath.sh'
+[23.646s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/bin'
+[23.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(log_odds_map)
+[23.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/package.ps1'
+[23.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/package.dsv'
+[23.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/package.sh'
+[23.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/package.bash'
+[23.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/log_odds_map/package.zsh'
+[23.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map/share/colcon-core/packages/log_odds_map)
+[23.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_graph_slam', 'pythonpath_develop')
+[23.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/share/icp_graph_slam/hook/pythonpath_develop.ps1'
+[23.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/build --no-deps symlink_data
+[23.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/share/icp_graph_slam/hook/pythonpath_develop.dsv'
+[23.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/share/icp_graph_slam/hook/pythonpath_develop.sh'
+[23.660s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam' for CMake module files
+[23.661s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam' for CMake config files
+[23.662s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib'
+[23.663s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/bin'
+[23.663s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/pkgconfig/icp_graph_slam.pc'
+[23.663s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/python3.10/site-packages'
+[23.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('icp_graph_slam', 'pythonpath')
+[23.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/hook/pythonpath.ps1'
+[23.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/hook/pythonpath.dsv'
+[23.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/hook/pythonpath.sh'
+[23.668s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/bin'
+[23.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icp_graph_slam)
+[23.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/package.ps1'
+[23.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/package.dsv'
+[23.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/package.sh'
+[23.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/package.bash'
+[23.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/icp_graph_slam/package.zsh'
+[23.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/share/colcon-core/packages/icp_graph_slam)
+[23.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver -- -j8 -l8
+[24.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver
+[24.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[24.156s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver' for CMake module files
+[24.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/my_bot:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/rosboard:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/log_odds_map:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/diff_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_msgs/lib:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/wheel_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/lslidar_driver
+[24.159s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver' for CMake config files
+[24.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[24.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[24.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[24.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[24.165s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/lib'
+[24.165s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/bin'
+[24.165s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[24.166s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/lib/python3.10/site-packages'
+[24.166s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/bin'
+[24.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[24.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[24.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.sh'
+[24.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.bash'
+[24.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[24.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[24.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[24.268s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver' for CMake module files
+[24.270s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver' for CMake config files
+[24.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[24.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[24.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[24.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[24.275s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/lib'
+[24.275s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/bin'
+[24.276s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[24.276s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/lib/python3.10/site-packages'
+[24.277s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/bin'
+[24.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[24.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[24.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.sh'
+[24.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.bash'
+[24.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[24.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[24.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'pythonpath_develop')
+[24.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor/share/motor/hook/pythonpath_develop.ps1'
+[24.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor/build --no-deps symlink_data
+[24.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor/share/motor/hook/pythonpath_develop.dsv'
+[24.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/motor/share/motor/hook/pythonpath_develop.sh'
+[24.455s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor' for CMake module files
+[24.455s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor' for CMake config files
+[24.456s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/lib'
+[24.456s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/bin'
+[24.456s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/lib/pkgconfig/motor.pc'
+[24.457s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/lib/python3.10/site-packages'
+[24.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'pythonpath')
+[24.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/hook/pythonpath.ps1'
+[24.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/hook/pythonpath.dsv'
+[24.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/hook/pythonpath.sh'
+[24.460s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/bin'
+[24.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor)
+[24.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/package.ps1'
+[24.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/package.dsv'
+[24.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/package.sh'
+[24.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/package.bash'
+[24.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/motor/package.zsh'
+[24.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/motor/share/colcon-core/packages/motor)
+[25.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'pythonpath_develop')
+[25.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui/share/gui/hook/pythonpath_develop.ps1'
+[25.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui/build --no-deps symlink_data
+[25.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui/share/gui/hook/pythonpath_develop.dsv'
+[25.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/gui/share/gui/hook/pythonpath_develop.sh'
+[25.074s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui' for CMake module files
+[25.075s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui' for CMake config files
+[25.077s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/lib'
+[25.077s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/bin'
+[25.078s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/lib/pkgconfig/gui.pc'
+[25.078s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/lib/python3.10/site-packages'
+[25.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'pythonpath')
+[25.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/hook/pythonpath.ps1'
+[25.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/hook/pythonpath.dsv'
+[25.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/hook/pythonpath.sh'
+[25.083s] Level 1:colcon.colcon_core.environment:checking '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/bin'
+[25.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui)
+[25.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/package.ps1'
+[25.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/package.dsv'
+[25.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/package.sh'
+[25.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/package.bash'
+[25.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/gui/package.zsh'
+[25.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/gui/share/colcon-core/packages/gui)
+[25.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.092s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.092s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.123s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.123s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.123s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.153s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/local_setup.ps1'
+[25.172s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/_local_setup_util_ps1.py'
+[25.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/setup.ps1'
+[25.191s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/local_setup.sh'
+[25.198s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/_local_setup_util_sh.py'
+[25.199s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/setup.sh'
+[25.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/local_setup.bash'
+[25.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/setup.bash'
+[25.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/local_setup.zsh'
+[25.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/setup.zsh'

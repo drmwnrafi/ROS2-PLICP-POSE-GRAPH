@@ -1,0 +1,18 @@
+[7.960s] Invoking command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/build --no-deps symlink_data
+[8.929s] running develop
+[9.677s] running egg_info
+[9.677s] writing icp_graph_slam.egg-info/PKG-INFO
+[9.678s] writing dependency_links to icp_graph_slam.egg-info/dependency_links.txt
+[9.678s] writing entry points to icp_graph_slam.egg-info/entry_points.txt
+[9.678s] writing requirements to icp_graph_slam.egg-info/requires.txt
+[9.679s] writing top-level names to icp_graph_slam.egg-info/top_level.txt
+[9.685s] reading manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[9.694s] writing manifest file 'icp_graph_slam.egg-info/SOURCES.txt'
+[9.698s] running build_ext
+[9.698s] Creating /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/python3.10/site-packages/icp-graph-slam.egg-link (link to .)
+[9.700s] Installing collect_data_mapping script to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/icp_graph_slam
+[9.700s] Installing get_lidar script to /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/icp_graph_slam
+[9.701s] 
+[9.701s] Installed /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam
+[9.701s] running symlink_data
+[9.953s] Invoked command in '/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam' returned '0': PYTHONPATH=/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/prefix_override:/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/install/icp_graph_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/icp_graph_slam/build --no-deps symlink_data
