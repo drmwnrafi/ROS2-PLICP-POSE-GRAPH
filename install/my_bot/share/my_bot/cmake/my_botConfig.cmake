@@ -1,1 +1,0 @@
-/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/build/my_bot/ament_cmake_core/my_botConfig.cmake

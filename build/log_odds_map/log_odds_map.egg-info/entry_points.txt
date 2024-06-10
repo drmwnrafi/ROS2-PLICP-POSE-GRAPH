@@ -1,3 +1,0 @@
-[console_scripts]
-occ_map = log_odds_map.occupancy:main
-

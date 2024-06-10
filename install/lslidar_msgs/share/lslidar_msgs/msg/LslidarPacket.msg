@@ -1,1 +1,0 @@
-/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/src/LsLIDARN10/lslidar_msgs/msg/LslidarPacket.msg

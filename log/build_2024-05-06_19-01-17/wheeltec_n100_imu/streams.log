@@ -1,5 +1,0 @@
-[0.057s] Invoking command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu -- -j8 -l8
-[0.165s] [0mCMake Error: The source directory "/home/ziczac/dev/skripsi_code/ros2_workspace/src/ros2_wheeltec_n100_imu" does not exist.
-[0.165s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.166s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
-[0.178s] Invoked command in '/home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu' returned '2': AMENT_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial CMAKE_PREFIX_PATH=/home/ziczac/dev/skripsi_code/ros2_workspace/install/serial /usr/bin/cmake --build /home/ziczac/dev/skripsi_code/ros2_workspace/build/wheeltec_n100_imu -- -j8 -l8

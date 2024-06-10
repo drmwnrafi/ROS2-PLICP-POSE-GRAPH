@@ -1,9 +1,0 @@
-source;share/log_odds_map/hook/pythonpath.ps1
-source;share/log_odds_map/hook/pythonpath.dsv
-source;share/log_odds_map/hook/pythonpath.sh
-source;share/log_odds_map/hook/ament_prefix_path.ps1
-source;share/log_odds_map/hook/ament_prefix_path.dsv
-source;share/log_odds_map/hook/ament_prefix_path.sh
-source;../../build/log_odds_map/share/log_odds_map/hook/pythonpath_develop.ps1
-source;../../build/log_odds_map/share/log_odds_map/hook/pythonpath_develop.dsv
-source;../../build/log_odds_map/share/log_odds_map/hook/pythonpath_develop.sh

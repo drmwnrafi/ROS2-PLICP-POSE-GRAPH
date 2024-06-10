@@ -1,4 +1,0 @@
-[console_scripts]
-collect_data_mapping = icp_graph_slam.lidar_maping:main
-get_lidar = icp_graph_slam.slam:main
-

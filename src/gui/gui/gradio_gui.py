@@ -55,23 +55,6 @@ class GUI(Node):
                         button_left_down = gr.Button(value="↙️")
                         button_down = gr.Button(value="⬇️")
                         button_right_down = gr.Button(value="↘️")
-                with gr.Row():
-                    with gr.Column():
-                        slider1 = gr.Slider(
-                            value=0,
-                            minimum=-20,
-                            maximum=20,
-                            step=1,
-                            label="Left Speed",
-                        )
-                    with gr.Column():
-                        slider2 = gr.Slider(
-                            value=0,
-                            minimum=-20,
-                            maximum=20,
-                            step=1,
-                            label="Right Speed",
-                        )
 
             with gr.Tab("Configuration"):
                 with gr.Column():
@@ -108,13 +91,6 @@ class GUI(Node):
             button_left_curve.click(self.left_curve, outputs=[direction_text])
             button_right_curve.click(self.right_curve, outputs=[direction_text])
             button_stop.click(self.stop, outputs=[direction_text])
-            
-            slider1.input(
-                self.slider, inputs=[slider1, slider2], outputs=[direction_text]
-            )
-            slider2.input(
-                self.slider, inputs=[slider1, slider2], outputs=[direction_text]
-            )
 
             button_start_motor.click(self.start_motor_node, outputs=[information_text])
             button_start_lidar.click(self.start_lidar_node, outputs=[information_text])
