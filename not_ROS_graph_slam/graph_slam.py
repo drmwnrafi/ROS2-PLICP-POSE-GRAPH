@@ -5,6 +5,7 @@ from plicp_cov import PLICP, KalmanICPCov
 import graph_constructor
 import g2o
 import csv
+import os
 import scipy
 import ast
 import atexit
@@ -12,11 +13,12 @@ import imageio
 from plot_g2o import *
 import time
 
-# File path
+base_dir = os.path.dirname(__file__)
+
 file_path = "../data_store/mapping/26-05|16:54:06.csv" #diamond
 # file_path = "../data_store/mapping/22-05|12:07:08.csv" #rectangular
 # file_path = "../data_store/mapping/22-05|10:06:54.csv" #room
-
+file_path = os.path.normpath(os.path.join(base_dir, file_path))
 
 def polar_to_cartesian(r, theta):
     x = r * np.cos(theta)
@@ -74,7 +76,9 @@ lc_mod = 10
 length = len(odoms)
 closure = 0.05
 
-filename = f'../output_graph/slam_{dx_diff}_{dx_theta}_{lc_mod}_{length}_{closure}_dist:0.1_unbounded'
+filename = f'../output_graph/slam_{dx_diff}_{dx_theta}_{lc_mod}_{length}_{closure}'
+filename = os.path.normpath(os.path.join(base_dir, filename))
+
 images = []
 atexit.register(lambda: imageio.mimsave(
     filename+".gif",

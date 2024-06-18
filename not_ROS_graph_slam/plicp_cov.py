@@ -139,7 +139,8 @@ class KalmanICPCov():
     def run(self, source, reference, rot, trans, corresp):
         P = np.eye(3) * 1e6
         noise = self.compute_noise(source, reference, rot, trans, corresp)
-        n = self.compute_normal(source, reference, corresp)
+        source_latest = rot @ source + trans
+        n = self.compute_normal(source_latest, reference, corresp)
         for i, j in enumerate(corresp):
             v = rot @ reference[:, j]
             d_r = np.array([[0, -1], [1, 0]]) @ v
