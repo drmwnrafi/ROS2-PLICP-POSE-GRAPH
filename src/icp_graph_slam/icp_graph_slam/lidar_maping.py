@@ -69,7 +69,7 @@ def main():
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        csv_file = f'/home/ziczac/dev/skripsi_code/ros2_workspace/data_store/mapping/{time.strftime("%d-%m|%H:%M:%S", time.localtime())}.csv'
+        csv_file = f'/home/ziczac/dev/skripsi_code/ROS2-PLICP-POSE-GRAPH/data_store/mapping/{time.strftime("%d-%m|%H:%M:%S", time.localtime())}.csv'
         with open(csv_file, mode='w') as file:
             writer = csv.writer(file)
             writer.writerow([

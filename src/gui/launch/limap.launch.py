@@ -41,12 +41,12 @@ def generate_launch_description():
     ))
 
     # Add diff_drive_model
-    ld.add_action(Node(
-        package='diff_drive',
-        executable='diff_drive_model',
-        name='diff_drive_model',
-        output='screen',
-    ))
+    # ld.add_action(Node(
+    #     package='diff_drive',
+    #     executable='diff_drive_model',
+    #     name='diff_drive_model',
+    #     output='screen',
+    # ))
 
     # Link 'base_link' to 'base_footprint'
     ld.add_action(Node(

@@ -37,24 +37,24 @@ class GUI(Node):
         html = f"""
             <iframe src="http://{self.address}:8888/" style="width: 100%; height: 600px; border-radius: 20px;"></iframe>
         """
-        with gr.Blocks() as demo:
+        with gr.Blocks(theme='snehilsanyal/scikit-learn') as demo:
             with gr.Row():
                 gr.HTML(html)
             with gr.Tab("Control"):
                 with gr.Column():
                     direction_text = gr.Textbox(label="Robot Direction")
                     with gr.Row():
-                        button_left_up = gr.Button(value="↖️")
-                        button_up = gr.Button(value="⬆️")
-                        button_right_up = gr.Button(value="↗️")
+                        button_left_up = gr.Button(value="🢄")
+                        button_up = gr.Button(value="🢁")
+                        button_right_up = gr.Button(value="🢅")
                     with gr.Row():
-                        button_left_curve = gr.Button(value="🔄")
-                        button_stop = gr.Button(value="🛑")
-                        button_right_curve = gr.Button(value="🔁")
+                        button_left_curve = gr.Button(value="🢀")
+                        button_stop = gr.Button(value="⦿")
+                        button_right_curve = gr.Button(value="🢂")
                     with gr.Row():
-                        button_left_down = gr.Button(value="↙️")
-                        button_down = gr.Button(value="⬇️")
-                        button_right_down = gr.Button(value="↘️")
+                        button_left_down = gr.Button(value="🢇")
+                        button_down = gr.Button(value="🢃")
+                        button_right_down = gr.Button(value="🢆")
 
             with gr.Tab("Configuration"):
                 with gr.Column():
